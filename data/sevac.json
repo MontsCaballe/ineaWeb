@@ -1,0 +1,3152 @@
+{
+  "sevac": [
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "01. Estado de Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/01. Estadosituacionfinanciera_3er Trim 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "02. Estado de Actividades",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/02. Estadoactividades_3er Trim 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "03. Estado de Variación en la Hacienda Pública",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/03. Estado De Variacion en La Hacienda Publica 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "04. Estado de cambios en la Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/04. Estado De Cambios en La Situacion Financiera 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "05. Estado de Flujos de Efectivo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/05. Estado De Flujos De Efectivo 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "06. Estado Analitico Del Activo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/06. Estado Analitico Del Activo 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "07. Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/07. Estado Analitico De La Deuda Y Otrs Pasivos 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "08. Informe sobre pasivos contingentes",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/08. Informe Sobre Pasivos Contingentes 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "09. Notas a los estados financieros",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/09. Notas a los estados financieros.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "10. Estado Analítico De Ingresos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/10. Estado Analitico De Ingresos 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "11. EAEPE Clasificación Por Objeto Del Gasto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/11. Eaepe Clasificacion Por Objeto Del Gasto 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "12. EAEPE Clasificación Económica",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/12. Eaepe Clasificacion Economica_3ert 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "13. EAEPE Clasificación Administrativa",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/13. Eaepe Clasificacion Administrativa 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "14. EAEPE Clasificación Funcional",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/14. Eaepe Clasificacion Funcional 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "15. Endeudamiento Neto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/15. Endeudamiento Neto 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "16. Intereses De La Deuda",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/16. Intereses De La Deuda 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "19. Gasto Por Categoría Programática",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/19. Gasto Por Categoria Programatica 3er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "Avance por Programa Educativo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/Avance por Programa Educativo (Tercer trimestre) 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "Ayudas y subsidios",
+      "trimestre": "Tercer Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/Ayudas y subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.3",
+      "nombre": "MIR - INEA",
+      "trimestre": "Tercer Trimestre",
+      "numero": "22",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.3er.tri/MIR - INEA (Tercer trimestre) 2024.pdf"
+    },
+
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "01. Estado de Actividades",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/01. EstadoActividades_2do trim 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "02. Estado de Situación Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/02. EstadoSituacionFinanciera_2do trim 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "03. Estado de Variación en la Hacienda Pública",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/03. Estado de Variacion en la Hacienda Publica 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "04. Estado de cambios en la Situación Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/04. Estado de cambios en la Situacion Financiera 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "05. Estado de Flujos de Efectivo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/05. Estado de Flujos de Efectivo 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "06. Informe sobre pasivos contingentes",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/06. Informe sobre pasivos contingentes 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "07. Notas a Informes de Gestión Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/Notas a los Estados Financieros.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "08. Estado analítico del activo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/08. Estado analitico del activo 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "09. Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/09. Estado analitico de la deuda y otros pasivos 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "10. Estado analítico de ingresos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/10. Estado analitico de ingresos 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "11. EAEPE Clasificación administrativa",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/11. EAEPE Clasificacion administrativa 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "12. EAEPE Clasificación Económica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/12. EAEPE Clasificacion Economica_2doT 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "13. EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/13. EAEPE Clasificacion por Objeto del Gasto 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "14. EAEPE Clasificación Funcional",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/14. EAEPE Clasificacion Funcional 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "15. Endeudamiento Neto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/15. Endeudamiento Neto 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "16. Intereses de la Deuda",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/16. Intereses de la Deuda 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "17. Gasto por Categoría Programática",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/17. Gasto por Categoria Programatica 2do T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "00. Ayudas y subsidios",
+      "trimestre": "Segundo Trimestre",
+      "numero": "00",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/Ayudas y subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "Avance por Programa Educativo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "00",
+      "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/Avance por Programa Educativo (Segundo trimestre) 2024.pdf"
+    },
+    {
+        "tipo": "Anexo",
+        "anio": "2024.2",
+        "nombre": "MIR - INEA",
+        "trimestre": "Segundo Trimestre",
+        "numero": "00",
+        "ruta": "https://inea.nayarit.gob.mx/sevac.2024.2tri/MIR - INEA (Segundo trimestre) 2024.pdf"
+      },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.2",
+      "nombre": "18. Inventario Estatal",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2024/RM.2tri/INVENTARIO ESTATAL.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "00. Ayudas y subsidios",
+      "trimestre": "Primer Trimestre",
+      "numero": "00",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/00. Ayudas y subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "01. Estado de Actividades",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/01. Estado de Actividades 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "02. Estado de Situación Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/02. Estado de Situacion Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "03. Estado de Variación en la Hacienda Pública",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/03. Estado de Variacion en la Hacienda Publica 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "04. Estado de cambios en la Situación Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/04. Estado de cambios en la Situacion Financiera 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "05. Estado de Flujos de Efectivo",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/05. Estado de Flujos de Efectivo 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "06. Informe sobre pasivos contingentes",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/06... Informe sobre pasivos contingentes 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "07. Notas a Informes de Gestión Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/07.. Notas a Informes de Gestion Financiera_1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "08. Estado analítico del activo",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/08.. Estado analitico del activo 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "09. Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/09.. Estado analitico de la deuda y otros pasivos 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "10. Estado analítico de ingresos",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/10. Estado analitico de ingresos 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "11. EAEPE Clasificación administrativa",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/11.. EAEPE Clasificacion administrativa 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "12. EAEPE Clasificación Económica",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/12. EAEPE Clasificacion Economica_1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "13. EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/13. EAEPE Clasificacion por Objeto del Gasto 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "14. EAEPE Clasificación Funcional",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/14. EAEPE Clasificacion Funcional 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "15. Endeudamiento Neto",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/15. Endeudamiento Neto 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "16. Intereses de la Deuda",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/16. Intereses de la Deuda 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "19. Gasto por Categoría Programática",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/19. Gasto por Categoria Programatica 1er T 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "Avance por Programa Educativo 2024",
+      "trimestre": "Primer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/Avance por Programa Educativo 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.1",
+      "nombre": "MIR - INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC2024/MIR - INEA (Primer trimestre) 2024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.4",
+      "nombre": "Inventario Estatal Diciembre 2023",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/4tri.2023/Inventario Estatal Diciembre 2023.pdf"
+    },
+
+    {
+      "tipo": "Anexo",
+      "anio": "2023.4",
+      "nombre": "Apoyos y Subsidios",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/4tri.2023/Apoyos y Subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.4",
+      "nombre": "Avance por programa educativo 2023",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/4tri.2023/Avance por programa educativo (Cuarto trimestre) 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "01.- Estado de Actividades",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/1.EstadoActividades_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "02.- Estado de la Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/2.EstadoSituacionFinanciera_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "03.- Estado Variación en la Hacienda Pública",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/3.Estado de variacion en la hacienda publica_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "04.- Estado de Cambios en la Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/4.Estado de cambios en la situacion financiera_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "05.- Estado de Flujos de Efectivo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/5.Estado de flujos de efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "06.- Informe sobre Pasivos Contingentes",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/6.Informe sobre pasivos contingentes_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "07.- Notas a Informes de Gestion Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/7.Notas a Informes de Gestion Financiera_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "08.- Estado analítico del activo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/8.Estado analitico del activo_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "09.- Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/9.Estado analitico de la deuda y otros pasivos_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "10.- Estado analítico de ingresos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/10.Estado analitico de ingresos_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "11.- EAEPE Clasificación Administrativa",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/11.EAEPE Clasificacion Administrativa_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "12.- EAEPE Clasificación Económica",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/12.EAEPE Clasificacion Economica_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "13.- EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/13.EAEPE Clasificacion por Objeto del Gasto_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "14.- EAEPE Clasificación Funcional",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/14.EAEPE Clasificacion Funcional_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "15.- Endeudamiento neto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/15.Endeudamiento neto_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "16.- Intereses de la deuda",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/16.Intereses de la deuda_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "17.- Gasto por categoria programática",
+      "trimestre": "Tercer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/17.Gasto por categoria programatica_Sep 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "Apoyos y subsidios",
+      "trimestre": "Tercer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/Apoyos y subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "Avance por programa educativo)",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/Avance por programa educativo (Tercer trimestre).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.3",
+      "nombre": "MIR - INEA",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/sevac2023/MIR - INEA (Tercer trimestre) 2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "01.- Estado de Situación Financiera Junio 2023",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/02.%20EstadoSituacionFinanciera_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "03.- Estado de Variación en la Hacienda Pública Segundo Trimestre 2023",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/03.%20Estado%20de%20variacion%20en%20la%20hacienda%20publica_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "04. Estado de cambios en la Situación Financiera Segundo Trimestre 2023",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/04.%20Estado%20de%20cambios%20en%20la%20situacion%20financiera_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "05. Estado de flujos de efectivo Segundo Trimestre 2023",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/05.%20Estado%20de%20flujos%20de%20efectivo_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "06. Informe sobre pasivos contingentes",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/06.%20Informe%20sobre%20pasivos%20contingentes_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 07. Notas a Informes de Gestión Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/07.%20Notas%20a%20Informes%20de%20Gestion%20Financiera_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 08. Estado Analítco del Activo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/08.%20Estado%20analitico%20del%20activo_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "09. Estado Analítico de la Deuda y otros Pasivos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/09.%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 10. Estado analítico de ingresos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/10.%20Estado%20analitico%20de%20ingresos_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 11. EAEPE Clasificación Administrativa",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/11.%20EAEPE%20Clasificacion%20Administrativa_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "12. EAEPE Clasificación Económica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/12.%20EAEPE%20Clasificacion%20Economica_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "13. EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/13.%20EAEPE_Clasificacion%20por%20Objeto%20del%20Gasto_2do%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "14. EAEPE Clasificación Funcional",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/14.%20EAEPE%20Clasificacion%20Funcional_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 15. Endeudamiento neto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/15.%20Endeudamiento%20neto_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": " 16. Intereses de la deuda",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/16.%20Intereses%20de%20la%20deuda_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "17. Gasto por Categoría Programática",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/17.%20Gasto%20por%20categoria%20programatica_Jun%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "18. Avance por Programa educativo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/Avance%20por%20programa%20educativo%20(Segundo%20semestre)%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "19. Ayudas y Subsidios",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/Ayudas%20y%20subsidios%20(Segundo%20trimestre)%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "MIR - INEA",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/2tri.2023/MIR-INEA%20(Segundo%20trimestre)%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.2",
+      "nombre": "21.- Inventario de Bienes",
+      "trimestre": "Segundo Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2023/rmateriales/2trimestre/Inventario%20Estatal.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "01.- Estado de Situación Financiera Primer Trimestre 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/01.%20EstadoSituacionFinanciera_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "02.- Estado de Actividades Primer Trimestre 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/02.%20EstadoActividades_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "03.- Estado de Variación en la Hacienda Pública Primer Trimestre 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/03.%20Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "04. Estado de cambios en la Situación Financiera Primer Trimestre 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/04.%20Estado%20de%20cambios%20en%20la%20situacion%20financiera_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "05. Estado de flujos de efectivo Primer Trimestre 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/05.%20Estado%20de%20flujos%20de%20efectivo_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "06. Estado analítico del activo",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/06.%20Estado%20analitico%20del%20activo_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 07. Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/07.%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 08. Informe de pasivos contingentes",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/08.%20Informe%20de%20pasivos%20contingentes_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "9. Notas a Informes de Gestión Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/09.%20Notas%20a%20Informes%20de%20Gestion%20Financiera_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 10. Estado analítico de ingresos",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/10.%20Estado%20analitico%20de%20ingresos_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 11. EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/11.%20EAEPE%20Clasificacion%20por%20Objeto%20del%20Gasto_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "12. EAEPE Clasificación Económica",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/12.%20EAEPE%20Clasificacion%20Economica_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "13. EAEPE Clasificación Administrativa",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/13.%20EAEPE%20Clasificacion%20Administrativa_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "14. EAEPE Clasificación Funcional",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/14.%20EAEPE%20Clasificacion%20Funcional_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 15. Endeudamiento neto",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/15.%20Endeudamiento%20neto_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": " 16. Intereses de la deuda",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/16.%20Intereses%20de%20la%20deuda_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "17. Indicadores de postura fiscal",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/17.%20Indicadores%20de%20postura%20fiscal_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "18. Flujo de fondos",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/18.%20Flujo%20de%20fondos_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "19. Gasto por categoría prográmatica",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/19.%20Gasto%20por%20categoria%20programatica_1er%20trim%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "IX Lineamientos para gastos de viaje INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/IX_Lineamientos%20para%20gastos%20de%20viaje_INEA.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "Ppto R33 y Subsidio Estatal",
+      "trimestre": "Primer Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/Ppto%20R33%20y%20Subsidio%20Estatal%202023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "XXI b EAEPED Clasificación por Objeto del Gasto LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "22",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/XXI_b%20EAEPED_Clasificacion%20por%20Objeto%20del%20Gasto_LDF_2023.pdf"
+    },
+
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "XXII a Informe Analítico de Obligaciones Diferentes de Financiamientos LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "23",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/XXII_a%20Informe%20Analitico%20de%20Obligaciones%20Diferentes%20de%20Financiamientos_LDF_2023.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "XXI_c Cuenta Pública Ejercicio 2022_INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "24",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/financieros/financieros23.1/XXI_c%20Cuenta%20Publica%20Ejercicio%202022_INEA%20(1).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "D.1.11 ayudas y Subsidios",
+      "trimestre": "Primer Trimestre",
+      "numero": "25",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/1tri.2023/D.1.11%20AYUDAS%20Y%20SUBSIDIOS..PDF"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "MIR - INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "26",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/1tri.2023/MIR%20-%20INEA%20(Primer%20trimestre)%202023.PDF"
+    },
+
+    {
+      "tipo": "Anexo",
+      "anio": "2023.1",
+      "nombre": "Avance por programa educativo",
+      "trimestre": "Primer Trimestre",
+      "numero": "27",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/sevac2023/1tri.2023/Avance%20por%20programa%20educativo%20(Primer%20trimestre)%202023.PDF"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "01.- Estado de Actividades 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/01.-%20Estado%20de%20Actividades_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "02.- Estado de Situacion Financiera 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/02.-%20Estado%20de%20Situacion%20Financiera_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "03.- Estado de variación en la hacienda pública 1er trimestre 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/03.-%20Estado%20de%20variacion%20en%20la%20hacienda%20publica_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "04.- Estado de cambios en la situación financiera 1er trimestre 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/04.-%20Estado%20de%20cambios%20en%20la%20situacion%20financiera_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "05.- Estado de flujos de efectivo 1er trimestre 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/05.-%20Estado%20de%20flujos%20de%20efectivo_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "06.- Informes sobre pasivos contingentes 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/06.-%20Informes%20sobre%20pasivos%20contingentes_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": " 07.-Notas a Informes de Gestión Financiera 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/07.-Notas%20a%20Informes%20de%20Gestion%20Financiera_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "08.- Estado analítico del activo 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/08.-%20Estado%20analitico%20del%20activo_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "09.- Estado analítico de la deuda y otros pasivos 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/09.-%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "10.- Estado Analítico de Ingresos Detallado 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/10.-%20Estado%20Analitico%20de%20Ingresos%20Detallado_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "11.- EAEPED Clasificación Administrativa 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/11.-%20EAEPED_Clasificacion%20Administrativa_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "12.- EAEPE Clasificacion económica 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/12.-%20EAEPE%20Clasificacion%20economica_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "13.- EAEPE Clasificación por objeto del gasto 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/13.-%20EAEPE%20Clasificacion%20por%20objeto%20del%20gasto_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "14.- EAEPED Clasificación Funcional 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/14.-%20EAEPED_Clasificacion%20Funcional_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "15.- Endeudamiento Neto 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/15.-%20Endeudamiento%20Neto_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "16.- Intereses de la deuda 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/16.-%20Intereses%20de%20la%20deuda_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "17.- Gasto por categoría programática 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/17.-%20Gasto%20por%20categoria%20programatica_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "18.- Matríz de Indicadores de Resultados MIR 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/18.-%20Matriz%20de%20Indicares%20de%20Resultados_MIR_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "19.- Programas y proyectos de inversión 1er trim 2021",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/19.-%20Programas%20y%20proyectos%20de%20inversion_1er%20trim_2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.1",
+      "nombre": "20.- D.1.11 AYUDAS Y SUBSIDIOS 1ER TRIMESTRE",
+      "trimestre": "Primer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/1er.trim.2021/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%201ER%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "01. Estado de Actividades 2do Trimestre 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/01.%20Estado%20de%20Actividades_2do%20trim%202021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "02. Estado de Situación Financiera 2do Trimestre 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/02.%20Estado%20de%20Situacion%20Financiera_2do%20trim%202021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "03. Estado de Variación de la Hacienda Pública Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/03.%20Estado%20de%20variacion%20de%20la%20hacienda%20publica_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": " 04. Estado de cambios en la situación financiera Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/04.%20Estado%20de%20cambios%20en%20la%20situacion%20financiera_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "05. Estado de flujos de Efectivo Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/05.%20Estado%20de%20flujos%20de%20efectivo_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "06. Informe de Pasivos Contingentes Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/06.%20Informe%20de%20pasivos%20contingentes_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "07. Notas Financieras Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/07.%20Notas%20Financieras_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "08. Estado Analítico del Activo Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/08.%20Estado%20analitico%20del%20activo_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "09. Estado Analítico de la Deuda y otros Pasivos Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/09.%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "10. Estado Analítico de Ingresos Detallado 2do Trimestre 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/10.%20Estado%20Analitico%20de%20Ingresos%20Detallado_2do%20trim%202021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "11. EAEPED Clasificación Administrativa 2do Trimestre 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/11.%20EAEPED_Clasificacion%20Administrativa_2do%20trim%202021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "12. EAEPE Clasificación economica tipo de gasto Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/12.%20EAEPE_Clasificacion%20economica_tipo%20de%20gasto_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "13. EAEPED Clasificación por Objeto del Gasto LDF 2021 2do Trimestre",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/13.%20EAEPED_Clasificacion%20por%20Objeto%20del%20Gasto_LDF_2021%202do%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "14. EAEPED Clasificación Funcional LDF 2021 2do Trimestre",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/14.%20EAEPED_Clasificacion%20Funcional_LDF_2021%202do%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "15. Endeudamiento neto Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/15.%20Endeudamiento%20neto_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "16. Intereses de la deuda Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/16.%20Intereses%20de%20la%20deuda_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "17. Gasto por Categoría Programática Junio 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/17.%20Gasto%20por%20categoria%20programatica_jun2021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "19. Programas 2do Trimestre 2021",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/19.%20Programas_2do%20trim%202021.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.2",
+      "nombre": "20. D.1.11 AYUDAS Y SUBSIDIOS 2DOTRIMESTRE",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/2do.trim.2021/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%202DOTRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2021.3",
+      "nombre": "20. D.1.11 AYUDAS Y SUBSIDIOS 3ER TRIMESTRE",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2021/3er.trim.2021/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%203ER%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "01.- Estado de Actividades",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/01.-%20Estado%20de%20Actividades.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "02.- Estado de Situación Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/02.-%20Estado%20de%20Situacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "03.- Estado de variación en la hacienda pública",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/03.-%20Estado%20de%20variacion%20en%20la%20hacienda%20publica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "04.- Estado de cambios en la situación financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/04.-%20Estado%20de%20cambios%20en%20la%20situacion%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "05.- Estado de flujos de efectivo",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/05.-%20Estado%20de%20flujos%20de%20efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "06.- Informe de pasivos contingentes",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/06.-%20Informe%20de%20pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "07.-Notas a Informes de Gestión Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/07.-Notas%20a%20Informes%20de%20Gestion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "08.- Estado analítico del activo",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/08.-%20Estado%20analitico%20del%20activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "09.- Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/09.-%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "10.- Estado Analítico de Ingresos Detallado LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/10.-%20Estado%20Analitico%20de%20Ingresos%20Detallado_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "11.- EAEPED Clasificación Administrativa LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/11.-%20EAEPED_Clasificacion%20Administrativa_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "12.- EAEPE Clasificación económica",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/12.-%20EAEPE%20Clasificacion%20economica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "13.- EAEPED Clasificación por Objeto del Gasto LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/13.-%20EAEPED_Clasificacion%20por%20Objeto%20del%20Gasto_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "14.- EAEPED Clasificación Funcional LDF",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/14.-%20EAEPED_Clasificacion%20Funcional_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "15.- Endeudamiento neto",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/15.-%20Endeudamiento%20neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "16.- Intereses de la deuda",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/16.-%20Intereses%20de%20la%20deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "17.- Gasto por categoría programática",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/17.-%20Gasto%20por%20categoria%20programatica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "18.-Matriz de Indicadores de Resultados MIR",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/18.-Matriz%20de%20Indicadores%20de%20Resultados_MIR.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "19.- Programas y proyectos de inversión",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/19.-%20Programas%20y%20proyectos%20de%20inversion.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.1",
+      "nombre": "20.- D.1.11 AYUDAS Y SUBSIDIOS 1ER TRIMESTRE",
+      "trimestre": "Primer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%201ER%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "01.- Estado de Actividades",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/1er.trim.2020/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%201ER%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "02.- Estado de Situación Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/02.-%20Estado%20de%20Situacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "03.- Estado de variación en la hacienda píblica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/03.-%20Estado%20de%20variacion%20en%20la%20hacienda%20publica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "04.- Estado de cambios en la situación financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/04.-%20Estado%20de%20cambios%20en%20la%20situacion%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "05.- Estados de flujos de efectivo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/05.-%20Estados%20de%20flujos%20de%20efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "06.- Informe de pasivos contingentes",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/06.-%20Informe%20de%20pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "07.-Notas a Informes de Gestión Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/07.-Notas%20a%20Informes%20de%20Gestion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "08.- Estado analítico del activo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/08.-%20Estado%20analitico%20del%20activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "09.- Estado analítico de la deuda y otros pasivos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/09.-%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "10.- Estado Analítico de Ingresos Detallado - LDF",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/10.-%20Estado%20Analitico%20de%20Ingresos%20Detallado%20-%20LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "11.- EAEPED Clasificación Administrativa LDF",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/11.-%20EAEPED_Clasificacion%20Administrativa_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "12.- EAEPE Clasificación económica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/12.-%20EAEPE%20Clasificacion%20economica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "13.- EAEPED Clasificación por Objeto del Gasto LDF",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/13.-%20EAEPED_Clasificacion%20por%20Objeto%20del%20Gasto_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "14.- EAEPED Clasificación Funcional LDF",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/14.-%20EAEPED_Clasificacion%20Funcional_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "15.- Endeudamiento neto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/15.-%20Endeudamiento%20neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "16.- Intereses de la deuda",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/16.-%20Intereses%20de%20la%20deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "17.- Gasto por categoría programática",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/17.-%20Gasto%20por%20categoria%20programatica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "18.- Matriz de Indicadores de Resultados MIR",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/18.-%20Matriz%20de%20Indicadores%20de%20Resultados_MIR.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "19.- Programas y proyectos de inversión",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/19.-%20Programas%20y%20proyectos%20de%20inversion.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.2",
+      "nombre": "20.- D.1.11 AYUDAS Y SUBSIDIOS 2DO TRIMESTRE",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/2do.trim.2020/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%202DO%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "01.- Estado de Actividades 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/01.-%20Estado%20de%20Actividades_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "02.- Estado de Situación Financiera 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/02.-%20Estado%20de%20Situacion%20Financiera_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "03.- Estado de Variación en la Hacienda Pública 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/03.-%20Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "04.- Estado de cambios en la Situación Financiera 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/04.-%20Estado%20de%20cambios%20en%20la%20Situacion%20Financiera_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "05.- Estado de Flujos de Efectivo 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/05.-%20Estado%20de%20Flujos%20de%20Efectivo_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "06.- Informes de pasivos contingentes",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/06.-%20Informes%20de%20pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "07.- Notas a Informes de Gestión Financiera 3er Trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/07.-%20Notas%20a%20Informes%20de%20Gestion%20Financiera_3er%20Trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "08.- Estado Analítico del Activo 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/08.-%20Estado%20Analitico%20del%20Activo_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "09.- Estado Analítco de la Deuda y Otros Pasivos 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/09.-%20Estado%20Analitco%20de%20la%20Deuda%20y%20Otros%20Pasivos_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "10.- Estado Analítico de Ingresos Detallado LDF",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/10.-%20Estado%20Analitico%20de%20Ingresos%20Detallado_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "11.- EAEPED Clasificación Administrativa LDF",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/11.-%20EAEPED_Clasificacion%20Administrativa_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "12.- EAEPE Clasificación Económica 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/12.-%20EAEPE%20Clasificacion%20Economica_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "13.- EAEPE Clasificación por Objeto del Gasto 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/13.-%20EAEPE%20Clasificacion%20por%20Objeto%20del%20Gasto_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "14.- EAEPED Clasificación Funcional LDF",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/14.-%20EAEPED_Clasificacion%20Funcional_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "15.- Endeudamiento Neto 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/15.-%20Endeudamiento%20Neto_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "16.- Intereses de la Deuda 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/16.-%20Intereses%20de%20la%20Deuda_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "17.- Gasto por Categoría Programática 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/17.-%20Gasto%20por%20Categoria%20Programatica_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": " 18.- Matriz de Indicadores de Resultados MIR",
+      "trimestre": "Tercer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/18.-%20Matriz%20de%20Indicadores%20de%20Resultados_MIR.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "19.- Programas y proyectos de inversión 3er trim",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/19.-%20Programas%20y%20proyectos%20de%20inversion_3er%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.3",
+      "nombre": "20.- D.1.11 AYUDAS Y SUBSIDIOS 3ER TRIMESTRE",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/3er.trim.2020/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%203ER%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "01.- Estado de Actividades 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/01.-%20Estado%20de%20Actividades_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "02.- Estado de Situación Financiera 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/02.-%20Estado%20de%20Situacion%20Financiera_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "03- Estado de Variación en la Hacienda Pública 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/03-%20Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "04.- Estado de cambios en la Situación Financiera 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/04.-%20Estado%20de%20cambios%20en%20la%20Situacion%20Financiera_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "05.- Estado de Flujos de Efectivo 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/05.-%20Estado%20de%20Flujos%20de%20Efectivo_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "06.- Informes de pasivos contingentes",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/06.-%20Informes%20de%20pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "07.-Notas a Informes de Gestión Financiera 4to Trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/07.-Notas%20a%20Informes%20de%20Gestion%20Financiera_4to%20Trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "08.- Estado Analítico del Activo 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/08.-%20Estado%20Analitico%20del%20Activo_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "09.- Estado Analítco de la Deuda y Otros Pasivos 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/09.-%20Estado%20Analitco%20de%20la%20Deuda%20y%20Otros%20Pasivos_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "10.- Estado Analítico de Ingresos Detallado LDF",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/10.-%20Estado%20Analitico%20de%20Ingresos%20Detallado_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "11.- EAEPED Clasificación Administrativa LDF",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/11.-%20EAEPED_Clasificacion%20Administrativa_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "12.- EAEPED Clasificación Económica 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/12.-%20EAEPED_Clasificacion%20Economica_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "13.- EAEPED Clasificador por Objeto del Gasto 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/13.-%20EAEPED_Clasificador%20por%20Objeto%20del%20Gasto_%204to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "14.- EAEPED Clasificación Funcional LDF",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/14.-%20EAEPED_Clasificacion%20Funcional_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": " 15.- Endeudamiento neto 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/15.-%20Endeudamiento%20neto_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "16.- Intereses de la deuda 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/16.-%20Intereses%20de%20la%20deuda_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "17.- Gasto por categoría prográmatica 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/17.-%20Gasto%20por%20categoria%20programatica_4to%20trime.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "18.- Matriz de Indicadores de Resultados MIR",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/18.-%20Matriz%20de%20Indicadores%20de%20Resultados_MIR.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "19.- Programas y proyectos de inversión 4to trim",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/19.-%20Programas%20y%20proyectos%20de%20inversion_4to%20trim.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2020.4",
+      "nombre": "20.- D.1.11 AYUDAS Y SUBSIDIOS 4TO TRIMESTRE",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/SEVAC.2020/4to.trim.2020/D.1.11%20AYUDAS%20Y%20SUBSIDIOS%204TO%20TRIMESTRE.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.1.11- Ayudas y subsidios",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/sevac.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.1.- Estado de actividades",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.1.-%20Estado%20de%20actividades.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.2.- Estado de situación financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.2.-%20Estado%20de%20situaci%C3%B3n%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.3.- Estado de variación en la hacienda pública",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.3.-%20Estado%20de%20variaci%C3%B3n%20en%20la%20hacienda%20p%C3%BAblica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.4.- Estado de cambios en la situación financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.4.-%20Estado%20de%20cambios%20en%20la%20situaci%C3%B3n%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.5.- Estado de flujos de efectivo",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.5.-%20Estado%20de%20flujos%20de%20efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.6.- Informes sobre pasivos contingentes",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.6.-%20Informes%20sobre%20pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.7.- Notas a informes de gestión financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.7.-%20Notas%20a%20informes%20de%20gesti%C3%B3n%20financiera_2019.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.8.- Estado analítico del activo",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.8.-%20Estado%20anal%C3%ADtico%20del%20activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.2.9.- Estado analitico de la deuda y otros pasivos",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.2.9.-%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.1.- Estado analítico de ingresos detallado",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.1.-%20Estado%20anal%C3%ADtico%20de%20ingresos%20detallado_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.2.- EAEPED_Clasificación Administrativa",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.2.-%20EAEPED_Clasificaci%C3%B3n%20Administrativa_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.3.- EAEPE_Clasificación económica",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.3.-%20EAEPE_Clasificaci%C3%B3n%20econ%C3%B3mica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.4.- EAEPED COG",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.4.-%20EAEPED_COG_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.5.- EAEPED_Clasificación Funcional",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.5.-%20EAEPED_Clasificaci%C3%B3n%20Funcional_LDF.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.3.6.- Endeudamiento neto",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.6.-%20Endeudamiento%20neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": " D.3.7.- Intereses de la deuda",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.3.7.-%20Intereses%20de%20la%20deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.4.1.- Gasto por categoría programática",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.4.1.-%20Gasto%20por%20categor%C3%ADa%20program%C3%A1tica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.4.2.- Indicadores de resultados",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.4.2.-%20Indicadores%20de%20resultados.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.1",
+      "nombre": "D.4.3.- Programas y proyectos de inversión",
+      "trimestre": "Primer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202019/D.4.3.-%20Programas%20y%20proyectos%20de%20inversi%C3%B3n.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.1.11 Ayudas Y Subsidios",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.1.11%20AYUDAS%20Y%20SUBSIDIOS.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.1. Estado de Actividades",
+      "trimestre": "Segundo Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.1.%20Estado%20de%20Actividades.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.2. Estado de Sitacion Financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.2.%20Estado%20de%20Sitacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.3. Estado de Variacion en la Hacienda Publica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.3.%20Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.4. Estado de Cambios en la situación financiera",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.4.%20Estado%20de%20Cambios%20en%20la%20situacion%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.5. Estado de Flujos de Efectivo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.5.%20Estado%20de%20Flujos%20de%20Efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.6. Infomes sobre Pasivos Contingentes",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.6.%20Infomes%20sobre%20Pasivos%20Contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.7. Notas Financieras",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.7.%20Notas%20Financieras.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.8. Estado Analitico del Activo",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.8.%20Estado%20Analitico%20del%20Activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.2.9. Estado analitico de la deuda y otros pasivos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.2.9.%20Estado%20analitico%20de%20la%20deuda%20y%20otros%20pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.1. Estado Analitico de Ingresos",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.1.%20Estado%20Analitico%20de%20Ingresos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.2. EAEPE Clasificacion Administrativa",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.2.%20EAEPE%20Clasificacion%20Administrativa.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.3. EAEPE Clasificacion Economica por Tipo de Gasto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.3.%20EAEPE%20Clasificacion%20Economica%20por%20Tipo%20de%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.4. EAEPE Clasificacion por Objeto del Gasto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.4.%20EAEPE%20Clasificacion%20por%20Objeto%20del%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.5. EAEPE Clasificacion Funcional",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.5.%20EAEPE%20Clasificacion%20Funcional.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.6. Endeudamiento Neto",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.6.%20Endeudamiento%20Neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.3.7. Intereses de la Deuda",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.3.7.%20Intereses%20de%20la%20Deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.4.1. Gasto por categoria programatica",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.4.1.%20Gasto%20por%20categoria%20programatica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.4.2. Indicadores de Resultados",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.4.2.%20Indicadores%20de%20Resultados.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.2",
+      "nombre": "D.4.3. Programas y Proyectos de Inversion",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20Trimestre%202019/D.4.3.%20Programas%20y%20Proyectos%20de%20Inversion.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.1.11 Ayudas y Subsidios",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.1.11%20AYUDAS%20Y%20SUBSIDIOS.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.1. Estado Actividades 3er Trimestre",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.1.%20Estado%20Actividades_3er%20Trimestre.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.2. Estado Situación Financiera 3er Trimestre",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.2.%20Estado%20Situacion%20Financiera_3er%20Trimestre.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.3. Estado de Variaciones en la Hacienda Pública",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.3.%20Estado%20de%20Variaciones%20en%20la%20Hacienda%20Publica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": " D.2.4. Estado de Cambios en la Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.4.%20Estado%20de%20Cambios%20en%20la%20Situacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.5. Estado de Flujos de Efectivo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.5.%20Estado%20de%20Flujos%20de%20Efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.6. Pasivos contingentes",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.6.%20Pasivos%20contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.7. Notas a Informes de Gestión Financiera 2019",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.7.%20Notas%20a%20Informes%20de%20Gestion%20Financiera_2019.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.2.8. Estado Analítico del Activo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.8.%20Estado%20Analitico%20del%20Activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": " D.2.9. Informe Analítico de la Deuda Pública y Otros Pasivos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.2.9.%20Estado%20Analitico%20de%20la%20Deuda%20y%20Otros%20Pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.1. Estado Analítico de Ingresos Detallado",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.1.%20Estado%20Analitico%20de%20Ingresos%20Detallado.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.2. EAEPE Clasificación Administrativa",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.2.%20EAEPE%20Clasificacion%20Administrativa.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.3. Estado Analítico del Ejercicio del Presupuesto de Egresos con Clasificacion Economica",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.3.%20Estado%20Analitico%20del%20Ejercicio%20del%20Presupuesto%20de%20Egresos%20con%20Clasificacion%20Economica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.4. EAEPE Clasificación por Objeto del Gasto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.4.%20EAEPE%20Clasificacion%20por%20Objeto%20del%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.5. EAEPE Clasificación Funcional (Finalidad y Función)",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.5.%20EAEPE%20Clasificacion%20Funcional%20(Finalidad%20y%20Funcion).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.6. Endeudamiento Neto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.6.%20Endeudamiento%20Neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.3.7 Intereses de la Deuda",
+      "trimestre": "Tercer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.3.7%20%20Intereses%20de%20la%20Deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.4.1. Gasto por Categoria Programática",
+      "trimestre": "Tercer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.4.1.%20Gasto%20por%20Categoria%20Programatica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.4.2. Indicadores de Resultados MIR",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.4.2.%20Indicadores%20de%20Resultados_MIR.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.4.3. NA Programas y Proyetos de Inversion",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.4.3.%20NA%20Programas%20y%20Proyetos%20de%20Inversion.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.3",
+      "nombre": "D.4.3. Programas y Proyectos de Inversion",
+      "trimestre": "Tercer Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/tercer%20trimestre%202019/D.4.3.%20Programas%20y%20Proyectos%20de%20Inversion.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.4",
+      "nombre": "D.1.11 AYUDAS Y SUBSIDIOS",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/planeacion/19.4/D.1.11%20AYUDAS%20Y%20SUBSIDIOS.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2019.4",
+      "nombre": "LIBRO INVENTARIOS de Bienes Muebles",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/cuarto%20trimestre%202019/LIBRO%20INVENTARIOS%20de%20Bienes%20Muebles.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado de actividades 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/01_Estado%20de%20actividades_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado de situación financiera 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/02_Estado%20de%20situaci%C3%B3n%20financiera_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado de variación en la hacienda pública 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/03_Estado%20de%20variaci%C3%B3n%20en%20la%20hacienda%20p%C3%BAblica_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado de cambios de la situación financiera 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/04_Estado%20de%20cambios%20de%20la%20situaci%C3%B3n%20financiera_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado de flujos de efectivo 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/05_Estado%20de%20flujos%20de%20efectivo_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Informes de pasivos contingentes 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/06_Informes%20de%20pasivos%20contingentes_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Notas a Informes de Avances de Gestión Financiera 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/07_Notas%20a%20Informes%20de%20Avances%20de%20Gesti%C3%B3n%20Financiera_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico del activo 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/08_Estado%20anal%C3%ADtico%20del%20activo_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Informe Analítico de la deuda pública y otros pasivos LDF_1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/09_Informe%20Anal%C3%ADtico%20de%20la%20deuda%20p%C3%BAblica%20y%20otros%20pasivos_LDF_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico de ingresos detallado LDF 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/10_Estado%20anal%C3%ADtico%20de%20ingresos%20detallado_LDF_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico del ejercicio del presupuesto de egresos detallado Clasificación administrativa LDF_1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/11_Estado%20anal%C3%ADtico%20del%20ejercicio%20del%20presupuesto%20de%20egresos%20detallado_Clasificaci%C3%B3n%20administrativa_LDF_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico del ejercicio de presupuesto de egresos clasificación económica por tipo de gasto 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/12_Estado%20anal%C3%ADtico%20del%20ejercicio%20de%20presupuesto%20de%20egresos_clasificaci%C3%B3n%20econ%C3%B3mica%20por%20tipo%20de%20gasto_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico del ejercicio del presupuesto de egresos detallado Clasificación por objeto del gasto LDF_1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/13_Estado%20anal%C3%ADtico%20del%20ejercicio%20del%20presupuesto%20de%20egresos%20detallado_Clasificaci%C3%B3n%20por%20objeto%20del%20gasto_LDF_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Estado analítico del ejercicio del presupuesto de egresos detallado Clasificación funcional_LDF 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/14_Estado%20anal%C3%ADtico%20del%20ejercicio%20del%20presupuesto%20de%20egresos%20detallado_Clasificaci%C3%B3n%20funcional_LDF_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Endeudamiento neto 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/15_Endeudamiento%20neto_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Intereses de la deuda 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/16_Intereses%20de%20la%20deuda_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Gasto por categoría programática 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/17_Gasto%20por%20categor%C3%ADa%20program%C3%A1tica_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Matríz de indicadores de resultados 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/18_Matr%C3%ADz%20de%20indicadores%20de%20resultados_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.1",
+      "nombre": "Informe de programas y proyectos de inversión 1ER TRIM 2018",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Primer%20trimestre%202018/19_Informe%20de%20programas%20y%20proyectos%20de%20inversi%C3%B3n_1ER%20TRIM%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado de actividades 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/01_Estado%20de%20actividades_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado de Situación Financiera 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/02_Estado%20de%20Situaci%C3%B3n%20Financiera_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado de Variación en la Hacienda Pública 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/03_Estado%20de%20Variaci%C3%B3n%20en%20la%20Hacienda%20P%C3%BAblica_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado de Cambios en la Situación Financiera 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/04_Estado%20de%20Cambios%20en%20la%20Situaci%C3%B3n%20Financiera_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado de flujos de efectivo 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/05_Estado%20de%20flujos%20de%20efectivo_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Informe sobre Pasivos Contingentes 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/06_Informe%20sobre%20Pasivos%20Contingentes_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Notas a los Estados Financieros 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/07_Notas%20a%20los%20Estados%20Financieros_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado Analitico del Activo 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/08_Estado%20Analitico%20del%20Activo_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado Analitico de la Deuda y Otros Pasivos 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/09_Estado%20Analitico%20de%20la%20Deuda%20y%20Otros%20Pasivos_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Estado Analitico de Ingresos 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/10_Estado%20Analitico%20de%20Ingresos_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "EAEPE Clasificación Administrativa 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/11_EAEPE_Clasificaci%C3%B3n%20Administrativa_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "EAEPE Por tipo de gasto 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/12_EAEPE_Por%20tipo%20de%20gasto_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "EAEPE Por Objeto del Gasto 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/13_EAEPE_Por%20Objeto%20del%20Gasto_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "EAEPE Por Clasificación Funcional 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/14_EAEPE_Por%20Clasificaci%C3%B3n%20Funcional_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Endeudamiento Neto 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/15_Endeudamiento%20Neto_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Intereses de la Deuda 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/16_Intereses%20de%20la%20Deuda_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Gasto por Categoría Programática 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/17_Gasto%20por%20Categor%C3%ADa%20%20Program%C3%A1tica_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Indicadores de Resultados 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/18_Indicadores%20de%20Resultados_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Programas y Proyectos de Inversión 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/19_Programas%20y%20Proyectos%20de%20Inversi%C3%B3n_2do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.2",
+      "nombre": "Ayudas y subsidios 2do trimestre 2018",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Segundo%20trimestre%202018/Ayudas%20y%20subsidios%202do%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "Ayudas y subsidios 3er trimestre 2018",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/Ayudas%20y%20subsidios%203er%20trimestre%202018.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.1. Estado de actividades",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.1.%20Estado%20de%20actividades.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.2. Estado de situación financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.2.%20Estado%20de%20situaci%C3%B3n%20financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.3. Estado de Variación en la Hacienda Pública",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.3.%20Estado%20de%20Variaci%C3%B3n%20en%20la%20Hacienda%20P%C3%BAblica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.4. Estado de Cambios en la Situación Financiera",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.4.%20Estado%20de%20Cambios%20en%20la%20Situaci%C3%B3n%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.5. Estado de Flujos de Efectivo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.5.%20Estado%20de%20Flujos%20de%20Efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.6. Pasivos Contingentes",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.6.%20Pasivos%20Contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.7. Notas financieras",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.7.%20Notas%20financieras.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.8. Estado Analítico del Activo",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.8.%20Estado%20Anal%C3%ADtico%20del%20Activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.2.9. Estado Analítico de la Deuda y otros Pasivos",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.2.9.%20Estado%20Anal%C3%ADtico%20de%20la%20Deuda%20y%20otros%20Pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.1. Estado Analítico de Ingresos Presupuestales",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.1.%20Estado%20Anal%C3%ADtico%20de%20Ingresos%20Presupuestales.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.2. EAEPE Clasificación Administrativa (LDF)",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.2.%20EAEPE%20Clasificaci%C3%B3n%20Administrativa%20(LDF).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.3. EAEPE por tipo de Gasto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.3.%20EAEPE%20por%20tipo%20de%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.4. EAEPE Clasificación por Objeto del Gasto (LDF)",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.4.%20EAEPE%20Clasificaci%C3%B3n%20por%20Objeto%20del%20Gasto%20(LDF).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.5. EAEPE Clasificación Funcional (LDF)",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.5.%20EAEPE%20Clasificaci%C3%B3n%20Funcional%20(LDF).pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.6. Endeudamiento Neto",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.6.%20Endeudamiento%20Neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.3.7. Intereses de la deuda",
+      "trimestre": "Tercer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.3.7.%20Intereses%20de%20la%20deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.4.1. Gasto por Categoria Programática",
+      "trimestre": "Tercer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.4.1.%20Gasto%20por%20Categoria%20Program%C3%A1tica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.4.2. Indicadores Financieros",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.4.2.%20Indicadores%20Financieros.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.3",
+      "nombre": "D.4.3. Programas y proyectos de inversión",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Tercer%20trimestre%202018/D.4.3.%20Programas%20y%20proyectos%20de%20inversi%C3%B3n.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.1.11 Ayudas y Subsidios",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.1.11%20AYUDAS%20Y%20SUBSIDIOS.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.1. Estado de Actividades",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.1.%20Estado%20de%20Actividades.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.2 Estado de Situacion Financiera",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.2%20Estado%20de%20Situacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.3. Estado de Variacion en la Hacienda Publica",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.3.%20Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.4. Estado de Cambios en la Situacion Financiera",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.4.%20Estado%20de%20Cambios%20en%20la%20Situacion%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.5. Estado de Flujos de Efectivo",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.5.%20Estado%20de%20Flujos%20de%20Efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.6. Pasivos Contingentes",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.6.%20Pasivos%20Contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.7. Notas Financieras",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.7.%20Notas%20Financieras.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.8. Estado Analitico del Activo",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.8.%20Estado%20Analitico%20del%20Activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.2.9. Estado Analitico de la Deuda y otros Pasivos",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.2.9.%20Estado%20Analitico%20de%20la%20Deuda%20y%20otros%20Pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.1. Estado Analitico de Ingresos",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.1.%20Estado%20Analitico%20de%20Ingresos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.2. EAEPE Clasificacion Administrativa",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.2.%20EAEPE%20Clasificacion%20Administrativa.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.3. EAEPE Por Tipo de Gasto",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.3.%20EAEPE%20Por%20Tipo%20de%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.4. EAEPE Clasificacion por Objeto del Gasto",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.4.%20EAEPE%20Clasificacion%20por%20Objeto%20del%20Gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.5. EAEPE Clasificacion Funcional",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.5.%20EAEPE%20Clasificacion%20Funcional.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.6. Endeudamiento Neto",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.6.%20Endeudamiento%20Neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.3.7. Intereses de la Deuda",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.3.7.%20Intereses%20de%20la%20Deuda.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.4.1. Gasto por Categoria Programatica",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.4.1.%20Gasto%20por%20Categoria%20Programatica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.4.2. Indicadores",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.4.2.%20Indicadores.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2018.4",
+      "nombre": "D.4.3. Programas y Proyectos de Inversion",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/armonizacioncontable/Cuarto%20trismestre%202018/D.4.3.%20Programas%20y%20Proyectos%20de%20Inversion.pdf"
+    }
+  ]
+}

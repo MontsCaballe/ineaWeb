@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+#sidebar h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background-color: #575757;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    margin: 20px 0;
+}
+.chart-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Estilo de la tabla */
+.table-container {
+    margin-top: 20px;
+    max-height: 200px; /* Ajusta la altura máxima para la tabla */
+    overflow-y: auto; /* Scroll vertical */
+}
+
+table {
+    width:70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #a57f2c; /* Fondo verde para el encabezado */
+    color: white; /* Texto en blanco */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Bordes claros */
+}
+
+th {
+    background-color: #a57f2c; /* Fondo del encabezado de la tabla */
+    color: white; /* Texto del encabezado en blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Filas pares con color de fondo */
+}
+
+tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+.table-header {
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #a57f2c; /* Color verde similar al del encabezado de la tabla */
+}

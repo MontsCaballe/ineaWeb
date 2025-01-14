@@ -1,0 +1,60 @@
+{
+  "mir": [
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Evaluacion Nayarit INEA 2023",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/eval.2023/Evaluacion Nayarit INEA 2023.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Formato para la Difusión de los Resultados de las Evaluaciones",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/eval.2023/Formato para la Difusion de los Resultados de las Evaluaciones.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Posición Institucional",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2024/eval.1tri/Posicion Institucional.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Términos de referencia (TdR) Diseño",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/eval.2023/Terminos de referencia (TdR)_Disenio.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Clasificación de Aspectos Suceptibles de Mejora (ASM)",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2024/eval.1tri/Clasificacion de Aspectos Suceptibles de Mejora (ASM).pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Posición Institucional",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2024/eval.1tri/Posicion Institucional.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Anexos B D y F",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/transpa/2024/eval.1tri/Anexos B, D y F.pdf"
+    }
+  ]
+}

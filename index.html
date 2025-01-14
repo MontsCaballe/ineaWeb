@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INEA Nayarit</title>
+
+
+  <!-- CSS -->
+  <link href="./favicons/favicon.ico" rel="shortcut icon">
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Respond.js soporte de media queries para Internet Explorer 8 -->
+  <!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js"></script>
+    <![endif]-->
+
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+      /* Asegura que la imagen mantenga su proporción */
+    }
+
+    /* Hacer que el carrusel ocupe el 100% de la pantalla */
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+      width: 100%;
+      max-height: 100vh;
+      /* Limita la altura al 100% del viewport */
+    }
+
+    .container-fluid {
+      padding: 0;
+    }
+
+    /* Ajustes para los controles del carrusel */
+    .carousel-control {
+      width: 5%;
+      /* Ajusta el tamaño de los controles */
+    }
+
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Fondo semitransparente en la descripción */
+      padding: 10px;
+    }
+
+    /* Estilo para hacer que las imágenes del carouselConsultas parezcan botones pequeños */
+    .carousel-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      /* Hacer que las imágenes sean circulares como botones */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      /* Agregar una sombra para que parezcan botones */
+    }
+
+    .carousel {
+      margin: 20px auto;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Contenido -->
+  <main class="page">
+    <div class="container-fluid">
+      <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+              <span class="sr-only">Interruptor de Navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="Logo"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="subenlaces">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Inicio</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Quiénes
+                  somos <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Nuestro Instituto</a></li>
+                  <li><a href="#mision">Misión</a></li>
+                  <li><a href="#vision">Visión</a></li>
+
+                  <li class="divider"></li>
+                  <li><a href="#">Directorio</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Oferta
+                  Educativa <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Alfabetización</a></li>
+                  <li><a href="#">MEV Aprende INEA</a></li>
+                  <li><a href="#">Requisitos de Ingreso</a></li>
+                  <li><a href="#">MIB</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios
+                  en Línea <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <!-- <li><a href="https://inea.nayarit.gob.mx/tablero-digital/">Tablero Digital</a></li> -->
+                  <li><a href="https://inea.nayarit.gob.mx/tablero-digital/">Tablero Digital Tiempo Real</a>
+                  </li>
+                  <li><a href="login.html">Logros por Asesor</a></li>
+                  <li><a href="login.html">Logros por Técnico Docente</a></li>
+                  <li><a href="login.html">Logros por Educando</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Registrate en línea</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-expanded="false">Plataformas Institucionales <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">SIGA</a></li>
+                  <li><a href="#">SAEL</a></li>
+                  <li><a href="#">SINAPLAC</a></li>
+                  <li><a href="#">SATIC</a></li>
+                  <!-- <li class="divider"></li>
+                  <li><a href="#">Enlace separado</a></li> -->
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-expanded="false">Transparencia <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="transparencia.html">Portal de Transparencia</a></li>
+                  <li><a href="armo.html">SEVAC</a></li>
+                  <li><a href="evaluacion.html">Evaluación Contable</a></li>
+
+                  <!-- <li class="divider"></li>
+                  <li><a href="#">Enlace separado</a></li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <br>
+          <br>
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol> -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <a href="#" data-toggle="modal" data-target="#imageModal" data-img-src="./images/BannerWEB1.jpg">
+                  <img src="./images/BannerWEB1.jpg" alt="...">
+                </a>
+                <div class="carousel-caption">
+                  CONVOCATORIA 2025
+                </div>
+              </div>
+              <div class="item">
+                <!-- <a href="#" data-toggle="modal" data-target="#imageModal" data-img-src="./images/1.jpg"> -->
+                <img src="./images/1.jpg" alt="...">
+                <!-- </a> -->
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                <img src="./images/2.jpg" alt="...">
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+              <div class="item">
+                <img src="./images/3.jpg" alt="...">
+                <div class="carousel-caption">
+                  ...
+                </div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">
+                < </span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">></span>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-md-12">
+          <div class="container-fluid">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-2">
+              <div class="col-md-4 text-right">
+                <img src="./images/Artboard 9 copy 4@72x.png" alt="Logo INEA Nayarit" class="img-fluid"
+                  style="max-width: 200px;">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-secondary text-white text-center">
+                  <h3>Instituto Nayarita de Educación para Adultos</h3>
+                </div>
+                <div class="card-body">
+                  <p>El Instituto Nayarita de Educación para Adultos (INEA) es una entidad que ofrece
+                    programas educativos para jóvenes y adultos. Nuestra misión es contribuir al desarrollo social
+                    proporcionando oportunidades de alfabetización, educación primaria y secundaria a quienes no han
+                    tenido acceso a estos niveles educativos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12">
+          <div class="container-fluid">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-2">
+              <div class="col-md-4 text-right">
+                <img src="./images/Artboard 9 copy 4@72x.png" alt="Logo INEA Nayarit" class="img-fluid"
+                  style="max-width: 200px;">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-secondary text-white text-center">
+                  <h3>Misión</h3>
+                </div>
+                <div class="card-body">
+                  <!-- Sección de Misión -->
+                  <section id="mision" class="section">
+                    <!-- <div class="section-title">Misión</div> -->
+                    <p>El Instituto Nacional para la Educación de los Adultos (INEA) tiene como misión contribuir al
+                      desarrollo social proporcionando oportunidades educativas para jóvenes y adultos...</p>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-12">
+          <div class="container-fluid">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-2">
+              <div class="col-md-4 text-right">
+                <img src="./images/Artboard 9 copy 4@72x.png" alt="Logo INEA Nayarit" class="img-fluid"
+                  style="max-width: 200px;">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-header bg-secondary text-white text-center">
+                  <h3>Visión</h3>
+                </div>
+                <div class="card-body">
+                  <!-- Sección de Visión -->
+                  <section id="vision" class="section">
+                    <!-- <div class="section-title">Visión</div> -->
+                    <p>Ser una entidad educativa líder en el país, proporcionando oportunidades de aprendizaje continuo
+                      para todos los adultos...</p>
+                  </section>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-1">
+          <!-- carousel -->
+        </div>
+        <!-- Carousel con imágenes pequeñas que actúan como enlaces -->
+        <div class="col-md-10">
+          <div id="linkCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner text-center">
+              <!-- Primer botón del carousel -->
+              <div class="carousel-item active">
+                <a href="https://www.google.com" target="_blank">
+                  <img src="https://via.placeholder.com/80" alt="Google">
+                </a>
+              </div>
+
+              <!-- Segundo botón del carousel -->
+              <div class="carousel-item">
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="https://via.placeholder.com/80" alt="Facebook">
+                </a>
+              </div>
+
+              <!-- Tercer botón del carousel -->
+              <div class="carousel-item">
+                <a href="https://www.twitter.com" target="_blank">
+                  <img src="https://via.placeholder.com/80" alt="Twitter">
+                </a>
+              </div>
+
+              <!-- Cuarto botón del carousel -->
+              <div class="carousel-item">
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="https://via.placeholder.com/80" alt="Instagram">
+                </a>
+              </div>
+            </div>
+
+            <!-- Controles del carousel -->
+            <a class="carousel-control-prev" href="#linkCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#linkCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <!-- carousel -->
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <!-- Jumbotron para la imagen -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h5 class="modal-title" id="imageModalLabel">Convocatoria 2025</h5>
+        </div>
+
+        <div class="modal-body">
+          <div class="jumbotron text-center">
+            <img id="modalImage" src="./images/BannerWEB1.jpg" alt="Imagen del Carrusel" class="img-fluid"
+              style="max-width: 100%; height: auto;">
+          </div>
+
+          <!-- Tabla de Documento y Enlace -->
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <td><strong>Bases Convocatoria 2025</strong></td>
+                <td><a href="https://inea.nayarit.gob.mx/Convocatoria2025/CARTEL_CONVOCATORIA_GRAL.pdf" target="_blank">
+                    <i class="fas fa-search"></i> Consultar</a></td>
+              </tr>
+              <tr>
+                <td><strong>Convocatoria 2025</strong></td>
+                <td>
+                  <a href="https://inea.nayarit.gob.mx/Convocatoria2025/Conv_GRAL2025_VF.pdf" target="_blank">
+                    <i class="fas fa-search"></i> Consultar
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Resultados Etapa II</strong></td>
+                <td>
+                  <a href="https://inea.nayarit.gob.mx/Convocatoria2025/formato_EtapaI.pdf" target="_blank">
+                    <i class="fas fa-search"></i> Consultar
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Cuaderno de Formación Inicial</strong></td>
+                <td>
+                  <a href="https://inea.nayarit.gob.mx/Convocatoria2025/Cuaderno_Formacion_Inicial.pdf" target="_blank">
+                    <i class="fas fa-search"></i> Consultar
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+  <script>
+    $gmx(document).ready(function () {
+      $('.carousel').carousel({
+        interval: 5000
+      });
+      $('.carousel slide').carousel({
+        interval: 5000
+      });
+
+      // Smooth scrolling for anchor links
+      $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: $($(this).attr('href')).offset().top
+        }, 500, 'linear');
+      });
+
+      if (window.location.hash === "#Convocatoria2025") {
+        $('#imageModal').modal('show');
+      }
+
+      $('#imageModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // El botón que abrió el modal
+        var imgSrc = button.data('img-src'); // Obtiene la fuente de la imagen
+        var modal = $(this);
+        modal.find('.modal-body img').attr('src', imgSrc); // Actualiza la imagen en el modal
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

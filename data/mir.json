@@ -1,0 +1,84 @@
+{
+    "mir": [
+        {
+            "tipo": "Indicador",
+            "anio": "2020.2",
+            "nombre": "INEA-Seguimiento MIR (2do. Trimestre 2020)",
+            "trimestre": "Primer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir2020/INEA-Seguimiento%20MIR%20(2do.%20Trimestre%202020).pdf"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2020.1",
+            "nombre": "MIR-INEA 2020",
+            "trimestre": "Primer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir2020/MIR-INEA%202020.pdf"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2022.1",
+            "nombre": "MIR-INEA 2022",
+            "trimestre": "Primer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/1tri.2022/MIR- INEA (Primer trimestre ) 2022.pdf"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2022.2",
+            "nombre": "MIR-INEA 2022",
+            "trimestre": "Segundo Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/2tri.2022/MIR - INEA (Segundo trimestre) 2022.PDF"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2022.3",
+            "nombre": "Matrices 2022 3er Trimestre",
+            "trimestre": "Tercer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/3tri.2022/MIR - INEA (Tercer trimestre) 2022.PDF"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2022.4",
+            "nombre": "MIR - INEA (Cuarto trimestre) 2022",
+            "trimestre": "Cuarto Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/4tri.2022/MIR - INEA (Cuarto trimestre) 2022.PDF"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2023.1",
+            "nombre": "MIR - INEA (Primer trimestre) 2023",
+            "trimestre": "Primer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/1tri.2023/MIR - INEA (Primer trimestre) 2023.PDF"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2023.4",
+            "nombre": "MIR - INEA (Cuarto trimestre) 2023",
+            "trimestre": "Cuarto Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/4tri.2023/MIR - INEA (Cuarto trimestre) 2023.pdf"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2024.1",
+            "nombre": "MIR - INEA (Primer trimestre) 2024",
+            "trimestre": "Primer Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/1tri.2024/MIR - INEA (Primer trimestre) 2024.pdf"
+        },
+        {
+            "tipo": "Indicador",
+            "anio": "2024.2",
+            "nombre": "MIR - INEA (Segundo trimestre) 2024",
+            "trimestre": "Cuarto Trimestre",
+            "numero" : "01",
+            "ruta": "https://inea.nayarit.gob.mx/transpa/mir/2tri.2024/MIR - INEA (Segundo trimestre) 2024.pdf"
+        }
+    ]
+}
