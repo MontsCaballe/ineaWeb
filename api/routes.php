@@ -11,4 +11,50 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         $chartController = new TableroController($db);
         $chartController->getChartData();
     }
+    if ($_GET['endpoint'] === 'getPlanteles') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getMetasMensuales') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getCertificadosEmitidos') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getSubproyecto') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getAvanceEducando') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getFigurasOperativas') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getRezago') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+    if ($_GET['endpoint'] === 'getLogros') {
+        require 'controllers/ChartController.php';
+        $chartController = new TableroController($db);
+        $chartController->getChartData();
+    }
+}
+if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+{
+if ($_POST['endpoint'] === 'login') {
+    # code...
+}
 }
