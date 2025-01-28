@@ -10,4 +10,9 @@ class TableroController {
         $data = $this->db->query("SELECT * FROM PersonasVoluntariasAspirantes_NAY");
         echo json_encode($data);
     }
+
+    public function getQueryData($query) {
+        $data = $this->db->query($query);
+        echo json_encode($data);
+    }
 }
