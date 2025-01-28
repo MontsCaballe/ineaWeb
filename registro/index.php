@@ -17,37 +17,39 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
   echo 'conexion fallida';
   die("Conexi�n fallida: " . $conn->connect_error);
-}
-echo 'conexion exitosa';
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  echo 'en el post';
-  // Recoger los datos del formulario
-  $nombre = $_POST['nombre'];
-  $genero = $_POST['genero'];
-  $situacion_migratoria = $_POST['situacion_migratoria'];
-  $edad = $_POST['edad'];
-  $lugar_origen = $_POST['lugar_origen'];
-  $nivel_educativo = $_POST['nivel_educativo'];
-  $discapacidad = $_POST['discapacidad'];
-  $correo = $_POST['correo'];
-  $telefono = $_POST['telefono'];
-  $comentarios = $_POST['comentarios'];
-
-  // Preparar y ejecutar la consulta para insertar los datos
-  $sql = "INSERT INTO prospectos (nombre, genero, situacion_migratoria, edad, lugar_origen, nivel_educativo, discapacidad, correo, telefono, comentarios)
-            VALUES ('$nombre', '$genero', '$situacion_migratoria', '$edad', '$lugar_origen', '$nivel_educativo', '$discapacidad', '$correo', '$telefono', '$comentarios')";
-  echo 'en el sql   ' . $sql;
-
-  $res = $conn->query($sql);
-  var_dump($res);
-  if ($conn->query($sql) === TRUE) {
-    echo "Registro exitoso";
-  } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+}else{
+  echo 'conexion exitosa';
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    echo 'en el post';
+    // Recoger los datos del formulario
+    $nombre = $_POST['nombre'];
+    $genero = $_POST['genero'];
+    $situacion_migratoria = $_POST['situacion_migratoria'];
+    $edad = $_POST['edad'];
+    $lugar_origen = $_POST['lugar_origen'];
+    $nivel_educativo = $_POST['nivel_educativo'];
+    $discapacidad = $_POST['discapacidad'];
+    $correo = $_POST['correo'];
+    $telefono = $_POST['telefono'];
+    $comentarios = $_POST['comentarios'];
+  
+    // Preparar y ejecutar la consulta para insertar los datos
+    $sql = "INSERT INTO prospectos (nombre, genero, situacion_migratoria, edad, lugar_origen, nivel_educativo, discapacidad, correo, telefono, comentarios)
+              VALUES ('$nombre', '$genero', '$situacion_migratoria', '$edad', '$lugar_origen', '$nivel_educativo', '$discapacidad', '$correo', '$telefono', '$comentarios')";
+    echo 'en el sql   ' . $sql;
+  
+    $res = $conn->query($sql);
+    var_dump($res);
+    if ($conn->query($sql) === TRUE) {
+      echo "Registro exitoso";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
   }
+  
+  $conn->close();
 }
 
-$conn->close();
 ?>
 <!DOCTYPE html>
 <html lang="es">
