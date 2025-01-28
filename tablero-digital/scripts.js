@@ -1,7 +1,7 @@
 // Función para obtener los Detalle sde la API según el tipo de reporte
 function getData(reporte) {
   return $.ajax({
-    url: `http://apiinea.monsthersolutions.com/api?reporte=${reporte}`, // Cambia esto por la URL de tu API
+    url: `https://inea.nayarit.gob.mx/api/getPlanteles?reporte=${reporte}`, // Cambia esto por la URL de tu API
     method: "GET",
     dataType: "json",
   });
