@@ -1,7 +1,7 @@
 <?php
-$dsn = 'mysql:host=localhost;dbname=prospectos_db;charset=utf8mb4';
-$username = 'consulta_user';
-$password = 'password123';
+$dsn = 'mysql:host=localhost;dbname=segINEA;charset=utf8mb4';
+$username = 'segINEA';
+$password = '536p4551N34';
 
 
 try {
