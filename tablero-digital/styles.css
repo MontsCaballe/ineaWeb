@@ -109,3 +109,11 @@ tr:hover {
     margin-bottom: 10px;
     color: #a57f2c; /* Color verde similar al del encabezado de la tabla */
 }
+h1 {
+    padding-top: 15px;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #a57f2c; /* Color verde similar al del encabezado de la tabla */
+}
