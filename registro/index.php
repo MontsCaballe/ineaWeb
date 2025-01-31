@@ -15,10 +15,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 $conn->set_charset("utf8mb4");
 
 if ($conn->connect_error) {
-  echo 'conexion fallida';
+  // echo 'conexion fallida';
   die("Conexión fallida: " . $conn->connect_error);
 }else{
-  echo 'conexion exitosa';
+  // echo 'conexion exitosa';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo 'en el post';
     // Recoger los datos del formulario
@@ -42,10 +42,12 @@ if ($conn->connect_error) {
     // var_dump($res);
     if ($conn->query($sql) === TRUE) {
       // echo "Registro exitoso";
-      return;
+      header("Location: " . $_SERVER['PHP_SELF']);
+            exit();
     } else {
       // echo "Error: " . $sql . "<br>" . $conn->error;
-      return;
+      header("Location: " . $_SERVER['PHP_SELF']);
+            exit();
     }
   }
   
@@ -136,7 +138,7 @@ if ($conn->connect_error) {
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
-              <span class="sr-only">Interruptor de Navegaci�n</span>
+              <span class="sr-only">Interruptor de Navegación</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
