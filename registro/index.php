@@ -16,7 +16,7 @@ $conn->set_charset("utf8mb4");
 
 if ($conn->connect_error) {
   echo 'conexion fallida';
-  die("Conexi�n fallida: " . $conn->connect_error);
+  die("Conexión fallida: " . $conn->connect_error);
 }else{
   echo 'conexion exitosa';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -36,14 +36,16 @@ if ($conn->connect_error) {
     // Preparar y ejecutar la consulta para insertar los datos
     $sql = "INSERT INTO prospectos (nombre, genero, situacion_migratoria, edad, lugar_origen, nivel_educativo, discapacidad, correo, telefono, comentarios)
               VALUES ('$nombre', '$genero', '$situacion_migratoria', '$edad', '$lugar_origen', '$nivel_educativo', '$discapacidad', '$correo', '$telefono', '$comentarios')";
-    echo 'en el sql   ' . $sql;
+    // echo 'en el sql   ' . $sql;
   
     $res = $conn->query($sql);
-    var_dump($res);
+    // var_dump($res);
     if ($conn->query($sql) === TRUE) {
-      echo "Registro exitoso";
+      // echo "Registro exitoso";
+      return;
     } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
+      // echo "Error: " . $sql . "<br>" . $conn->error;
+      return;
     }
   }
   
@@ -149,8 +151,8 @@ if ($conn->connect_error) {
                   somos <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">Nuestro Instituto</a></li>
-                  <li><a href="#mision">Misi�n</a></li>
-                  <li><a href="#vision">Visi�n</a></li>
+                  <li><a href="#mision">Misión</a></li>
+                  <li><a href="#vision">Visión</a></li>
 
                   <li class="divider"></li>
                   <li><a href="#">Directorio</a></li>
@@ -160,7 +162,7 @@ if ($conn->connect_error) {
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Oferta
                   Educativa <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Alfabetizaci�n</a></li>
+                  <li><a href="#">Alfabetización</a></li>
                   <li><a href="#">MEV Aprende INEA</a></li>
                   <li><a href="#">Requisitos de Ingreso</a></li>
                   <li><a href="#">MIB</a></li>
@@ -169,16 +171,16 @@ if ($conn->connect_error) {
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios
-                  en L�nea <span class="caret"></span></a>
+                  en Línea <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <!-- <li><a href="https://inea.nayarit.gob.mx/tablero-digital/">Tablero Digital</a></li> -->
                   <li><a href="https://inea.nayarit.gob.mx/tablero-digital/">Tablero Digital Tiempo Real</a>
                   </li>
                   <li><a href="login.html">Logros por Asesor</a></li>
-                  <li><a href="login.html">Logros por T�cnico Docente</a></li>
+                  <li><a href="login.html">Logros por Técnico Docente</a></li>
                   <li><a href="login.html">Logros por Educando</a></li>
                   <li class="divider"></li>
-                  <li><a href="#">Registrate en l�nea</a></li>
+                  <li><a href="#">Registrate en línea</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -199,7 +201,7 @@ if ($conn->connect_error) {
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="transparencia.html">Portal de Transparencia</a></li>
                   <li><a href="armo.html">SEVAC</a></li>
-                  <li><a href="evaluacion.html">Evaluaci�n Contable</a></li>
+                  <li><a href="evaluacion.html">Evaluación Contable</a></li>
 
                   <!-- <li class="divider"></li>
                   <li><a href="#">Enlace separado</a></li> -->
@@ -219,24 +221,24 @@ if ($conn->connect_error) {
               <br>
               <br>
 
-              <h2>Reg�strate para estudiar con nosotros</h2>
+              <h2>Regístrate para estudiar con nosotros</h2>
               <form action="" method="POST">
                 <label for="nombre" class="required">Nombre(s):</label>
                 <input type="text" id="nombre" name="nombre" required>
 
-                <label for="genero" class="required">G�nero:</label>
+                <label for="genero" class="required">Género:</label>
                 <select id="genero" name="genero" required>
                   <option value="Hombre">Hombre</option>
                   <option value="Mujer">Mujer</option>
                 </select>
 
-                <label for="situacion_migratoria" class="required">Situaci�n migratoria:</label>
+                <label for="situacion_migratoria" class="required">Situación migratoria:</label>
                 <select id="situacion_migratoria" name="situacion_migratoria" required>
                   <option value="Mexicano">Mexicano</option>
                   <option value="retornado">Retornado</option>
                   <option value="refugiado">Refugiado</option>
                   <option value="extranjero">Extranjero</option>
-                  <option value="viviendo en M�xico">Viviendo en M�xico</option>
+                  <option value="viviendo en México">Viviendo en México</option>
                 </select>
 
                 <label for="edad" class="required">Edad:</label>
@@ -245,16 +247,16 @@ if ($conn->connect_error) {
                 <label for="lugar_origen" class="required">Lugar de origen:</label>
                 <input type="text" id="lugar_origen" name="lugar_origen" required>
 
-                <label for="nivel_educativo" class="required">Nivel Educativo de inter�s:</label>
+                <label for="nivel_educativo" class="required">Nivel Educativo de interés:</label>
                 <input type="text" id="nivel_educativo" name="nivel_educativo" required>
 
-                <label for="discapacidad">�Tienes alguna discapacidad? En caso de tenerla, favor de especificarla:</label>
+                <label for="discapacidad">¿Tienes alguna discapacidad? En caso de tenerla, favor de especificarla:</label>
                 <textarea id="discapacidad" name="discapacidad"></textarea>
 
-                <label for="correo" class="required">Correo electr�nico:</label>
+                <label for="correo" class="required">Correo electrónico:</label>
                 <input type="email" id="correo" name="correo" required>
 
-                <label for="telefono" class="required">Tel�fono de contacto:</label>
+                <label for="telefono" class="required">Teléfono de contacto:</label>
                 <input type="tel" id="telefono" name="telefono" required>
 
                 <label for="comentarios">Comentarios:</label>
