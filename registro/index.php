@@ -41,13 +41,11 @@ if ($conn->connect_error) {
     $res = $conn->query($sql);
     // var_dump($res);
     if ($conn->query($sql) === TRUE) {
-      echo "Registro exitoso";
-      // header("Location: " . $_SERVER['PHP_SELF']);
-      // return;
+      // echo "Registro exitoso";
+      return;
     } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
-      // header("Location: " . $_SERVER['PHP_SELF']);
-      // return;
+      // echo "Error: " . $sql . "<br>" . $conn->error;
+      return;
     }
   }
   
