@@ -1,0 +1,19 @@
+GRANT ALL PRIVILEGES ON *.* TO 'consulta_user'@'%' IDENTIFIED BY 'password123';
+GRANT ALL PRIVILEGES ON *.* TO 'consulta_user'@'%' IDENTIFIED BY 'password123';
+
+CREATE USER 'consulta_remota'@'%' IDENTIFIED WITH mysql_native_password BY 'r00tp4551N34';
+
+GRANT ALL PRIVILEGES ON prospectos_db.* TO '*'@'%';
+SHOW GRANTS FOR '*'@'%';
+
+CREATE USER 'phpadmindev'@'%' IDENTIFIED WITH mysql_native_password BY 'r00tp4551N34';
+
+GRANT ALL PRIVILEGES ON *.* TO '*'@'%';
+SHOW GRANTS FOR '*'@'%';
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'r00tp4551N34';
+FLUSH PRIVILEGES;
+
+
+CREATE USER 'phpadmindev'@'%' IDENTIFIED BY 'r00tp4551N34';
