@@ -7,8 +7,8 @@ $dbname = "educandos";
 
 
 // Definir cabeceras para permitir solicitudes desde otros dominios (CORS)
-// header("Access-Control-Allow-Origin: *");
-// header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json; charset=UTF-8");
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -36,15 +36,15 @@ if ($conn->connect_error) {
     // Preparar y ejecutar la consulta para insertar los datos
     $sql = "INSERT INTO prospectos (nombre, genero, situacion_migratoria, edad, lugar_origen, nivel_educativo, discapacidad, correo, telefono, comentarios)
               VALUES ('$nombre', '$genero', '$situacion_migratoria', '$edad', '$lugar_origen', '$nivel_educativo', '$discapacidad', '$correo', '$telefono', '$comentarios')";
-    // echo 'en el sql   ' . $sql;
+    echo 'en el sql   ' . $sql;
   
     $res = $conn->query($sql);
-    // var_dump($res);
+    var_dump($res);
     if ($conn->query($sql) === TRUE) {
-      // echo "Registro exitoso";
+      echo "Registro exitoso";
       return;
     } else {
-      // echo "Error: " . $sql . "<br>" . $conn->error;
+      echo "Error: " . $sql . "<br>" . $conn->error;
       return;
     }
   }
