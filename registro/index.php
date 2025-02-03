@@ -8,7 +8,7 @@ $dbname = "educandos";
 
 // Definir cabeceras para permitir solicitudes desde otros dominios (CORS)
 header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
+// header("Content-Type: application/json; charset=UTF-8");
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
