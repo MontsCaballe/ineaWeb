@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "consulta_user"; // Cambia esto seg�n tu configuraci�n
 $password = "password123"; // Cambia esto seg�n tu configuraci�n
-$dbname = "prospectos_db";
+$dbname = "educandos";
 
 
 // Definir cabeceras para permitir solicitudes desde otros dominios (CORS)
