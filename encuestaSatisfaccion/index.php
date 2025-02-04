@@ -108,7 +108,7 @@ if ($conn->connect_error) {
       /* Centra la imagen en la pantalla */
       background-repeat: no-repeat;
       /* Evita que la imagen se repita */
-      height: 100vh;
+      height: 150vh;
       /* Asegura que ocupe toda la altura de la ventana del navegador */
       width: 150%;
       /* Asegura que cubra todo el ancho */
