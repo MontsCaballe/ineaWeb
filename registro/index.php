@@ -17,7 +17,7 @@ $conn->set_charset("utf8mb4");
 if ($conn->connect_error) {
   // echo 'conexion fallida';
   die("Conexión fallida: " . $conn->connect_error);
-}else{
+} else {
   // echo 'conexion exitosa';
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo 'en el post';
@@ -32,23 +32,32 @@ if ($conn->connect_error) {
     $correo = $_POST['correo'];
     $telefono = $_POST['telefono'];
     $comentarios = $_POST['comentarios'];
-  
+    // Validar si el correo ya existe en la base de datos
+    $checkEmailQuery = "SELECT * FROM prospectos WHERE correo = '$correo'";
+    $result = $conn->query($checkEmailQuery);
+
+    if ($result->num_rows > 0) {
+      // Si el correo ya existe, mostrar un mensaje de error
+      echo "Este correo ya está registrado.";
+      return;
+    }
+
     // Preparar y ejecutar la consulta para insertar los datos
     $sql = "INSERT INTO prospectos (nombre, genero, situacion_migratoria, edad, lugar_origen, nivel_educativo, discapacidad, correo, telefono, comentarios)
               VALUES ('$nombre', '$genero', '$situacion_migratoria', '$edad', '$lugar_origen', '$nivel_educativo', '$discapacidad', '$correo', '$telefono', '$comentarios')";
-    echo 'en el sql   ' . $sql;
-  
+    // echo 'en el sql   ' . $sql;
+
     $res = $conn->query($sql);
     var_dump($res);
     if ($conn->query($sql) === TRUE) {
-      echo "Registro exitoso";
-      return;
+      header("Location: index.php");  // Redirige a una página de éxito
+      exit();  // Importante para evitar que el script continúe después de redirigir
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
       return;
     }
   }
-  
+
   $conn->close();
 }
 
