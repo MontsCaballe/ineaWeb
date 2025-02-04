@@ -238,24 +238,45 @@ if ($conn->connect_error) {
                 <label for="nombreEducando" class="required">Nombre(s) Educando:</label>
                 <input type="text" id="nombreEducando" name="nombreEducando" required>
 
-               
+
                 <label for="calificacion_sesion" class="required">Calificación de la Sesión:</label>
                 <select id="calificacion_sesion" name="calificacion_sesion" required>
                   <option value="Buena">Buena</option>
                   <option value="Regular">Regular</option>
-                  <option value="Mala">Refugiado</option>
+                  <option value="Mala">Mala</option>
                 </select>
 
                 <label for="avance_educando" class="required">Calificación Avance Educando:</label>
                 <select id="avance_educando" name="avance_educando" required>
                   <option value="Buena">Buena</option>
                   <option value="Regular">Regular</option>
-                  <option value="Mala">Refugiado</option>
+                  <option value="Mala">Mala</option>
                 </select>
 
-                
+                <label for="dificultad_sesion" class="required">Calificación Avance Educando:</label>
+                <select id="dificultad_sesion" name="dificultad_sesion" required>
+                  <option value="Si">Si</option>
+                  <option value="No">No</option>
+                </select>
+                <!-- Este campo se muestra solo si "dificultad_sesion" es "Sí" -->
+                <div id="tipo_dificultad_container" style="display:none;">
+                  <label for="dificultad_tipo" class="required">Tipo de Dificultad:</label>
+                  <select id="dificultad_tipo" name="dificultad_tipo" required>
+                  <option value="Alta">Alta</option>
+                    <option value="Intermedia">Intermedia</option>
+                    <option value="Baja">Baja</option>
+                  </select>
+                </div>
+                <label for="dificultad_educando" class="required">Difucultad del Educando:</label>
+                <select id="dificultad_educando" name="dificultad_educando" required>
+                  <option value="Alta">Alta</option>
+                  <option value="Regular">Regular</option>
+                  <option value="Baja">Baja</option>
+                </select>
 
-                <button type="submit">Registrar</button>
+
+
+                  <button type="submit">Registrar</button>
               </form>
             </div>
           </div>
@@ -276,6 +297,20 @@ if ($conn->connect_error) {
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+  <!-- JS para manejar la visibilidad de los campos -->
+  <script>
+    function mostrarTipoDificultad() {
+      const dificultadSesion = document.getElementById('dificultad_sesion').value;
+      const tipoDificultad = document.getElementById('tipo_dificultad_container');
+
+      // Si el valor es "Si", mostramos el campo de tipo de dificultad
+      if (dificultadSesion === 'Si') {
+        tipoDificultad.style.display = 'block';
+      } else {
+        tipoDificultad.style.display = 'none';
+      }
+    }
+  </script>
 
 
 </body>
