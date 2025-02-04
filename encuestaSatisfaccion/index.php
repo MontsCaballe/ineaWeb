@@ -229,10 +229,12 @@ if ($conn->connect_error) {
       </nav>
       <div class="row">
         <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          <center>
+          
             <div class="form-container">
-              <h2>Encuesta de Satisfacción</h2>
+            <center>
+              
               <form action="" method="POST">
+              <h2>Encuesta de Satisfacción</h2>
                 <label for="nombreAlfabetizador" class="required">Nombre Completo Alfabetizador:</label>
                 <input type="text" id="nombreAlfabetizador" name="nombreAlfabetizador" required>
 
@@ -277,8 +279,9 @@ if ($conn->connect_error) {
 
                 <button type="submit">Registrar</button>
               </form>
+              </center>
             </div>
-          </center>
+          
         </div>
       </div>
 
