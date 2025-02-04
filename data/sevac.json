@@ -2,6 +2,30 @@
   "sevac": [
     {
       "tipo": "Anexo",
+      "anio": "2024.4",
+      "nombre": "Avance por Programa Educativo",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/4tri.2024/Avance%20por%20Programa%20Educativo%20(Cuarto%20trimestre)%202024.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.4",
+      "nombre": "D.1.11 AYUDAS Y SUBSIDIOS",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/4tri.2024/D.1.11%20Ayudas%20y%20subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2024.4",
+      "nombre": "MIR - INEA",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/4tri.2024/MIR%20-%20INEA%20(Cuarto%20trimestre)%202024.pdf"
+    },
+    {
+      "tipo": "Anexo",
       "anio": "2024.3",
       "nombre": "01. Estado de Situación Financiera",
       "trimestre": "Tercer Trimestre",
