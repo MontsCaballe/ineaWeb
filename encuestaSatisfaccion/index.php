@@ -297,20 +297,8 @@ if ($conn->connect_error) {
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
-  <!-- JS para manejar la visibilidad de los campos -->
-  <script>
-    function mostrarTipoDificultad() {
-      const dificultadSesion = document.getElementById('dificultad_sesion').value;
-      const tipoDificultad = document.getElementById('tipo_dificultad_container');
+  <script src="scripts.js"></script>
 
-      // Si el valor es "Si", mostramos el campo de tipo de dificultad
-      if (dificultadSesion === 'Si') {
-        tipoDificultad.style.display = 'block';
-      } else {
-        tipoDificultad.style.display = 'none';
-      }
-    }
-  </script>
 
 
 </body>
