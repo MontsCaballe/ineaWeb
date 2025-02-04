@@ -72,20 +72,21 @@ if ($conn->connect_error) {
     <![endif]-->
 
   <style>
+    /* Form container with responsive design */
     .form-container {
-      width: 45%;
-      padding: 20px;
       background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
       box-sizing: border-box;
+      margin-top: 10%;
     }
 
     .image-container {
-      width: 100%;
       background-image: url('INEA_PLECA-REDES-2.jpg');
-      /* Coloca la URL de tu imagen */
       background-size: cover;
-      background-position: left;
+      background-position: center;
       height: 100vh;
+      position: relative;
     }
 
     form {
@@ -94,7 +95,8 @@ if ($conn->connect_error) {
     }
 
     input,
-    select {
+    select,
+    button {
       margin: 10px 0;
       padding: 10px;
       border: 1px solid #ccc;
@@ -102,11 +104,8 @@ if ($conn->connect_error) {
     }
 
     button {
-      padding: 10px;
       background-color: #4CAF50;
       color: white;
-      border: none;
-      border-radius: 4px;
       cursor: pointer;
     }
 
@@ -114,8 +113,22 @@ if ($conn->connect_error) {
       background-color: #45a049;
     }
 
-    h2 {
-      margin-bottom: 20px;
+    .container-fluid {
+      padding: 0;
+    }
+
+    @media (max-width: 768px) {
+      .form-container {
+        width: 80%;
+        margin-top: 20%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .form-container {
+        width: 95%;
+        margin-top: 20%;
+      }
     }
   </style>
 </head>
@@ -205,74 +218,56 @@ if ($conn->connect_error) {
         </div>
       </nav>
       <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+          <div class="form-container">
+            <h2>Encuesta de Satisfacción</h2>
+            <form action="" method="POST">
+              <label for="nombreAlfabetizador" class="required">Nombre Completo Alfabetizador:</label>
+              <input type="text" id="nombreAlfabetizador" name="nombreAlfabetizador" required>
 
-        <div class="col-md-12">
-          <!-- <div class="container-fluid"> -->
-          <div class="col-md-6">
-            <div class="form-container">
-              <br>
-              <br>
-              <br>
+              <label for="nombreEducando" class="required">Nombre Completo Educando:</label>
+              <input type="text" id="nombreEducando" name="nombreEducando" required>
 
-              <h2>Encuesta de Satisfacción</h2>
-              <form action="" method="POST">
-                <label for="nombreAlfabetizador" class="required">Nombre Completo Alfabetizador:</label>
-                <input type="text" id="nombreAlfabetizador" name="nombreAlfabetizador" required>
+              <label for="calificacion_sesion" class="required">Calificación de la Sesión:</label>
+              <select id="calificacion_sesion" name="calificacion_sesion" required>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+              </select>
 
-                <label for="nombreEducando" class="required">Nombre Completo Educando:</label>
-                <input type="text" id="nombreEducando" name="nombreEducando" required>
+              <label for="avance_educando" class="required">Calificación Avance Educando:</label>
+              <select id="avance_educando" name="avance_educando" required>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+              </select>
 
+              <label for="dificultad_sesion" class="required">Dificultad en la Sesión:</label>
+              <select id="dificultad_sesion" name="dificultad_sesion" required>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
 
-                <label for="calificacion_sesion" class="required">Calificación de la Sesión:</label>
-                <select id="calificacion_sesion" name="calificacion_sesion" required>
-                  <option value="Buena">Buena</option>
-                  <option value="Regular">Regular</option>
-                  <option value="Mala">Mala</option>
-                </select>
-
-                <label for="avance_educando" class="required">Calificación Avance Educando:</label>
-                <select id="avance_educando" name="avance_educando" required>
-                  <option value="Buena">Buena</option>
-                  <option value="Regular">Regular</option>
-                  <option value="Mala">Mala</option>
-                </select>
-
-                <label for="dificultad_sesion" class="required">Dificultad en la Sesión:</label>
-                <select id="dificultad_sesion" name="dificultad_sesion" required>
-                  <option value="Si">Si</option>
-                  <option value="No">No</option>
-                </select>
-                <!-- Este campo se muestra solo si "dificultad_sesion" es "Sí" -->
-                <div id="tipo_dificultad_container" style="display:none;">
-                  <label for="dificultad_tipo" class="required">Tipo de Dificultad:</label>
-                  <select id="dificultad_tipo" name="dificultad_tipo" required>
+              <div id="tipo_dificultad_container" style="display:none;">
+                <label for="dificultad_tipo" class="required">Tipo de Dificultad:</label>
+                <select id="dificultad_tipo" name="dificultad_tipo" required>
                   <option value="Alta">Alta</option>
-                    <option value="Intermedia">Intermedia</option>
-                    <option value="Baja">Baja</option>
-                  </select>
-                </div>
-                <label for="dificultad_educando" class="required">Difucultad del Educando:</label>
-                <select id="dificultad_educando" name="dificultad_educando" required>
-                  <option value="Alta">Alta</option>
-                  <option value="Regular">Regular</option>
+                  <option value="Intermedia">Intermedia</option>
                   <option value="Baja">Baja</option>
                 </select>
+              </div>
 
+              <label for="dificultad_educando" class="required">Dificultad del Educando:</label>
+              <select id="dificultad_educando" name="dificultad_educando" required>
+                <option value="Alta">Alta</option>
+                <option value="Regular">Regular</option>
+                <option value="Baja">Baja</option>
+              </select>
 
-
-                  <button type="submit">Registrar</button>
-              </form>
-            </div>
+              <button type="submit">Registrar</button>
+            </form>
           </div>
-          <!-- <div class="col-md-6"> -->
-          <div class="image-container"></div>
-          <!-- </div>          -->
-
-          <!-- </div> -->
-
         </div>
-
-
       </div>
 
     </div>
