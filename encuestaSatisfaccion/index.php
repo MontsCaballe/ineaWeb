@@ -72,32 +72,44 @@ if ($conn->connect_error) {
     <![endif]-->
 
   <style>
-    /* Form container with responsive design */
+    /* Formulario centrado */
     .form-container {
-      background-color: #f4f4f4;
+      width: 50%;
       padding: 20px;
-      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      /* Fondo blanco semitransparente */
       box-sizing: border-box;
-      margin-top: 10%;
+      border-radius: 8px;
+      text-align: center;
+      /* Centra el texto dentro del formulario */
     }
 
-    /* Asegúrate de que el contenedor tenga la imagen de fondo */
-    .image-container {
-      background-image: url('../INEA_PLECA-REDES-2.jpg');
-      /* Cambia esto a la ruta de tu imagen */
-      background-size: cover;
-      /* Hace que la imagen cubra toda el área */
-      background-position: center;
-      /* Centra la imagen en la pantalla */
-      background-repeat: no-repeat;
-      /* Evita que la imagen se repita */
-      height: 100vh;
-      /* Asegura que ocupe toda la altura de la ventana del navegador */
-      width: 100%;
-      /* Asegura que cubra todo el ancho */
-      position: relative;
-      /* Esto permite que el contenido se coloque encima */
+    @media (max-width: 768px) {
+      .form-container {
+        width: 80%;
+        /* En pantallas más pequeñas, el formulario ocupa el 80% */
+      }
     }
+
+    @media (max-width: 576px) {
+      .form-container {
+        width: 90%;
+        /* En teléfonos, el formulario ocupa el 90% */
+      }
+    }
+
+   /* Asegúrate de que el contenedor tenga la imagen de fondo */
+.image-container {
+  background-image: url('../INEA_PLECA-REDES-2.jpg'); /* Cambia esto a la ruta de tu imagen */
+  background-size: cover; /* Hace que la imagen cubra toda el área */
+  background-position: center; /* Centra la imagen en la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100vh; /* Asegura que ocupe toda la altura de la ventana del navegador */
+  width: 100%; /* Asegura que cubra todo el ancho */
+  display: flex; /* Habilita el uso de flexbox */
+  justify-content: center; /* Centra el formulario horizontalmente */
+  align-items: center; /* Centra el formulario verticalmente */
+}
 
     form {
       display: flex;
@@ -229,59 +241,59 @@ if ($conn->connect_error) {
       </nav>
       <div class="row">
         <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-          
-            <div class="form-container">
-            <center>
-              
-              <form action="" method="POST">
+
+          <div class="form-container">
+            <!-- <center> -->
+
+            <form action="" method="POST">
               <h2>Encuesta de Satisfacción</h2>
-                <label for="nombreAlfabetizador" class="required">Nombre Completo Alfabetizador:</label>
-                <input type="text" id="nombreAlfabetizador" name="nombreAlfabetizador" required>
+              <label for="nombreAlfabetizador" class="required">Nombre Completo Alfabetizador:</label>
+              <input type="text" id="nombreAlfabetizador" name="nombreAlfabetizador" required>
 
-                <label for="nombreEducando" class="required">Nombre Completo Educando:</label>
-                <input type="text" id="nombreEducando" name="nombreEducando" required>
+              <label for="nombreEducando" class="required">Nombre Completo Educando:</label>
+              <input type="text" id="nombreEducando" name="nombreEducando" required>
 
-                <label for="calificacion_sesion" class="required">Calificación de la Sesión:</label>
-                <select id="calificacion_sesion" name="calificacion_sesion" required>
-                  <option value="Buena">Buena</option>
-                  <option value="Regular">Regular</option>
-                  <option value="Mala">Mala</option>
-                </select>
+              <label for="calificacion_sesion" class="required">Calificación de la Sesión:</label>
+              <select id="calificacion_sesion" name="calificacion_sesion" required>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+              </select>
 
-                <label for="avance_educando" class="required">Calificación Avance Educando:</label>
-                <select id="avance_educando" name="avance_educando" required>
-                  <option value="Buena">Buena</option>
-                  <option value="Regular">Regular</option>
-                  <option value="Mala">Mala</option>
-                </select>
+              <label for="avance_educando" class="required">Calificación Avance Educando:</label>
+              <select id="avance_educando" name="avance_educando" required>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+              </select>
 
-                <label for="dificultad_sesion" class="required">Dificultad en la Sesión:</label>
-                <select id="dificultad_sesion" name="dificultad_sesion" required>
-                  <option value="Si">Si</option>
-                  <option value="No">No</option>
-                </select>
+              <label for="dificultad_sesion" class="required">Dificultad en la Sesión:</label>
+              <select id="dificultad_sesion" name="dificultad_sesion" required>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+              </select>
 
-                <div id="tipo_dificultad_container" style="display:none;">
-                  <label for="dificultad_tipo" class="required">Tipo de Dificultad:</label>
-                  <select id="dificultad_tipo" name="dificultad_tipo" required>
-                    <option value="Alta">Alta</option>
-                    <option value="Intermedia">Intermedia</option>
-                    <option value="Baja">Baja</option>
-                  </select>
-                </div>
-
-                <label for="dificultad_educando" class="required">Dificultad del Educando:</label>
-                <select id="dificultad_educando" name="dificultad_educando" required>
+              <div id="tipo_dificultad_container" style="display:none;">
+                <label for="dificultad_tipo" class="required">Tipo de Dificultad:</label>
+                <select id="dificultad_tipo" name="dificultad_tipo" required>
                   <option value="Alta">Alta</option>
-                  <option value="Regular">Regular</option>
+                  <option value="Intermedia">Intermedia</option>
                   <option value="Baja">Baja</option>
                 </select>
+              </div>
 
-                <button type="submit">Registrar</button>
-              </form>
-              </center>
-            </div>
-          
+              <label for="dificultad_educando" class="required">Dificultad del Educando:</label>
+              <select id="dificultad_educando" name="dificultad_educando" required>
+                <option value="Alta">Alta</option>
+                <option value="Regular">Regular</option>
+                <option value="Baja">Baja</option>
+              </select>
+
+              <button type="submit">Registrar</button>
+            </form>
+            <!-- </center> -->
+          </div>
+
         </div>
       </div>
 
