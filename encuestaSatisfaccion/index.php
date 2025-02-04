@@ -110,7 +110,7 @@ if ($conn->connect_error) {
       /* Evita que la imagen se repita */
       height: 100vh;
       /* Asegura que ocupe toda la altura de la ventana del navegador */
-      width: 100%;
+      width: 150%;
       /* Asegura que cubra todo el ancho */
       display: flex;
       /* Habilita el uso de flexbox */
