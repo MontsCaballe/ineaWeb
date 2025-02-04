@@ -98,18 +98,27 @@ if ($conn->connect_error) {
       }
     }
 
-   /* Asegúrate de que el contenedor tenga la imagen de fondo */
-.image-container {
-  background-image: url('../INEA_PLECA-REDES-2.jpg'); /* Cambia esto a la ruta de tu imagen */
-  background-size: cover; /* Hace que la imagen cubra toda el área */
-  background-position: center; /* Centra la imagen en la pantalla */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  height: 100vh; /* Asegura que ocupe toda la altura de la ventana del navegador */
-  width: 100%; /* Asegura que cubra todo el ancho */
-  display: flex; /* Habilita el uso de flexbox */
-  justify-content: center; /* Centra el formulario horizontalmente */
-  align-items: center; /* Centra el formulario verticalmente */
-}
+    /* Asegúrate de que el contenedor tenga la imagen de fondo */
+    .image-container {
+      background-image: url('https://inea.nayarit.gob.mx/INEA_PLECA-REDES-2.jpg');
+      /* Cambia esto a la ruta de tu imagen */
+      background-size: cover;
+      /* Hace que la imagen cubra toda el área */
+      background-position: center;
+      /* Centra la imagen en la pantalla */
+      background-repeat: no-repeat;
+      /* Evita que la imagen se repita */
+      height: 100vh;
+      /* Asegura que ocupe toda la altura de la ventana del navegador */
+      width: 100%;
+      /* Asegura que cubra todo el ancho */
+      display: flex;
+      /* Habilita el uso de flexbox */
+      justify-content: center;
+      /* Centra el formulario horizontalmente */
+      align-items: center;
+      /* Centra el formulario verticalmente */
+    }
 
     form {
       display: flex;
@@ -241,8 +250,8 @@ if ($conn->connect_error) {
       </nav>
       <div class="row">
         <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
-
-          <div class="form-container">
+        <div class="image-container">
+        <div class="form-container">
             <!-- <center> -->
 
             <form action="" method="POST">
@@ -293,6 +302,9 @@ if ($conn->connect_error) {
             </form>
             <!-- </center> -->
           </div>
+        </div>
+
+         
 
         </div>
       </div>
