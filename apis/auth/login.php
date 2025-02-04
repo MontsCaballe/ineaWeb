@@ -28,6 +28,9 @@ if ($user && password_verify($password, $user['contrasena'])) {
     // Si las credenciales son correctas, obtener los roles del usuario
     $roles = getRoles($user['id_usuario'], $pdo);
 
+    // Registrar la acción en la auditoría (login exitoso)
+    registrarAuditoria($pdo, $user['id_usuario'], 1, 'Login exitoso'); // Suponiendo que el sistema tiene id 1
+
     // Devolver la respuesta con la información del usuario
     echo json_encode([
         "message" => "Login exitoso",
@@ -42,6 +45,11 @@ if ($user && password_verify($password, $user['contrasena'])) {
     // Credenciales inválidas
     http_response_code(401); // No autorizado
     echo json_encode(["message" => "Credenciales inválidas"]);
+
+    // Registrar el intento de login fallido en la auditoría
+    if ($user) {
+        registrarAuditoria($pdo, $user['id_usuario'], 1, 'Intento de login fallido');  // Suponiendo que el sistema tiene id 1
+    }
 }
 
 // -------------------------- Función auxiliar --------------------------
@@ -55,5 +63,14 @@ function getRoles($userId, $pdo) {
     ");
     $stmt->execute([$userId]);
     return $stmt->fetchAll(PDO::FETCH_COLUMN);
+}
+
+// Función para registrar la acción de auditoría
+function registrarAuditoria($pdo, $id_usuario, $id_sistema, $accion) {
+    $sql = "INSERT INTO auditoria_accesos (id_usuario, id_sistema, accion) 
+            VALUES (?, ?, ?)";
+
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute([$id_usuario, $id_sistema, $accion]);
 }
 ?>
