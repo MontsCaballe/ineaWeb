@@ -26,6 +26,14 @@
     },
     {
       "tipo": "Anexo",
+      "anio": "2024.4",
+      "nombre": "INVENTARIO ESTATAL",
+      "trimestre": "Cuarto Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/4tri.2024/INVENTARIO%20ESTATAL.pdf"
+    },
+    {
+      "tipo": "Anexo",
       "anio": "2024.3",
       "nombre": "01. Estado de Situación Financiera",
       "trimestre": "Tercer Trimestre",
