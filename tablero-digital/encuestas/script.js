@@ -1,89 +1,198 @@
-$gmx(document).ready(function () {
-    alert("holi");
-    // if (localStorage.getItem('token')) {
-        $('.login-container').hide();
-        $('#dashboard').show();
-        loadData();
-    // }
-    
-    $('#loginForm').submit(function(event) {
-        event.preventDefault();
-        let email = $('#email').val();
-        let password = $('#password').val();
+let allData = [];
+let currentChart = null;
+const rowsPerPage = 5;
+let currentPage = 1;
 
-        $.ajax({
-            url: 'login.php', // Endpoint de autenticación
-            type: 'POST',
-            data: { email: email, password: password },
-            success: function(response) {
-                let data = JSON.parse(response);
-                if (data.success) {
-                    localStorage.setItem('token', data.token);
-                    $('.login-container').hide();
-                    $('#dashboard').show();
-                    loadData();
-                } else {
-                    $('#errorMsg').text('Credenciales incorrectas');
-                }
-            }
-        });
-    });
+$gmx(document).ready(function () {
+  $("#dashboard").show();
+  loadData();
+
+  $("#floatingButton").click(function () {
+    let table = document.getElementById("encuestasTable");
+    let wb = XLSX.utils.table_to_book(table, { sheet: "Encuestas" });
+    XLSX.writeFile(wb, "encuestas.xlsx");
+  });
+  // 🔹 Filtrar datos en tiempo real
+  $("#searchInput").on("keyup", function () {
+    let value = $(this).val().toLowerCase();
+    let filteredData = allData.filter((item) =>
+      item.nombre_alfabetizador.toLowerCase().includes(value)
+    );
+    renderTable(filteredData, 1, rowsPerPage);
+    setupPagination(filteredData);
+    updateCharts(filteredData);
   });
 
-function loadData() {
-    $.ajax({
-        url: 'https://inea.nayarit.gob.mx/apis/encuestas/encuestas.php', // Endpoint para obtener encuestas
-        type: 'GET',
-        success: function(response) {
-            let data = JSON.parse(response);
-            let tableBody = '';
-            let labels = [];
-            let avances = [];
-            let dificultades = { 'Alta': 0, 'Media': 0, 'Baja': 0 };
+  $("#applyFilters").click(function () {
+    applyFilters();
+  });
+});
 
-            data.forEach(encuesta => {
-                tableBody += `<tr>
-                    <td>${encuesta.id}</td>
-                    <td>${encuesta.nombre_alfabetizador}</td>
-                    <td>${encuesta.nombre_educando}</td>
+function applyFilters() {
+    let searchValue = $('#searchInput').val().toLowerCase();
+    let startDate = $('#startDate').val();
+    let endDate = $('#endDate').val();
+
+    let filteredData = allData.filter(item => {
+        let matchesSearch = item.nombre_alfabetizador.toLowerCase().includes(searchValue);
+        let matchesDate = true;
+        if (startDate && endDate) {
+            matchesDate = item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+        }
+        return matchesSearch && matchesDate;
+    });
+    
+    renderTable(filteredData, 1,rowsPerPage);
+    setupPagination(filteredData);
+    updateCharts(filteredData);
+}
+
+function loadData() {
+  $.ajax({
+    url: "https://inea.nayarit.gob.mx/apis/encuestas/encuestas.php",
+    type: "GET",
+    success: function (response) {
+      console.log("Respuesta de la API:", response); // <-- Depuración
+
+      try {
+        allData = JSON.parse(response); // Convertir a JSON
+        console.log("Datos parseados:", allData); // <-- Verificar si se parseó correctamente
+        renderTable(allData, currentPage, rowsPerPage);
+        setupPagination(allData);
+        updateCharts(allData);
+      } catch (error) {
+        console.error("Error al convertir JSON:", error);
+      }
+    },
+    error: function (xhr, status, error) {
+      console.error("Error en la petición AJAX:", status, error);
+    },
+  });
+}
+
+function generateCharts(labels, avances, dificultades) {
+  new Chart(document.getElementById("chartAvance").getContext("2d"), {
+    type: "bar",
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: "Avance Educando",
+          data: avances,
+          backgroundColor: "blue",
+        },
+      ],
+    },
+  });
+
+  new Chart(document.getElementById("chartDificultad").getContext("2d"), {
+    type: "pie",
+    data: {
+      labels: Object.keys(dificultades),
+      datasets: [
+        {
+          data: Object.values(dificultades),
+          backgroundColor: ["red", "yellow", "green"],
+        },
+      ],
+    },
+  });
+}
+
+function generateLineChart(labels, avances) {
+  new Chart(document.getElementById("chartGeneral").getContext("2d"), {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: "Avance Educando 📈",
+          data: avances,
+          borderColor: "blue",
+          fill: false,
+          tension: 0.1,
+        },
+      ],
+    },
+  });
+}
+
+function renderTable(data, page, rowsPerPage) {
+  let start = (page - 1) * rowsPerPage;
+  let end = start + rowsPerPage;
+  let tableData = data.slice(start, end);
+  let tableBody = "";
+  tableData.forEach((encuesta) => {
+    tableBody += `<tr>
+                    <td style="display: none;">${encuesta.id}</td>
+                    <td style="display: none;">${encuesta.nombre_alfabetizador}</td>
+                    <td style="display: none;">${encuesta.nombre_educando}</td>
                     <td>${encuesta.calificacion_sesion}</td>
                     <td>${encuesta.avance_educando}</td>
                     <td>${encuesta.dificultad_educando}</td>
                     <td>${encuesta.fecha_registro}</td>
                 </tr>`;
-
-                labels.push(encuesta.nombre_educando);
-                avances.push(encuesta.avance_educando === 'Buena' ? 80 : (encuesta.avance_educando === 'Regular' ? 50 : 30));
-                dificultades[encuesta.dificultad_educando]++;
-            });
-            
-            $('#encuestasTable tbody').html(tableBody);
-            generateCharts(labels, avances, dificultades);
-        }
-    });
+  });
+  $("#encuestasTable tbody").html(tableBody);
 }
 
-function generateCharts(labels, avances, dificultades) {
-    new Chart(document.getElementById('chartAvance').getContext('2d'), {
-        type: 'bar',
+// 🔹 Configurar paginación dinámica
+function setupPagination(data) {
+  let pageCount = Math.ceil(data.length / rowsPerPage);
+  $("#pagination").html("");
+
+  for (let i = 1; i <= pageCount; i++) {
+    $("#pagination").append(
+      `<button class="page-btn" data-page="${i}">${i}</button>`
+    );
+  }
+
+  $(".page-btn").click(function () {
+    currentPage = $(this).data("page");
+    renderTable(data, currentPage,rowsPerPage);
+  });
+}
+// 🔹 Función para actualizar gráficos después de cargar datos o filtrar
+function updateCharts(data) {
+    let labels = data.map(item => item.fecha_registro);
+    let avances = data.map(item => item.avance_educando === 'Buena' ? 80 : (item.avance_educando === 'Regular' ? 50 : 30));
+    
+    if (currentChart) {
+        currentChart.destroy();
+    }
+    
+    let ctx = document.getElementById('chartGeneral').getContext('2d');
+    currentChart = new Chart(ctx, {
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{
-                label: 'Avance Educando',
+                label: 'Progreso de Aprendizaje por Fecha',
                 data: avances,
-                backgroundColor: 'blue'
-            }]
-        }
-    });
-
-    new Chart(document.getElementById('chartDificultad').getContext('2d'), {
-        type: 'pie',
-        data: {
-            labels: Object.keys(dificultades),
-            datasets: [{
-                data: Object.values(dificultades),
-                backgroundColor: ['red', 'yellow', 'green']
+                borderColor: 'blue',
+                fill: false,
+                tension: 0.1
             }]
         }
     });
 }
+// function updateCharts(data) {
+//   let labels = [];
+//   let avances = [];
+//   let dificultades = { Alta: 0, Media: 0, Baja: 0 };
+
+//   data.forEach((encuesta) => {
+//     labels.push(encuesta.fecha_registro);
+//     avances.push(
+//       encuesta.avance_educando === "Buena"
+//         ? 80
+//         : encuesta.avance_educando === "Regular"
+//         ? 50
+//         : 30
+//     );
+//     dificultades[encuesta.dificultad_educando]++;
+//   });
+
+// //   generateCharts(labels, avances, dificultades);
+// //   generateLineChart(labels, avances);
+// }
