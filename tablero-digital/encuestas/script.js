@@ -154,7 +154,7 @@ function setupPagination(data) {
 }
 // 🔹 Función para actualizar gráficos después de cargar datos o filtrar
 function updateCharts(data) {
-    let labels = data.map(item => item.fecha_registro);
+    let labels = data.map(item => item.fecha_registro.split(" ")[0]);
     let avances = data.map(item => item.avance_educando === 'Buena' ? 80 : (item.avance_educando === 'Regular' ? 50 : 30));
     
     if (currentChart) {
@@ -167,7 +167,7 @@ function updateCharts(data) {
         data: {
             labels: labels,
             datasets: [{
-                label: 'Progreso de Aprendizaje por Fecha',
+                label: 'Calificación',
                 data: avances,
                 borderColor: 'blue',
                 fill: false,
