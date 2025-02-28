@@ -1,5 +1,14 @@
 <?php
-// config.php - Configuración de la base de datos
+// Permitir solicitudes desde cualquier origen (*), puedes cambiarlo a tu dominio específico
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
+// Manejar preflight request (cuando se hace un request OPTIONS antes de un POST o GET)
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    http_response_code(200);
+    exit();
+}
 
 
 // login.php - Autenticación de usuario

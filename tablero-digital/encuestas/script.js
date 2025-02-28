@@ -1,9 +1,10 @@
-$(document).ready(function() {
-    if (localStorage.getItem('token')) {
+$gmx(document).ready(function () {
+    alert("holi");
+    // if (localStorage.getItem('token')) {
         $('.login-container').hide();
         $('#dashboard').show();
         loadData();
-    }
+    // }
     
     $('#loginForm').submit(function(event) {
         event.preventDefault();
@@ -27,7 +28,7 @@ $(document).ready(function() {
             }
         });
     });
-});
+  });
 
 function loadData() {
     $.ajax({
