@@ -11,26 +11,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
 
 
-// login.php - Autenticación de usuario
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require 'db_connection.php';
+
     $input = json_decode(file_get_contents("php://input"), true);
     
-    $email = $input['email'];
+    $correo = $input['correo'];
     $password = $input['password'];
 
-    $stmt = $pdo->prepare("SELECT id, password FROM usuarios WHERE email = ?");
-    $stmt->execute([$email]);
+    // Consultar el usuario en la base de datos
+    $stmt = $pdo->prepare("SELECT id, nombre, correo, password, id_rol FROM usuarios WHERE correo = ?");
+    $stmt->execute([$correo]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if ($user && password_verify($password, $user['password'])) {
-        $token = bin2hex(random_bytes(32));
-        echo json_encode(["success" => true, "token" => $token]);
+    if ($user && $user['password'] === $password) { // Comparación simple, sin hash
+        echo json_encode(["success" => true, "user" => [
+            "id" => $user['id'],
+            "nombre" => $user['nombre'],
+            "correo" => $user['correo'],
+            "id_rol" => $user['id_rol']
+        ]]);
     } else {
         echo json_encode(["success" => false, "message" => "Credenciales incorrectas"]);
     }
     exit;
 }
+
 
 // get_encuestas.php - Obtener datos de encuestas
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {

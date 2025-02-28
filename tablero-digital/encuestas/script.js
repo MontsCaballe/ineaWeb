@@ -4,14 +4,42 @@ const rowsPerPage = 5;
 let currentPage = 1;
 
 $gmx(document).ready(function () {
-  $("#dashboard").show();
-  loadData();
+//   if (localStorage.getItem("token")) {
+    $(".login-container").hide();
+    $("#dashboard").show();
+    loadData();
+//   }
 
-  $("#floatingButton").click(function () {
-    let table = document.getElementById("encuestasTable");
-    let wb = XLSX.utils.table_to_book(table, { sheet: "Encuestas" });
-    XLSX.writeFile(wb, "encuestas.xlsx");
+  $("#loginForm").submit(function (event) {
+    event.preventDefault();
+    let email = $("#email").val();
+    let password = $("#password").val();
+
+    $.ajax({
+      url: "login.php",
+      type: "POST",
+      data: { email: email, password: password },
+      success: function (response) {
+        let data = JSON.parse(response);
+        if (data.success) {
+          localStorage.setItem("token", data.token);
+          $(".login-container").hide();
+          $("#dashboard").show();
+          loadData();
+        } else {
+          $("#errorMsg").text("Credenciales incorrectas");
+        }
+      },
+    });
   });
+  //   $("#dashboard").show();
+  //   loadData();
+
+  $('#floatingButton').click(function() {
+    $('.modal-overlay').show();
+    $('#modalLogin').show();
+    $('body').addClass('modal-open');
+});
   // 🔹 Filtrar datos en tiempo real
   $("#searchInput").on("keyup", function () {
     let value = $(this).val().toLowerCase();
@@ -26,25 +54,47 @@ $gmx(document).ready(function () {
   $("#applyFilters").click(function () {
     applyFilters();
   });
+  $("#closeModal").click(function () {
+    $(".modal-overlay").hide();
+    $("#modalLogin").hide();
+    $("body").removeClass("modal-open");
+  });
+
+  $("#confirmLogin").click(function () {
+    let password = $("#modalPassword").val();
+
+    if (password === "admin123") {
+      // Contraseña de prueba
+      $(".modal-overlay").hide();
+      $("#modalLogin").hide();
+      $("body").removeClass("modal-open");
+      downloadExcel();
+    } else {
+      $("#loginError").show();
+    }
+  });
 });
 
 function applyFilters() {
-    let searchValue = $('#searchInput').val().toLowerCase();
-    let startDate = $('#startDate').val();
-    let endDate = $('#endDate').val();
+  let searchValue = $("#searchInput").val().toLowerCase();
+  let startDate = $("#startDate").val();
+  let endDate = $("#endDate").val();
 
-    let filteredData = allData.filter(item => {
-        let matchesSearch = item.nombre_alfabetizador.toLowerCase().includes(searchValue);
-        let matchesDate = true;
-        if (startDate && endDate) {
-            matchesDate = item.fecha_registro >= startDate && item.fecha_registro <= endDate;
-        }
-        return matchesSearch && matchesDate;
-    });
-    
-    renderTable(filteredData, 1,rowsPerPage);
-    setupPagination(filteredData);
-    updateCharts(filteredData);
+  let filteredData = allData.filter((item) => {
+    let matchesSearch = item.nombre_alfabetizador
+      .toLowerCase()
+      .includes(searchValue);
+    let matchesDate = true;
+    if (startDate && endDate) {
+      matchesDate =
+        item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+    }
+    return matchesSearch && matchesDate;
+  });
+
+  renderTable(filteredData, 1, rowsPerPage);
+  setupPagination(filteredData);
+  updateCharts(filteredData);
 }
 
 function loadData() {
@@ -149,32 +199,40 @@ function setupPagination(data) {
 
   $(".page-btn").click(function () {
     currentPage = $(this).data("page");
-    renderTable(data, currentPage,rowsPerPage);
+    renderTable(data, currentPage, rowsPerPage);
   });
 }
 // 🔹 Función para actualizar gráficos después de cargar datos o filtrar
 function updateCharts(data) {
-    let labels = data.map(item => item.fecha_registro.split(" ")[0]);
-    let avances = data.map(item => item.avance_educando === 'Buena' ? 80 : (item.avance_educando === 'Regular' ? 50 : 30));
-    
-    if (currentChart) {
-        currentChart.destroy();
-    }
-    
-    let ctx = document.getElementById('chartGeneral').getContext('2d');
-    currentChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Calificación',
-                data: avances,
-                borderColor: 'blue',
-                fill: false,
-                tension: 0.1
-            }]
-        }
-    });
+  let labels = data.map((item) => item.fecha_registro.split(" ")[0]);
+  let avances = data.map((item) =>
+    item.avance_educando === "Buena"
+      ? 80
+      : item.avance_educando === "Regular"
+      ? 50
+      : 30
+  );
+
+  if (currentChart) {
+    currentChart.destroy();
+  }
+
+  let ctx = document.getElementById("chartGeneral").getContext("2d");
+  currentChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: "Calificación",
+          data: avances,
+          borderColor: "blue",
+          fill: false,
+          tension: 0.1,
+        },
+      ],
+    },
+  });
 }
 // function updateCharts(data) {
 //   let labels = [];
