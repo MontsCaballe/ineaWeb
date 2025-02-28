@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 function loadData() {
     $.ajax({
-        url: 'https://inea.nayarit.gob.mx/tablero-digital/apis/encuestas/encuestas.php', // Endpoint para obtener encuestas
+        url: 'https://inea.nayarit.gob.mx/apis/encuestas/encuestas.php', // Endpoint para obtener encuestas
         type: 'GET',
         success: function(response) {
             let data = JSON.parse(response);
