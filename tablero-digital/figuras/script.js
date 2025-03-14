@@ -231,38 +231,100 @@ function setupPagination(data) {
     renderTable(data, currentPage, rowsPerPage);
   });
 }
-// 🔹 Función para actualizar gráficos después de cargar datos o filtrar
-function updateCharts(data) {
-  let labels = data.map((item) => item.fRegistro.split(" ")[0]);
-  let avances = data.map((item) =>
-    item.avance_educando === "Buena"
-      ? 80
-      : item.avance_educando === "Regular"
-      ? 50
-      : 30
-  );
 
+function updateCharts(data) {
+  // Contador de registros por fecha
+  let registrosPorFecha = {};
+
+  // Recorrer los datos y contar cuántos registros hay por fecha
+  data.forEach((item) => {
+      let fecha = item.fRegistro.split(" ")[0]; // Tomar solo la fecha (sin la hora)
+      if (registrosPorFecha[fecha]) {
+          registrosPorFecha[fecha] += 1; // Sumar 1 si ya existe la fecha
+      } else {
+          registrosPorFecha[fecha] = 1; // Inicializar si no existe
+      }
+  });
+
+  // Extraer las etiquetas (fechas) y valores (cantidad de registros)
+  let labels = Object.keys(registrosPorFecha);
+  let avances = Object.values(registrosPorFecha);
+
+  // Destruir el gráfico anterior si existe
   if (currentChart) {
-    currentChart.destroy();
+      currentChart.destroy();
   }
 
+  // Crear el gráfico de líneas con los datos corregidos
   let ctx = document.getElementById("chartGeneral").getContext("2d");
   currentChart = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: labels,
-      datasets: [
-        {
-          label: "Calificación",
-          data: avances,
-          borderColor: "blue",
-          fill: false,
-          tension: 0.1,
-        },
-      ],
-    },
+      type: "line",
+      data: {
+          labels: labels,
+          datasets: [
+              {
+                  label: "Cantidad de registros",
+                  data: avances,
+                  borderColor: "blue",
+                  backgroundColor: "rgba(0, 123, 255, 0.3)",
+                  fill: true,
+                  tension: 0.1,
+              },
+          ],
+      },
+      options: {
+          responsive: true,
+          scales: {
+              y: {
+                  beginAtZero: true,
+                  title: {
+                      display: true,
+                      text: "Cantidad de fRegistro",
+                  },
+              },
+              x: {
+                  title: {
+                      display: true,
+                      text: "Fechas",
+                  },
+              },
+          },
+      },
   });
 }
+
+// // 🔹 Función para actualizar gráficos después de cargar datos o filtrar
+// function updateCharts(data) {
+//   let labels = data.map((item) => item.fRegistro.split(" ")[0]);
+//   let avances = data.map((item) =>
+//     item.avance_educando === "Buena"
+//       ? 80
+//       : item.avance_educando === "Regular"
+//       ? 50
+//       : 30
+//   );
+
+//   if (currentChart) {
+//     currentChart.destroy();
+//   }
+
+//   let ctx = document.getElementById("chartGeneral").getContext("2d");
+//   currentChart = new Chart(ctx, {
+//     type: "line",
+//     data: {
+//       labels: labels,
+//       datasets: [
+//         {
+//           label: "Calificación",
+//           data: avances,
+//           borderColor: "blue",
+//           fill: false,
+//           tension: 0.1,
+//         },
+//       ],
+//     },
+//   });
+// }
 // function updateCharts(data) {
 //   let labels = [];
 //   let avances = [];
