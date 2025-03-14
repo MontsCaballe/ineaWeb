@@ -2,21 +2,46 @@ let allData = [];
 let currentChart = null;
 const rowsPerPage = 5;
 let currentPage = 1;
+// Contraseña de acceso
+const PASSWORD = "inea12345"; // Cambia esto según necesites
 
 $gmx(document).ready(function () {
   $("#dashboard").show();
   loadData();
 
   $("#floatingButton").click(function () {
-    let table = document.getElementById("encuestasTable");
-    let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
-    XLSX.writeFile(wb, "figurasOp.xlsx");
+    // const inputPassword = document.getElementById("password").value;
+    // const loginMessage = document.getElementById("login-message");
+
+    // if (inputPassword === PASSWORD) {
+    //   document.getElementById("login-container").style.display = "none";
+    //   // document.getElementById("table-container").style.display = "block";
+
+    //   let table = document.getElementById("encuestasTable");
+    //   let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
+    //   XLSX.writeFile(wb, "figurasOp.xlsx");
+    // } else {
+    //   loginMessage.textContent = "Contraseña incorrecta. Inténtalo de nuevo.";
+    // }
+    // Mostrar el modal al cargar la página
+    document.getElementById("login-modal").style.display = "block";
+    document.getElementById("modal-overlay").style.display = "block";
+    // document.getElementById("main-content").classList.add("blur-background");
   });
   // 🔹 Filtrar datos en tiempo real
   $("#searchInput").on("keyup", function () {
-    let value = $(this).val().toLowerCase();
+    let value = $(this).val().toUpperCase();
     let filteredData = allData.filter((item) =>
-      item.nombre_alfabetizador.toLowerCase().includes(value)
+      item.cDesMunicipio.toLowerCase().includes(value)
+    );
+    renderTable(filteredData, 1, rowsPerPage);
+    setupPagination(filteredData);
+    updateCharts(filteredData);
+  });
+  $("#searchInputCZ").on("keyup", function () {
+    let value = $(this).val().toUpperCase();
+    let filteredData = allData.filter((item) =>
+      item.cDesCZ.toLowerCase().includes(value)
     );
     renderTable(filteredData, 1, rowsPerPage);
     setupPagination(filteredData);
@@ -28,23 +53,65 @@ $gmx(document).ready(function () {
   });
 });
 
-function applyFilters() {
-    let searchValue = $('#searchInput').val().toLowerCase();
-    let startDate = $('#startDate').val();
-    let endDate = $('#endDate').val();
+function applyFiltersCZ() {
+  let searchValue = $("#searchInputCZ").val().toUpperCase();
+  let startDate = $("#startDate").val();
+  let endDate = $("#endDate").val();
 
-    let filteredData = allData.filter(item => {
-        let matchesSearch = item.nombre_alfabetizador.toLowerCase().includes(searchValue);
-        let matchesDate = true;
-        if (startDate && endDate) {
-            matchesDate = item.fecha_registro >= startDate && item.fecha_registro <= endDate;
-        }
-        return matchesSearch && matchesDate;
-    });
-    
-    renderTable(filteredData, 1,rowsPerPage);
-    setupPagination(filteredData);
-    updateCharts(filteredData);
+  let filteredData = allData.filter((item) => {
+    let matchesSearch = item.cDesMunicipio.toLowerCase().includes(searchValue);
+    let matchesDate = true;
+    if (startDate && endDate) {
+      matchesDate =
+        item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+    }
+    return matchesSearch && matchesDate;
+  });
+
+  renderTable(filteredData, 1, rowsPerPage);
+  setupPagination(filteredData);
+  updateCharts(filteredData);
+}
+
+
+function applyFiltersP() {
+  let searchValue = $("#searchInputP").val().toUpperCase();
+  let startDate = $("#startDate").val();
+  let endDate = $("#endDate").val();
+
+  let filteredData = allData.filter((item) => {
+    let matchesSearch = item.cIdenDepen.toLowerCase().includes(searchValue);
+    let matchesDate = true;
+    if (startDate && endDate) {
+      matchesDate =
+        item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+    }
+    return matchesSearch && matchesDate;
+  });
+
+  renderTable(filteredData, 1, rowsPerPage);
+  setupPagination(filteredData);
+  updateCharts(filteredData);
+}
+
+function applyFilters() {
+  let searchValue = $("#searchInput").val().toUpperCase();
+  let startDate = $("#startDate").val();
+  let endDate = $("#endDate").val();
+
+  let filteredData = allData.filter((item) => {
+    let matchesSearch = item.cDesMunicipio.toLowerCase().includes(searchValue);
+    let matchesDate = true;
+    if (startDate && endDate) {
+      matchesDate =
+        item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+    }
+    return matchesSearch && matchesDate;
+  });
+
+  renderTable(filteredData, 1, rowsPerPage);
+  setupPagination(filteredData);
+  updateCharts(filteredData);
 }
 
 function loadData() {
@@ -106,7 +173,7 @@ function generateLineChart(labels, avances) {
       labels: labels,
       datasets: [
         {
-          label: "Avance Educando 📈",
+          label: "Voluntarios 📈",
           data: avances,
           borderColor: "blue",
           fill: false,
@@ -122,29 +189,19 @@ function renderTable(data, page, rowsPerPage) {
   let end = start + rowsPerPage;
   let tableData = data.slice(start, end);
   let tableBody = "";
-  // Función para mapear el JSON a la estructura esperada en tableData
-  let jsonData = data;
-  tableData = Object.keys(jsonData).map((key, index) => ({
-  id: index + 1, // Puedes cambiarlo por la clave correcta si tienes una en tu JSON
-  nombre_alfabetizador: jsonData["COL 17"] + " " + jsonData["COL 18"]+" " + jsonData["COL 19"], // Nombre completo
-  rol: jsonData["COL 34"], // Nombre
-  subproyecto: jsonData["COL 21"], // Puede cambiarse según los datos reales
-  institucion: jsonData["COL 24"], // Número de educación
-  municipio: jsonData["COL 48"], // Motivo de situación
-  coordinacion: jsonData["COL 4"], // Motivo de situación
-  fecha_registro: jsonData["COL 20"], // Fecha de registro
-}));
   tableData.forEach((encuesta) => {
-    tableBody += `<tr>
-                    <td style="display: none;">${encuesta.id}</td>
-                    <td style="display: none;">${encuesta.nombre_alfabetizador}</td>
-                    <td style="display: none;">${encuesta.rol}</td>
-                    <td>${encuesta.subproyecto}</td>
-                    <td>${encuesta.avance_educando}</td>
-                    <td>${encuesta.municipio}</td>
-                    <td>${encuesta.coordinacion}</td>
-                    <td>${encuesta.fecha_registro}</td>
-                </tr>`;
+    if (encuesta.iCveIE !== "iCveIE") {
+      tableBody += `<tr>
+      <td style="display: none;">${encuesta.iCveIE}</td>
+      <td style="display: none;">${encuesta.cPaterno} ${encuesta.cMaterno} ${encuesta.cNombre}</td>
+      <td style="display: none;">${encuesta.cDesRolFO}</td>
+      <td>${encuesta.cIdenSubPro}</td>
+      <td>${encuesta.cIdenDepen}</td>
+      <td>${encuesta.cDesMunicipio}</td>
+      <td>${encuesta.cDesCZ}</td>
+      <td>${encuesta.fRegistro}</td>
+  </tr>`;
+    }
   });
   $("#encuestasTable tbody").html(tableBody);
 }
@@ -162,32 +219,40 @@ function setupPagination(data) {
 
   $(".page-btn").click(function () {
     currentPage = $(this).data("page");
-    renderTable(data, currentPage,rowsPerPage);
+    renderTable(data, currentPage, rowsPerPage);
   });
 }
 // 🔹 Función para actualizar gráficos después de cargar datos o filtrar
 function updateCharts(data) {
-    let labels = data.map(item => item.fecha_registro.split(" ")[0]);
-    let avances = data.map(item => item.avance_educando === 'Buena' ? 80 : (item.avance_educando === 'Regular' ? 50 : 30));
-    
-    if (currentChart) {
-        currentChart.destroy();
-    }
-    
-    let ctx = document.getElementById('chartGeneral').getContext('2d');
-    currentChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Calificación',
-                data: avances,
-                borderColor: 'blue',
-                fill: false,
-                tension: 0.1
-            }]
-        }
-    });
+  let labels = data.map((item) => item.fRegistro.split(" ")[0]);
+  let avances = data.map((item) =>
+    item.avance_educando === "Buena"
+      ? 80
+      : item.avance_educando === "Regular"
+      ? 50
+      : 30
+  );
+
+  if (currentChart) {
+    currentChart.destroy();
+  }
+
+  let ctx = document.getElementById("chartGeneral").getContext("2d");
+  currentChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: labels,
+      datasets: [
+        {
+          label: "Calificación",
+          data: avances,
+          borderColor: "blue",
+          fill: false,
+          tension: 0.1,
+        },
+      ],
+    },
+  });
 }
 // function updateCharts(data) {
 //   let labels = [];
@@ -209,3 +274,19 @@ function updateCharts(data) {
 // //   generateCharts(labels, avances, dificultades);
 // //   generateLineChart(labels, avances);
 // }
+
+function checkLogin() {
+  const inputPassword = document.getElementById("password").value;
+  const loginMessage = document.getElementById("login-message");
+
+  if (inputPassword === PASSWORD) {
+    // Ocultar el modal y restaurar el fondo
+    document.getElementById("login-modal").style.display = "none";
+    document.getElementById("modal-overlay").style.display = "none";
+    let table = document.getElementById("encuestasTable");
+    let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
+    XLSX.writeFile(wb, "figurasOp.xlsx");
+  } else {
+    loginMessage.textContent = "Contraseña incorrecta. Inténtalo de nuevo.";
+  }
+}
