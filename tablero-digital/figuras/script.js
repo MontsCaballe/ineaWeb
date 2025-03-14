@@ -30,7 +30,7 @@ $gmx(document).ready(function () {
   });
   // 🔹 Filtrar datos en tiempo real
   $("#searchInput").on("keyup", function () {
-    let value = $(this).val().toUpperCase();
+    let value = $(this).val().toLowerCase();
     let filteredData = allData.filter((item) =>
       item.cDesMunicipio.toLowerCase().includes(value)
     );
@@ -39,9 +39,18 @@ $gmx(document).ready(function () {
     updateCharts(filteredData);
   });
   $("#searchInputCZ").on("keyup", function () {
-    let value = $(this).val().toUpperCase();
+    let value = $(this).val().toLowerCase();
     let filteredData = allData.filter((item) =>
       item.cDesCZ.toLowerCase().includes(value)
+    );
+    renderTable(filteredData, 1, rowsPerPage);
+    setupPagination(filteredData);
+    updateCharts(filteredData);
+  });
+  $("#searchInputP").on("keyup", function () {
+    let value = $(this).val().toLowerCase();
+    let filteredData = allData.filter((item) =>
+      item.cIdenDepen.toLowerCase().includes(value)
     );
     renderTable(filteredData, 1, rowsPerPage);
     setupPagination(filteredData);
@@ -54,7 +63,7 @@ $gmx(document).ready(function () {
 });
 
 function applyFiltersCZ() {
-  let searchValue = $("#searchInputCZ").val().toUpperCase();
+  let searchValue = $("#searchInputCZ").val().toLowerCase();
   let startDate = $("#startDate").val();
   let endDate = $("#endDate").val();
 
@@ -75,7 +84,7 @@ function applyFiltersCZ() {
 
 
 function applyFiltersP() {
-  let searchValue = $("#searchInputP").val().toUpperCase();
+  let searchValue = $("#searchInputP").val().toLowerCase();
   let startDate = $("#startDate").val();
   let endDate = $("#endDate").val();
 
@@ -95,7 +104,7 @@ function applyFiltersP() {
 }
 
 function applyFilters() {
-  let searchValue = $("#searchInput").val().toUpperCase();
+  let searchValue = $("#searchInput").val().toLowerCase();
   let startDate = $("#startDate").val();
   let endDate = $("#endDate").val();
 
