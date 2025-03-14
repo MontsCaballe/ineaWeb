@@ -9,8 +9,8 @@ $gmx(document).ready(function () {
 
   $("#floatingButton").click(function () {
     let table = document.getElementById("encuestasTable");
-    let wb = XLSX.utils.table_to_book(table, { sheet: "Encuestas" });
-    XLSX.writeFile(wb, "encuestas.xlsx");
+    let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
+    XLSX.writeFile(wb, "figurasOp.xlsx");
   });
   // 🔹 Filtrar datos en tiempo real
   $("#searchInput").on("keyup", function () {
@@ -49,7 +49,7 @@ function applyFilters() {
 
 function loadData() {
   $.ajax({
-    url: "https://inea.nayarit.gob.mx/apis/encuestas/encuestas.php",
+    url: "https://inea.nayarit.gob.mx/apis/figuras/figuras.php",
     type: "GET",
     success: function (response) {
       console.log("Respuesta de la API:", response); // <-- Depuración

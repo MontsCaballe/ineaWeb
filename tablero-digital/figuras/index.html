@@ -154,12 +154,12 @@
                             <br>
                             <h2>Tablero de Indicadores</h2>
                             <ul>
-                                <li><a href="#" id="reporte1">Seguimiento de Indicadores por Calificación</a></li>
-                                <li><a href="#" id="reporte2">Seguimiento de Indicadores por Avance del Educando</a>
+                                <li><a href="#" id="reporte1">Seguimiento de Indicadores General</a></li>
+                                <li><a href="#" id="reporte2">Seguimiento de Indicadores por Municipio</a>
                                 </li>
-                                <li><a href="#" id="reporte3">Seguimiento de Indicadores por Dificultad de Sesión</a>
+                                <li><a href="#" id="reporte3">Seguimiento de Indicadores por Coordinación</a>
                                 </li>
-                                <li><a href="#" id="reporte4">Seguimiento de Indicadores por Dificultad del Educando</a>
+                                <li><a href="#" id="reporte4">Seguimiento de Indicadores por Plantel</a>
                                 </li>
                             </ul>
                         </div>
@@ -172,9 +172,9 @@
                             </div>
                             <div class="col-lg-12">
                                 <br>
-                                <h2>📅 Seguimiento del Progreso Educativo</h2>
+                                <h2>📅 Seguimiento de Figuras Operativas</h2>
                                 <p>
-                                    Gráfico de líneas que muestra la evolución del avance de los educandos a lo largo
+                                    Gráfico de líneas que muestra la evolución de nuevas figuras a lo largo
                                     del tiempo.
                                 </p>
                                 <canvas id="chartGeneral"></canvas>
@@ -190,7 +190,7 @@
                             <div class="col-lg-12">
                                 <button id="floatingButton">📥 Descargar Excel</button>
                                 <div id="filterContainer">
-                                    <input type="text" id="searchInput" placeholder="Buscar educando...">
+                                    <!-- <input type="text" id="searchInput" placeholder="Buscar educando..."> -->
                                     <input type="date" id="startDate"> - <input type="date" id="endDate">
                                     <button id="applyFilters">Aplicar Filtros</button>
                                 </div>
@@ -198,11 +198,12 @@
                                     <thead>
                                         <tr>
                                             <th style="display: none;">ID</th>
-                                            <th style="display: none;">Alfabetizador</th>
-                                            <th style="display: none;">Educando</th>
-                                            <th>Calificación</th>
-                                            <th>Avance</th>
-                                            <th>Dificultad</th>
+                                            <th style="display: none;">Nombre</th>
+                                            <th style="display: none;">Rol</th>
+                                            <th>Subproyecto</th>
+                                            <th>Institución</th>
+                                            <th>Municipio</th>
+                                            <th>Coordinación</th>
                                             <th>Fecha</th>
                                         </tr>
                                     </thead>
