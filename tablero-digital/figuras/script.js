@@ -122,14 +122,27 @@ function renderTable(data, page, rowsPerPage) {
   let end = start + rowsPerPage;
   let tableData = data.slice(start, end);
   let tableBody = "";
+  // Función para mapear el JSON a la estructura esperada en tableData
+  let jsonData = data;
+  tableData = Object.keys(jsonData).map((key, index) => ({
+  id: index + 1, // Puedes cambiarlo por la clave correcta si tienes una en tu JSON
+  nombre_alfabetizador: jsonData["COL 17"] + " " + jsonData["COL 18"]+" " + jsonData["COL 19"], // Nombre completo
+  rol: jsonData["COL 34"], // Nombre
+  subproyecto: jsonData["COL 21"], // Puede cambiarse según los datos reales
+  institucion: jsonData["COL 24"], // Número de educación
+  municipio: jsonData["COL 48"], // Motivo de situación
+  coordinacion: jsonData["COL 4"], // Motivo de situación
+  fecha_registro: jsonData["COL 20"], // Fecha de registro
+}));
   tableData.forEach((encuesta) => {
     tableBody += `<tr>
                     <td style="display: none;">${encuesta.id}</td>
                     <td style="display: none;">${encuesta.nombre_alfabetizador}</td>
-                    <td style="display: none;">${encuesta.nombre_educando}</td>
-                    <td>${encuesta.calificacion_sesion}</td>
+                    <td style="display: none;">${encuesta.rol}</td>
+                    <td>${encuesta.subproyecto}</td>
                     <td>${encuesta.avance_educando}</td>
-                    <td>${encuesta.dificultad_educando}</td>
+                    <td>${encuesta.municipio}</td>
+                    <td>${encuesta.coordinacion}</td>
                     <td>${encuesta.fecha_registro}</td>
                 </tr>`;
   });
