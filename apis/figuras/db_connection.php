@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost'; // Cambia esto según tu configuración
-$dbname = 'educandos';
+$dbname = 'sasabi';
 $username = 'consulta_user';
 $password = 'password123';
 
