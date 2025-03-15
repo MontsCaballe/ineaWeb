@@ -25,7 +25,8 @@ if (!isset($_FILES["csvFile"])) {
 }
 
 // 📂 Definir la ruta donde se guardará el archivo (cambiar según sea necesario)
-$uploadDir = "/home/ubuntu/ineaWeb/temp/"; // Ruta en Linux (asegúrate de tener permisos)
+$uploadDir = "/home/ubuntu/uploads/";
+
 $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
 
 // 🔹 Mover el archivo al directorio de destino
