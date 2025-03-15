@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir CSV a MySQL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            margin: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #response {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>📂 Subir CSV Figuras</h2>
+    <form id="uploadForm">
+        <input type="file" id="csvFile" accept=".csv" required>
+        <button type="submit">Subir CSV</button>
+    </form>
+
+    <div id="response"></div>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            let formData = new FormData();
+            let csvFile = document.getElementById("csvFile").files[0];
+
+            if (!csvFile) {
+                alert("Selecciona un archivo CSV");
+                return;
+            }
+
+            formData.append("csvFile", csvFile);
+
+            fetch("upload.php", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("response").innerText = data.message;
+            })
+            .catch(error => console.error("Error:", error));
+        });
+    </script>
+
+</body>
+</html>

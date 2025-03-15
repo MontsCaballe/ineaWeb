@@ -1,0 +1,91 @@
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Content-Type: application/json");
+
+// Configuración de la base de datos
+$host = 'localhost'; // Cambia esto según tu configuración
+$dbname = 'sasabi';
+$username = 'consulta_user';
+$password = 'password123';
+
+// Conectar a MySQL
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Verificar conexión
+if ($conn->connect_error) {
+    die(json_encode(["message" => "Error de conexión a la base de datos: " . $conn->connect_error]));
+}
+
+// Verificar si se subió un archivo
+if (!isset($_FILES["csvFile"])) {
+    echo json_encode(["message" => "No se ha subido ningún archivo."]);
+    exit;
+}
+
+// Obtener el archivo CSV
+$file = $_FILES["csvFile"]["tmp_name"];
+$handle = fopen($file, "r");
+
+if (!$handle) {
+    echo json_encode(["message" => "Error al abrir el archivo."]);
+    exit;
+}
+
+// 🔹 Saltar la primera línea si contiene encabezados
+$firstRow = true;
+
+// 📌 Preparar la consulta de inserción
+$sql = "INSERT INTO figurasALFANAY (
+    iCveIE, cDesIE, iCveCZ, cDesCZ, iCveMR, cDesMRegion, iCveUO, cDesUO, iCveCE, 
+    fRegistroCE, iCveSituacionCE, cDesSituacionCE, iNumEduCE, idFigOp, cRFC, cCURP, 
+    cPaterno, cMaterno, cNombre, fRegistro, iCveSubProyecto, cIdenSubPro, iCveDepend, 
+    cIdenDepen, iCveVincula, cDesVincula, iCveSituacion, cDesSituacion, fSituacion, 
+    iCveMotivoSit, cDesMSituacion, iCveRolFO, cDesRolFO, fRol, iCveAntEscolares, 
+    cDesAntEscolares, iTipoVial, cDesVialidad, cDomicilio, cNumExt, iTipoAseHum, 
+    cDesAsentamiento, cColonia, iCodPostal, cEMail, cTelefono, iCveMunicipio, 
+    cDesMunicipio, iCveLocalidad, cDesLocalidad, cSexo, fActualizaVista, fNacimiento, 
+    iNumHijos
+) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+// 📌 Preparar la consulta SQL
+$stmt = $conn->prepare($sql);
+
+// ❌ Verificar si la consulta se preparó correctamente
+if (!$stmt) {
+    echo json_encode(["message" => "Error en la consulta SQL: " . $conn->error]);
+    exit;
+}
+
+// 📂 Leer cada fila del CSV e insertar en la base de datos
+while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+    if ($firstRow) { // Saltar encabezados
+        $firstRow = false;
+        continue;
+    }
+
+    // 🔹 Asignar valores desde CSV
+    $stmt->bind_param(
+        "issississssssssssssssssssssssssssssssssssssssssssssssss", 
+        $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], 
+        $data[8], $data[9], $data[10], $data[11], $data[12], $data[13], $data[14], 
+        $data[15], $data[16], $data[17], $data[18], $data[19], $data[20], $data[21], 
+        $data[22], $data[23], $data[24], $data[25], $data[26], $data[27], $data[28], 
+        $data[29], $data[30], $data[31], $data[32], $data[33], $data[34], $data[35], 
+        $data[36], $data[37], $data[38], $data[39], $data[40], $data[41], $data[42], 
+        $data[43], $data[44], $data[45], $data[46], $data[47], $data[48], $data[49], 
+        $data[50], $data[51], $data[52], $data[53]
+    );
+
+    $stmt->execute();
+}
+
+// 🔹 Cerrar recursos
+fclose($handle);
+$stmt->close();
+$conn->close();
+
+// Responder con éxito
+echo json_encode(["message" => "✅ Archivo CSV importado correctamente."]);
+?>
