@@ -48,25 +48,32 @@ foreach ($delimiters as $d) {
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
 
-// 📌 Preparar la consulta de inserción
-$sql = "INSERT INTO figurasALFANAY (
-    iCveIE, cDesIE, iCveCZ, cDesCZ, iCveMR, cDesMRegion, iCveUO, cDesUO, iCveCE, 
-    fRegistroCE, iCveSituacionCE, cDesSituacionCE, iNumEduCE, idFigOp, cRFC, cCURP, 
-    cPaterno, cMaterno, cNombre, fRegistro, iCveSubProyecto, cIdenSubPro, iCveDepend, 
-    cIdenDepen, iCveVincula, cDesVincula, iCveSituacion, cDesSituacion, fSituacion, 
-    iCveMotivoSit, cDesMSituacion, iCveRolFO, cDesRolFO, fRol, iCveAntEscolares, 
-    cDesAntEscolares, iTipoVial, cDesVialidad, cDomicilio, cNumExt, iTipoAseHum, 
-    cDesAsentamiento, cColonia, iCodPostal, cEMail, cTelefono, iCveMunicipio, 
-    cDesMunicipio, iCveLocalidad, cDesLocalidad, cSexo, fActualizaVista, fNacimiento, 
-    iNumHijos
-) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-//  echo json_encode(["message" => "❌ dezspues del sql."]);
+// 📌 Arreglo con los nombres de las columnas
+$columnNames = [
+    "iCveIE", "cDesIE", "iCveCZ", "cDesCZ", "iCveMR", "cDesMRegion", "iCveUO", "cDesUO", "iCveCE",
+    "fRegistroCE", "iCveSituacionCE", "cDesSituacionCE", "iNumEduCE", "idFigOp", "cRFC", "cCURP",
+    "cPaterno", "cMaterno", "cNombre", "fRegistro", "iCveSubProyecto", "cIdenSubPro", "iCveDepend",
+    "cIdenDepen", "iCveVincula", "cDesVincula", "iCveSituacion", "cDesSituacion", "fSituacion",
+    "iCveMotivoSit", "cDesMSituacion", "iCveRolFO", "cDesRolFO", "fRol", "iCveAntEscolares",
+    "cDesAntEscolares", "iTipoVial", "cDesVialidad", "cDomicilio", "cNumExt", "iTipoAseHum",
+    "cDesAsentamiento", "cColonia", "iCodPostal", "cEMail", "cTelefono", "iCveMunicipio",
+    "cDesMunicipio", "iCveLocalidad", "cDesLocalidad", "cSexo", "fActualizaVista", "fNacimiento",
+    "iNumHijos"
+];
+
+// 📌 Crear la consulta SQL dinámicamente
+$placeholders = implode(", ", array_fill(0, count($columnNames), "?"));
+$sql = "INSERT INTO figurasALFANAY (" . implode(", ", $columnNames) . ") VALUES ($placeholders)";
+
 // 📌 Preparar la consulta SQL
 $stmt = $conn->prepare($sql);
 if (!$stmt) {
+    error_log("Error en la consulta SQL: " . $conn->error);
     echo json_encode(["message" => "❌ Error en la consulta SQL: " . $conn->error]);
     exit;
 }
+
+echo json_encode(["message" => "✅ Consulta preparada correctamente."]);
 
 // 📂 Leer cada fila del CSV e insertar en la base de datos
 $linea = 1;
