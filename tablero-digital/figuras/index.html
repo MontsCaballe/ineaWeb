@@ -84,6 +84,36 @@
             animation: fadeIn 0.3s ease-in-out;
         }
 
+        .summary-container {
+            width: 40%;
+            float: left;
+            margin-left: 5px;
+            margin-top: 10%;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .summary-table th,
+        .summary-table td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .estado-row {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .estado-row:hover {
+            background-color: #e0e0e0;
+        }
+
+
         /* Animación de aparición */
         @keyframes fadeIn {
             from {
@@ -208,14 +238,15 @@
                                 <li><a href="index.html" id="reporte1">Seguimiento de Indicadores General</a></li>
                                 <li><a href="municipio.html" id="reporte2">Seguimiento de Indicadores por Municipio</a>
                                 </li>
-                                <li><a href="coordinacion.html" id="reporte3">Seguimiento de Indicadores por Coordinación</a>
+                                <li><a href="coordinacion.html" id="reporte3">Seguimiento de Indicadores por
+                                        Coordinación</a>
                                 </li>
                                 <li><a href="plantel.html" id="reporte4">Seguimiento de Indicadores por Plantel</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-8">
                         <div id="dashboard" class="col-lg-12" style="display: none;">
                             <div class="col-lg-12">
                             </div>
@@ -262,9 +293,16 @@
                                 </table>
                                 <div id="pagination"></div>
                             </div>
-
-
-
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="col-lg-12">
+                        </div>
+                        <div class="col-lg-12">
+                        </div>
+                        <div class="col-lg-12">
+                            <br>
+                            <div id="summaryContainer" class="summary-container"></div>
                         </div>
                     </div>
                 </div>

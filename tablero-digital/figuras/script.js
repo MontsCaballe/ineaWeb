@@ -136,6 +136,8 @@ function loadData() {
         renderTable(allData, currentPage, rowsPerPage);
         setupPagination(allData);
         updateCharts(allData);
+        generateAccordionTable(allData);
+
       } catch (error) {
         console.error("Error al convertir JSON:", error);
       }
@@ -293,58 +295,6 @@ function updateCharts(data) {
   });
 }
 
-// // 🔹 Función para actualizar gráficos después de cargar datos o filtrar
-// function updateCharts(data) {
-//   let labels = data.map((item) => item.fRegistro.split(" ")[0]);
-//   let avances = data.map((item) =>
-//     item.avance_educando === "Buena"
-//       ? 80
-//       : item.avance_educando === "Regular"
-//       ? 50
-//       : 30
-//   );
-
-//   if (currentChart) {
-//     currentChart.destroy();
-//   }
-
-//   let ctx = document.getElementById("chartGeneral").getContext("2d");
-//   currentChart = new Chart(ctx, {
-//     type: "line",
-//     data: {
-//       labels: labels,
-//       datasets: [
-//         {
-//           label: "Calificación",
-//           data: avances,
-//           borderColor: "blue",
-//           fill: false,
-//           tension: 0.1,
-//         },
-//       ],
-//     },
-//   });
-// }
-// function updateCharts(data) {
-//   let labels = [];
-//   let avances = [];
-//   let dificultades = { Alta: 0, Media: 0, Baja: 0 };
-
-//   data.forEach((encuesta) => {
-//     labels.push(encuesta.fecha_registro);
-//     avances.push(
-//       encuesta.avance_educando === "Buena"
-//         ? 80
-//         : encuesta.avance_educando === "Regular"
-//         ? 50
-//         : 30
-//     );
-//     dificultades[encuesta.dificultad_educando]++;
-//   });
-
-// //   generateCharts(labels, avances, dificultades);
-// //   generateLineChart(labels, avances);
-// }
 
 function checkLogin() {
   const inputPassword = document.getElementById("password").value;
@@ -425,4 +375,68 @@ function exportTableToExcel(tableId, fileName = "figurasOp.xlsx") {
   // Convertir la tabla a Excel y descargar
   let wb = XLSX.utils.table_to_book(tempTable, { sheet: "Datos Exportados" });
   XLSX.writeFile(wb, fileName);
+}
+
+function generateAccordionTable(data) {
+  let summary = {};
+
+  // 🔹 Agrupar por Estado y luego por Plantel
+  data.forEach(item => {
+    console.log(item);
+      let estado = item.cDesCZ; // Estado
+      let plantel = item.cIdenDepen; // Plantel
+
+      if (!summary[estado]) {
+          summary[estado] = {};
+      }
+      if (!summary[estado][plantel]) {
+          summary[estado][plantel] = 0;
+      }
+      summary[estado][plantel] += 1; // Contar registros
+  });
+
+  // 🔹 Generar HTML de la tabla dinámica con acordeón
+  let tableHTML = `<table border="1" class="summary-table">
+                      <thead>
+                          <tr>
+                              <th>Coordinación de Zona</th>
+                              <th>Plantel</th>
+                              <th>Total Figuras</th>
+                          </tr>
+                      </thead>
+                      <tbody>`;
+
+  Object.keys(summary).forEach((estado, estadoIndex) => {
+      let estadoTotal = 0;
+      let estadoRowSpan = Object.keys(summary[estado]).length;
+
+      tableHTML += `<tr class="estado-row" onclick="togglePlanteles('${estadoIndex}')">
+                      <td colspan="2"><strong>▶ ${estado}</strong></td>
+                      <td><strong>${Object.values(summary[estado]).reduce((a, b) => a + b, 0)}</strong></td>
+                    </tr>`;
+
+      // 🔹 Planteles ocultos por defecto
+      Object.keys(summary[estado]).forEach((plantel) => {
+          let plantelTotal = summary[estado][plantel];
+
+          tableHTML += `<tr class="plantel-row plantel-${estadoIndex}" style="display: none;">
+                          <td></td>
+                          <td>${plantel}</td>
+                          <td>${plantelTotal}</td>
+                        </tr>`;
+      });
+  });
+
+  tableHTML += `</tbody></table>`;
+
+  // 🔹 Insertar la tabla en el HTML
+  document.getElementById("summaryContainer").innerHTML = tableHTML;
+}
+
+// 🔹 Función para expandir/colapsar los planteles al hacer clic en el estado
+function togglePlanteles(estadoIndex) {
+  let planteles = document.querySelectorAll(`.plantel-${estadoIndex}`);
+  planteles.forEach(row => {
+      row.style.display = (row.style.display === "none") ? "table-row" : "none";
+  });
 }
