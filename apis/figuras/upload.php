@@ -73,7 +73,7 @@ if (!$stmt) {
     exit;
 }
 
-echo json_encode(["message" => "✅ Consulta preparada correctamente."]);
+// echo json_encode(["message" => "✅ Consulta preparada correctamente."]);
 
 // 📂 Leer cada fila del CSV e insertar en la base de datos
 $linea = 1;
