@@ -355,9 +355,74 @@ function checkLogin() {
     document.getElementById("login-modal").style.display = "none";
     document.getElementById("modal-overlay").style.display = "none";
     let table = document.getElementById("encuestasTable");
-    let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
-    XLSX.writeFile(wb, "figurasOp.xlsx");
+    // let wb = XLSX.utils.table_to_book(table, { sheet: "Figuras Operativas" });
+
+    exportTableToExcel(table,"figurasOp.xlsx");
+    // XLSX.writeFile(wb, "figurasOp.xlsx");
   } else {
     loginMessage.textContent = "Contraseña incorrecta. Inténtalo de nuevo.";
   }
+}
+
+function exportTableToExcel(tableId, fileName = "figurasOp.xlsx") {
+  // Obtener la tabla original por ID
+  let originalTable = document.getElementById("encuestasTable");
+
+  if (!originalTable) {
+      console.error("⚠ No se encontró la tabla con ID:", "encuestasTable");
+      return;
+  }
+
+  // Obtener los datos filtrados (si existen filtros)
+  let filteredData = allData; // Asumimos que allData contiene todos los datos
+
+  if ($("#searchInput").length) {
+      let searchValue = $("#searchInput").val().toUpperCase();
+      let startDate = $("#startDate").val();
+      let endDate = $("#endDate").val();
+
+      filteredData = allData.filter((item) => {
+          let matchesSearch = item.cDesMunicipio.toLowerCase().includes(searchValue);
+          let matchesDate = true;
+
+          if (startDate && endDate) {
+              matchesDate = item.fRegistro >= startDate && item.fRegistro <= endDate;
+          }
+          return matchesSearch && matchesDate;
+      });
+  }
+
+  // Crear una tabla temporal para la exportación
+  let tempTable = document.createElement("table");
+  let thead = document.createElement("thead");
+  let tbody = document.createElement("tbody");
+
+  // Clonar los encabezados de la tabla original
+  let headerRow = originalTable.querySelector("thead tr").cloneNode(true);
+  thead.appendChild(headerRow);
+  tempTable.appendChild(thead);
+
+  // Insertar los registros filtrados en la tabla temporal
+  filteredData.forEach((item) => {
+      let row = document.createElement("tr");
+
+      row.innerHTML = `
+          <td>${item.iCveIE}</td>
+          <td>${item.cPaterno} ${item.cMaterno} ${item.cNombre}</td>
+          <td>${item.cDesRolFO}</td>
+          <td>${item.cIdenSubPro}</td>
+          <td>${item.cIdenDepen}</td>
+          <td>${item.cDesMunicipio}</td>
+          <td>${item.cDesCZ}</td>
+          <td>${item.fRegistro}</td>
+      `;
+
+      tbody.appendChild(row);
+  });
+
+  tempTable.appendChild(tbody);
+
+  // Convertir la tabla a Excel y descargar
+  let wb = XLSX.utils.table_to_book(tempTable, { sheet: "Datos Exportados" });
+  XLSX.writeFile(wb, fileName);
 }
