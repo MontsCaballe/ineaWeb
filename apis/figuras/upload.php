@@ -60,12 +60,13 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
 
     // 🔹 Verificar número de columnas
     if (count($data) !== 54) {
-        $errores[] = "⚠️ Línea $linea: Se esperaban 54 columnas, pero se encontraron " . count($data);
+        $errores[] = "⚠️ Línea $linea: Se esperaban 54 valores, pero se encontraron " . count($data);
+        error_log("⚠️ Línea $linea: Se esperaban 54 valores, pero se encontraron " . count($data));
         $errorCount++;
         continue;
     }
 
-    // 🔹 Escapar los valores y convertir `NULL`
+    // 🔹 Escapar valores y manejar NULL correctamente
     foreach ($data as $key => $value) {
         $data[$key] = empty(trim($value)) ? "NULL" : "'" . $conn->real_escape_string($value) . "'";
     }
@@ -73,7 +74,7 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
     // 🔹 Construir la consulta SQL manualmente
     $sql = "INSERT INTO figurasALFANAY VALUES (" . implode(", ", $data) . ")";
 
-    // 🔹 Log de depuración para ver la consulta SQL
+    // 🔹 Log de depuración para ver la consulta SQL antes de ejecutarla
     error_log("SQL a ejecutar en línea $linea: " . $sql);
 
     // 🔹 Ejecutar la consulta
