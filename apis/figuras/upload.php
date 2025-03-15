@@ -113,6 +113,8 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
         echo json_encode(["message" => "⚠️ Error en la línea $linea: " . $stmt->error]);
     }
 
+    echo json_encode(["message" => "✅ Despuesde execute ."]);
+
     $linea++;
 }
 
