@@ -108,13 +108,14 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
         $data[43], $data[44], $data[45], $data[46], $data[47], $data[48], $data[49], 
         $data[50], $data[51], $data[52], $data[53]
     );
+    echo json_encode(["message" => "✅ Despuesde bind ."]);
+
 
     if (!$stmt->execute()) {
         echo json_encode(["message" => "⚠️ Error en la línea $linea: " . $stmt->error]);
     }
 
-    echo json_encode(["message" => "✅ Despuesde execute ."]);
-
+   
     $linea++;
 }
 
