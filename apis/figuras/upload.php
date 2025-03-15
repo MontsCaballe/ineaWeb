@@ -97,6 +97,8 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
     }
 
     echo json_encode(["message" => "✅ Despuesde Reemplazar valores vacíos con `NULL` ."]);
+    echo json_encode(["message" => "Datos en la línea $linea: " . json_encode($data)]);
+
     // 🔹 Asignar valores desde CSV
     $stmt->bind_param(
         "issississssssssssssssssssssssssssssssssssssssssssssssss",
