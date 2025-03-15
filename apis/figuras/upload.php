@@ -71,6 +71,7 @@ if (!$stmt) {
 // 📂 Leer cada fila del CSV e insertar en la base de datos
 $linea = 1;
 while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
+    echo json_encode(["message" => "❌ En el while."]);
     if ($firstRow) { // Saltar encabezados
         $firstRow = false;
         continue;
