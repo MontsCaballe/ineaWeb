@@ -4,14 +4,14 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
-// Configuración de la base de datos
-$host = 'localhost'; // Cambia esto según tu configuración
+// 📌 Configuración de la base de datos
+$host = 'localhost';
 $dbname = 'sasabi';
 $username = 'consulta_user';
 $password = 'password123';
 
 // 🔹 Conectar a MySQL
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($host, $username, $password, $dbname);
 
 // ❌ Verificar conexión
 if ($conn->connect_error) {
@@ -24,14 +24,18 @@ if (!isset($_FILES["csvFile"])) {
     exit;
 }
 
-// 📂 Definir la ruta donde se guardará el archivo (cambiar según sea necesario)
+// 📂 Definir la ruta de almacenamiento dentro de `/home/ubuntu/uploads/`
 $uploadDir = "/home/ubuntu/uploads/";
-
 $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
+
+// 🔹 Verificar si la carpeta existe y crearla si no
+if (!is_dir($uploadDir)) {
+    mkdir($uploadDir, 0755, true);
+}
 
 // 🔹 Mover el archivo al directorio de destino
 if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
-    echo json_encode(["message" => "Error al mover el archivo al directorio de destino ($uploadDir)."]);
+    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos."]);
     exit;
 }
 
@@ -39,7 +43,7 @@ if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
 $handle = fopen($uploadFile, "r");
 
 if (!$handle) {
-    echo json_encode(["message" => "Error al abrir el archivo en $uploadFile."]);
+    echo json_encode(["message" => "❌ Error al abrir el archivo en $uploadFile."]);
     exit;
 }
 
@@ -64,7 +68,7 @@ $stmt = $conn->prepare($sql);
 
 // ❌ Verificar si la consulta se preparó correctamente
 if (!$stmt) {
-    echo json_encode(["message" => "Error en la consulta SQL: " . $conn->error]);
+    echo json_encode(["message" => "❌ Error en la consulta SQL: " . $conn->error]);
     exit;
 }
 
