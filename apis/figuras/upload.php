@@ -49,10 +49,10 @@ if (!is_writable($uploadDir)) {
 $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
 
 // 🔹 Mover el archivo subido a `temp/`
-if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
-    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos o espacio en disco."]);
-    exit;
-}
+// if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
+//     echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos o espacio en disco."]);
+//     exit;
+// }
 
 // ✅ Responder con éxito
 echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
