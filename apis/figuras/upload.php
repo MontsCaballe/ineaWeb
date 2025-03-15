@@ -96,10 +96,15 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
     foreach ($data as $key => $value) {
         $data[$key] = empty(trim($value)) ? NULL : $value;
     }
+    foreach ($data as $key => $value) {
+        if (empty(trim($value))) {
+            $data[$key] = is_numeric($value) ? 0 : "";
+        }
+    }
 
-    echo json_encode(["message" => "✅ Despuesde Reemplazar valores vacíos con `NULL` ."]);
-    echo json_encode(["message" => "Datos en la línea $linea: " . json_encode($data)]);
-    echo json_encode(["message" => "⚠️ Se esperaban 54 columnas, pero se encontraron " . count($data)]);
+    // echo json_encode(["message" => "✅ Despuesde Reemplazar valores vacíos con `NULL` ."]);
+    // echo json_encode(["message" => "Datos en la línea $linea: " . json_encode($data)]);
+    // echo json_encode(["message" => "⚠️ Se esperaban 54 columnas, pero se encontraron " . count($data)]);
 
     // 🔹 Asignar valores desde CSV
     $stmt->bind_param(
