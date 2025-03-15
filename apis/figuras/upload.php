@@ -55,7 +55,7 @@ $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
 // }
 
 // ✅ Responder con éxito
-echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
+// echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
 // 📂 Abrir el archivo CSV desde la nueva ubicación
 $handle = fopen($uploadFile, "r");
 
@@ -63,7 +63,7 @@ if (!$handle) {
     echo json_encode(["message" => "❌ Error al abrir el archivo en $uploadFile."]);
     exit;
 }
-echo json_encode(["message" => "✅ Archivo abierto correctamente "]);
+// echo json_encode(["message" => "✅ Archivo abierto correctamente "]);
 
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
