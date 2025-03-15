@@ -24,21 +24,29 @@ if (!isset($_FILES["csvFile"])) {
     exit;
 }
 
-// 📂 Definir la ruta de almacenamiento dentro de `/home/ubuntu/uploads/`
+// ❌ Verificar si se subió un archivo
+if (!isset($_FILES["csvFile"])) {
+    echo json_encode(["message" => "No se ha subido ningún archivo."]);
+    exit;
+}
+
+// 📂 Cambiar la ruta de destino
 $uploadDir = "/home/ubuntu/uploads/";
 $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
 
-// 🔹 Verificar si la carpeta existe y crearla si no
-if (!is_dir($uploadDir)) {
-    mkdir($uploadDir, 0755, true);
+// 🔹 Verificar si la carpeta es escribible
+if (!is_writable($uploadDir)) {
+    echo json_encode(["message" => "❌ La carpeta $uploadDir no tiene permisos de escritura."]);
+    exit;
 }
 
 // 🔹 Mover el archivo al directorio de destino
 if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
-    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos."]);
+    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir."]);
     exit;
 }
 
+echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
 // 📂 Abrir el archivo CSV desde la nueva ubicación
 $handle = fopen($uploadFile, "r");
 
