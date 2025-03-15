@@ -13,14 +13,13 @@ $password = 'password123';
 // 🔹 Conectar a MySQL
 $conn = new mysqli($host, $username, $password, $dbname);
 
-// ❌ Verificar conexión
 if ($conn->connect_error) {
-    die(json_encode(["message" => "Error de conexión a la base de datos: " . $conn->connect_error]));
+    die(json_encode(["message" => "❌ Error de conexión a la base de datos: " . $conn->connect_error]));
 }
 
 // ❌ Verificar si se subió un archivo
 if (!isset($_FILES["csvFile"])) {
-    echo json_encode(["message" => "No se ha subido ningún archivo."]);
+    echo json_encode(["message" => "❌ No se ha subido ningún archivo."]);
     exit;
 }
 
@@ -30,22 +29,32 @@ if (!isset($_FILES["csvFile"])) {
     exit;
 }
 
-// 📂 Cambiar la ruta de destino
-$uploadDir = "/home/ubuntu/uploads/";
+// 📂 Obtener la ruta del directorio actual (donde está `upload.php`)
+$uploadDir = __DIR__ . "/temp/";
+
+// 🔹 Crear la carpeta `temp/` si no existe
+if (!is_dir($uploadDir)) {
+    if (!mkdir($uploadDir, 0775, true)) {
+        echo json_encode(["message" => "❌ No se pudo crear la carpeta $uploadDir. Verifica permisos."]);
+        exit;
+    }
+}
+
+// 🔹 Asegurar que la carpeta `temp/` tenga permisos de escritura
+if (!is_writable($uploadDir)) {
+    chmod($uploadDir, 0775);
+}
+
+// 📂 Definir la ruta del archivo dentro de `temp/`
 $uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
 
-// 🔹 Verificar si la carpeta es escribible
-if (!is_writable($uploadDir)) {
-    echo json_encode(["message" => "❌ La carpeta $uploadDir no tiene permisos de escritura."]);
-    exit;
-}
-
-// 🔹 Mover el archivo al directorio de destino
+// 🔹 Mover el archivo subido a `temp/`
 if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
-    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir."]);
+    echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos o espacio en disco."]);
     exit;
 }
 
+// ✅ Responder con éxito
 echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
 // 📂 Abrir el archivo CSV desde la nueva ubicación
 $handle = fopen($uploadFile, "r");
