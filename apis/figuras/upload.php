@@ -4,7 +4,7 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 
-// 📌 Configuración de la base de datos
+// 📌 Configuración de la Base de Datos
 $host = 'localhost';
 $dbname = 'sasabi';
 $username = 'consulta_user';
@@ -12,58 +12,38 @@ $password = 'password123';
 
 // 🔹 Conectar a MySQL
 $conn = new mysqli($host, $username, $password, $dbname);
-
 if ($conn->connect_error) {
     die(json_encode(["message" => "❌ Error de conexión a la base de datos: " . $conn->connect_error]));
 }
 
-// ❌ Verificar si se subió un archivo
-if (!isset($_FILES["csvFile"])) {
-    echo json_encode(["message" => "❌ No se ha subido ningún archivo."]);
+// 📂 Ruta del archivo CSV (ajustar si es necesario)
+$uploadFile = __DIR__ . "/temp/" . "archivo.csv"; // Cambia esto por el nombre real
+
+// 🔹 Verificar si el archivo existe
+if (!file_exists($uploadFile)) {
+    echo json_encode(["message" => "❌ No se encontró el archivo en $uploadFile."]);
     exit;
 }
 
-// ❌ Verificar si se subió un archivo
-if (!isset($_FILES["csvFile"])) {
-    echo json_encode(["message" => "No se ha subido ningún archivo."]);
-    exit;
-}
-
-// 📂 Obtener la ruta del directorio actual (donde está `upload.php`)
-$uploadDir = __DIR__ . "/temp/";
-
-// 🔹 Crear la carpeta `temp/` si no existe
-if (!is_dir($uploadDir)) {
-    if (!mkdir($uploadDir, 0775, true)) {
-        echo json_encode(["message" => "❌ No se pudo crear la carpeta $uploadDir. Verifica permisos."]);
-        exit;
-    }
-}
-
-// 🔹 Asegurar que la carpeta `temp/` tenga permisos de escritura
-if (!is_writable($uploadDir)) {
-    chmod($uploadDir, 0775);
-}
-
-// 📂 Definir la ruta del archivo dentro de `temp/`
-$uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
-
-// 🔹 Mover el archivo subido a `temp/`
-// if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
-//     echo json_encode(["message" => "❌ Error al mover el archivo a $uploadDir. Verifica permisos o espacio en disco."]);
-//     exit;
-// }
-
-// ✅ Responder con éxito
-// echo json_encode(["message" => "✅ Archivo subido correctamente a $uploadFile."]);
-// 📂 Abrir el archivo CSV desde la nueva ubicación
+// 📂 Abrir el archivo CSV
 $handle = fopen($uploadFile, "r");
-
 if (!$handle) {
     echo json_encode(["message" => "❌ Error al abrir el archivo en $uploadFile."]);
     exit;
 }
-// echo json_encode(["message" => "✅ Archivo abierto correctamente "]);
+
+// 🔹 Detectar el delimitador (`,`, `;`, `\t`)
+$firstLine = fgets($handle);
+rewind($handle);
+$delimiters = [",", ";", "\t"];
+$delimiter = ","; // Valor por defecto
+
+foreach ($delimiters as $d) {
+    if (substr_count($firstLine, $d) > 0) {
+        $delimiter = $d;
+        break;
+    }
+}
 
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
@@ -83,23 +63,33 @@ $sql = "INSERT INTO figurasALFANAY (
 
 // 📌 Preparar la consulta SQL
 $stmt = $conn->prepare($sql);
-
-// ❌ Verificar si la consulta se preparó correctamente
 if (!$stmt) {
     echo json_encode(["message" => "❌ Error en la consulta SQL: " . $conn->error]);
     exit;
 }
 
 // 📂 Leer cada fila del CSV e insertar en la base de datos
-while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+$linea = 1;
+while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
     if ($firstRow) { // Saltar encabezados
         $firstRow = false;
         continue;
     }
 
+    // Verificar si la cantidad de columnas es correcta
+    if (count($data) !== 54) {
+        echo json_encode(["message" => "⚠️ Error en la línea $linea: Se esperaban 54 columnas, pero se encontraron " . count($data)]);
+        continue;
+    }
+
+    // 🔹 Reemplazar valores vacíos con `NULL`
+    foreach ($data as $key => $value) {
+        $data[$key] = empty(trim($value)) ? NULL : $value;
+    }
+
     // 🔹 Asignar valores desde CSV
     $stmt->bind_param(
-        "issississssssssssssssssssssssssssssssssssssssssssssssss", 
+        "issississssssssssssssssssssssssssssssssssssssssssssssss",
         $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], 
         $data[8], $data[9], $data[10], $data[11], $data[12], $data[13], $data[14], 
         $data[15], $data[16], $data[17], $data[18], $data[19], $data[20], $data[21], 
@@ -110,7 +100,11 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
         $data[50], $data[51], $data[52], $data[53]
     );
 
-    $stmt->execute();
+    if (!$stmt->execute()) {
+        echo json_encode(["message" => "⚠️ Error en la línea $linea: " . $stmt->error]);
+    }
+
+    $linea++;
 }
 
 // 🔹 Cerrar recursos
@@ -119,5 +113,5 @@ $stmt->close();
 $conn->close();
 
 // ✅ Responder con éxito
-echo json_encode(["message" => "✅ Archivo CSV importado correctamente desde $uploadFile."]);
+echo json_encode(["message" => "✅ Archivo CSV importado correctamente."]);
 ?>
