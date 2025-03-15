@@ -263,7 +263,7 @@ function updateCharts(data) {
           labels: labels,
           datasets: [
               {
-                  label: "Cantidad de registros",
+                  label: "Altas por día",
                   data: avances,
                   borderColor: "blue",
                   backgroundColor: "rgba(0, 123, 255, 0.3)",
@@ -279,13 +279,13 @@ function updateCharts(data) {
                   beginAtZero: true,
                   title: {
                       display: true,
-                      text: "Cantidad de fRegistro",
+                      text: "Altas Figuras",
                   },
               },
               x: {
                   title: {
                       display: true,
-                      text: "Fechas",
+                      text: "Evolución por Fecha",
                   },
               },
           },
