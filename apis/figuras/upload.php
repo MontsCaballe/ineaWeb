@@ -48,92 +48,50 @@ foreach ($delimiters as $d) {
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
 
-// 📌 Arreglo con los nombres de las columnas
-$columnNames = [
-    "iCveIE", "cDesIE", "iCveCZ", "cDesCZ", "iCveMR", "cDesMRegion", "iCveUO", "cDesUO", "iCveCE",
-    "fRegistroCE", "iCveSituacionCE", "cDesSituacionCE", "iNumEduCE", "idFigOp", "cRFC", "cCURP",
-    "cPaterno", "cMaterno", "cNombre", "fRegistro", "iCveSubProyecto", "cIdenSubPro", "iCveDepend",
-    "cIdenDepen", "iCveVincula", "cDesVincula", "iCveSituacion", "cDesSituacion", "fSituacion",
-    "iCveMotivoSit", "cDesMSituacion", "iCveRolFO", "cDesRolFO", "fRol", "iCveAntEscolares",
-    "cDesAntEscolares", "iTipoVial", "cDesVialidad", "cDomicilio", "cNumExt", "iTipoAseHum",
-    "cDesAsentamiento", "cColonia", "iCodPostal", "cEMail", "cTelefono", "iCveMunicipio",
-    "cDesMunicipio", "iCveLocalidad", "cDesLocalidad", "cSexo", "fActualizaVista", "fNacimiento",
-    "iNumHijos"
-];
-
-// 📌 Crear la consulta SQL dinámicamente
-$placeholders = implode(", ", array_fill(0, count($columnNames), "?"));
-$sql = "INSERT INTO figurasALFANAY (" . implode(", ", $columnNames) . ") VALUES ($placeholders)";
-
-// 📌 Preparar la consulta SQL
-$stmt = $conn->prepare($sql);
-if (!$stmt) {
-    error_log("Error en la consulta SQL: " . $conn->error);
-    echo json_encode(["message" => "❌ Error en la consulta SQL: " . $conn->error]);
-    exit;
-}
-
-// echo json_encode(["message" => "✅ Consulta preparada correctamente."]);
-
-// 📂 Leer cada fila del CSV e insertar en la base de datos
 $linea = 1;
-// echo json_encode(["message" => "❌ antes del while."]);
+$successCount = 0;
+$errorCount = 0;
+$errores = [];
+
 while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
-    // echo json_encode(["message" => "❌ En el while."]);
-    if ($firstRow) { // Saltar encabezados
+    if ($firstRow) {
         $firstRow = false;
         continue;
     }
 
-    // Verificar si la cantidad de columnas es correcta
+    // 🔹 Verificar número de columnas
     if (count($data) !== 54) {
-        echo json_encode(["message" => "⚠️ Error en la línea $linea: Se esperaban 54 columnas, pero se encontraron " . count($data)]);
+        $errores[] = "⚠️ Línea $linea: Se esperaban 54 columnas, pero se encontraron " . count($data);
+        $errorCount++;
         continue;
     }
-    
 
-    // 🔹 Reemplazar valores vacíos con `NULL`
+    // 🔹 Escapar los valores y convertir `NULL`
     foreach ($data as $key => $value) {
-        $data[$key] = empty(trim($value)) ? NULL : $value;
-    }
-    foreach ($data as $key => $value) {
-        if (empty(trim($value))) {
-            $data[$key] = is_numeric($value) ? 0 : "";
-        }
+        $data[$key] = empty(trim($value)) ? "NULL" : "'" . $conn->real_escape_string($value) . "'";
     }
 
-    // echo json_encode(["message" => "✅ Despuesde Reemplazar valores vacíos con `NULL` ."]);
-    // echo json_encode(["message" => "Datos en la línea $linea: " . json_encode($data)]);
-    // echo json_encode(["message" => "⚠️ Se esperaban 54 columnas, pero se encontraron " . count($data)]);
+    // 🔹 Construir la consulta SQL manualmente
+    $sql = "INSERT INTO figurasALFANAY VALUES (" . implode(", ", $data) . ")";
 
-    // 🔹 Asignar valores desde CSV
-    $stmt->bind_param(
-        "sssssssssssssssssssssssssssssssssssssssssssssssssssssss",
-        $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], 
-        $data[8], $data[9], $data[10], $data[11], $data[12], $data[13], $data[14], 
-        $data[15], $data[16], $data[17], $data[18], $data[19], $data[20], $data[21], 
-        $data[22], $data[23], $data[24], $data[25], $data[26], $data[27], $data[28], 
-        $data[29], $data[30], $data[31], $data[32], $data[33], $data[34], $data[35], 
-        $data[36], $data[37], $data[38], $data[39], $data[40], $data[41], $data[42], 
-        $data[43], $data[44], $data[45], $data[46], $data[47], $data[48], $data[49], 
-        $data[50], $data[51], $data[52], $data[53]
-    );
-   
-
-
-    if (!$stmt->execute()) {
-        echo json_encode(["message" => "⚠️ Error en la línea $linea: " . $stmt->error]);
+    if (!$conn->query($sql)) {
+        $errores[] = "⚠️ Línea $linea: " . $conn->error;
+        $errorCount++;
+    } else {
+        $successCount++;
     }
 
-   
     $linea++;
 }
 
 // 🔹 Cerrar recursos
 fclose($handle);
-$stmt->close();
 $conn->close();
 
 // ✅ Responder con éxito
-echo json_encode(["message" => "✅ Archivo CSV importado correctamente."]);
-?>
+echo json_encode([
+    "message" => "✅ Importación completada.",
+    "insertados" => $successCount,
+    "errores" => $errorCount,
+    "detalleErrores" => $errores
+]);
