@@ -79,7 +79,7 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
 
     // 🔹 Ejecutar la consulta
     if (!$conn->query($sql)) {
-        $errores[] = "⚠️ Línea $linea: " . $conn->error;
+        $errores[] = "⚠️ Linea $sql: " . $conn->error;
         error_log("⚠️ Error en la línea $linea: " . $conn->error);
         $errorCount++;
     } else {
