@@ -10,26 +10,35 @@ $dbname = 'sasabi';
 $username = 'consulta_user';
 $password = 'password123';
 
-// Conectar a MySQL
+// 🔹 Conectar a MySQL
 $conn = new mysqli($servername, $username, $password, $database);
 
-// Verificar conexión
+// ❌ Verificar conexión
 if ($conn->connect_error) {
     die(json_encode(["message" => "Error de conexión a la base de datos: " . $conn->connect_error]));
 }
 
-// Verificar si se subió un archivo
+// ❌ Verificar si se subió un archivo
 if (!isset($_FILES["csvFile"])) {
     echo json_encode(["message" => "No se ha subido ningún archivo."]);
     exit;
 }
 
-// Obtener el archivo CSV
-$file = $_FILES["csvFile"]["tmp_name"];
-$handle = fopen($file, "r");
+// 📂 Definir la ruta donde se guardará el archivo (cambiar según sea necesario)
+$uploadDir = "/root/"; // Ruta en Linux (asegúrate de tener permisos)
+$uploadFile = $uploadDir . basename($_FILES["csvFile"]["name"]);
+
+// 🔹 Mover el archivo al directorio de destino
+if (!move_uploaded_file($_FILES["csvFile"]["tmp_name"], $uploadFile)) {
+    echo json_encode(["message" => "Error al mover el archivo al directorio de destino ($uploadDir)."]);
+    exit;
+}
+
+// 📂 Abrir el archivo CSV desde la nueva ubicación
+$handle = fopen($uploadFile, "r");
 
 if (!$handle) {
-    echo json_encode(["message" => "Error al abrir el archivo."]);
+    echo json_encode(["message" => "Error al abrir el archivo en $uploadFile."]);
     exit;
 }
 
@@ -86,6 +95,6 @@ fclose($handle);
 $stmt->close();
 $conn->close();
 
-// Responder con éxito
-echo json_encode(["message" => "✅ Archivo CSV importado correctamente."]);
+// ✅ Responder con éxito
+echo json_encode(["message" => "✅ Archivo CSV importado correctamente desde $uploadFile."]);
 ?>
