@@ -63,6 +63,7 @@ if (!$handle) {
     echo json_encode(["message" => "❌ Error al abrir el archivo en $uploadFile."]);
     exit;
 }
+echo json_encode(["message" => "✅ Archivo abierto correctamente "]);
 
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
