@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 // 📂 Ruta del archivo CSV (ajustar si es necesario)
-$uploadFile = __DIR__ . "/temp/" . "archivo.csv"; // Cambia esto por el nombre real
+$uploadFile = __DIR__ . "/temp/" . "figurasOperativasAALFANAYF.csv"; // Cambia esto por el nombre real
 
 // 🔹 Verificar si el archivo existe
 if (!file_exists($uploadFile)) {
