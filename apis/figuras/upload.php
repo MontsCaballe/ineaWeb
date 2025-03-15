@@ -16,8 +16,8 @@ if ($conn->connect_error) {
     die(json_encode(["message" => "❌ Error de conexión a la base de datos: " . $conn->connect_error]));
 }
 
-// 📂 Ruta del archivo CSV (ajustar si es necesario)
-$uploadFile = __DIR__ . "/temp/" . "figurasOperativasAALFANAYF.csv"; // Cambia esto por el nombre real
+// 📂 Ruta del archivo CSV
+$uploadFile = __DIR__ . "/temp/figurasOperativasAALFANAYF.csv";
 
 // 🔹 Verificar si el archivo existe
 if (!file_exists($uploadFile)) {
@@ -36,7 +36,7 @@ if (!$handle) {
 $firstLine = fgets($handle);
 rewind($handle);
 $delimiters = [",", ";", "\t"];
-$delimiter = ","; // Valor por defecto
+$delimiter = ",";
 
 foreach ($delimiters as $d) {
     if (substr_count($firstLine, $d) > 0) {
@@ -47,7 +47,6 @@ foreach ($delimiters as $d) {
 
 // 🔹 Saltar la primera línea si contiene encabezados
 $firstRow = true;
-
 $linea = 1;
 $successCount = 0;
 $errorCount = 0;
@@ -74,8 +73,13 @@ while (($data = fgetcsv($handle, 1000, $delimiter)) !== FALSE) {
     // 🔹 Construir la consulta SQL manualmente
     $sql = "INSERT INTO figurasALFANAY VALUES (" . implode(", ", $data) . ")";
 
+    // 🔹 Log de depuración para ver la consulta SQL
+    error_log("SQL a ejecutar en línea $linea: " . $sql);
+
+    // 🔹 Ejecutar la consulta
     if (!$conn->query($sql)) {
         $errores[] = "⚠️ Línea $linea: " . $conn->error;
+        error_log("⚠️ Error en la línea $linea: " . $conn->error);
         $errorCount++;
     } else {
         $successCount++;
@@ -95,3 +99,4 @@ echo json_encode([
     "errores" => $errorCount,
     "detalleErrores" => $errores
 ]);
+?>
