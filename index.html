@@ -18,6 +18,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 
+
+
   <!-- Respond.js soporte de media queries para Internet Explorer 8 -->
   <!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
   <!--[if lt IE 9]>
@@ -71,6 +73,28 @@
 
     .carousel {
       margin: 20px auto;
+    }
+
+    /* Estilo Redes Sociales */
+    #redes-sociales {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .social-icons a img {
+      width: 30px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .social-icons a:hover img {
+      transform: scale(1.2);
     }
   </style>
 
@@ -130,7 +154,8 @@
                   <li><a href="login.html">Logros por Educando</a></li>
                   <li class="divider"></li>
                   <li><a href="https://inea.nayarit.gob.mx/registro/">Registrate en línea</a></li>
-                  <li><a href="https://inea.nayarit.gob.mx/encuestaSatisfaccion/">Registra Encuesta de Satisfacción</a></li>
+                  <li><a href="https://inea.nayarit.gob.mx/encuestaSatisfaccion/">Registra Encuesta de Satisfacción</a>
+                  </li>
                   <!-- <li><a href="https://inea.nayarit.gob.mx/registro/">Registrate en línea</a></li> -->
                 </ul>
               </li>
@@ -158,7 +183,7 @@
                   <li><a href="https://sds.nayarit.gob.mx/Content/files/PED2021-2027/PED-NAYARIT-2021-2027.pdf">Plan de
                       Desarrollo Estatal 2021-2027
                     </a></li>
-                    <li><a href="https://www.plataformadetransparencia.org.mx/Inicio">Plataforma de Transparencia
+                  <li><a href="https://www.plataformadetransparencia.org.mx/Inicio">Plataforma de Transparencia
                     </a></li>
                 </ul>
               </li>
@@ -183,26 +208,28 @@
             <div class="carousel-inner" role="listbox">
               <div class="item active">
                 <!-- <a href="#" data-toggle="modal" data-target="#imageModal" data-img-src="./images/banners/banner_primaria.jpg"> -->
-                  <img src="./images/banners/banner_primaria.jpg" alt="...">
+                <img src="./images/banners/banner_primaria.jpg" alt="...">
                 <!-- </a> -->
                 <!-- <div class="carousel-caption">
                   ..
                 </div> -->
               </div>
-              <!-- <div class="item">
+              <div class="item">
                 <a href="#" data-toggle="modal" data-target="#imageModal" data-img-src="./images/1.jpg">
-                <img src="./images/1.jpg" alt="...">
+                  <img src="./images/banners/BannerWEB.jpg" alt="...">
                 </a>
                 <div class="carousel-caption">
-                  ...
+                  Clic para más información
                 </div>
               </div>
+              <!--
               <div class="item">
                 <img src="./images/2.jpg" alt="...">
                 <div class="carousel-caption">
                   ...
                 </div>
               </div>
+              
               <div class="item">
                 <img src="./images/3.jpg" alt="...">
                 <div class="carousel-caption">
@@ -232,7 +259,7 @@
             <div class="col-md-2">
               <div class="col-md-4 text-right">
                 <img src="./images/Artboard 9 copy 4@72x.png" alt="Logo INEA Nayarit" class="img-fluid"
-                  style="max-width: 200px;">
+                  style="max-width: 200px;" hidden>
               </div>
             </div>
             <div class="col-md-4">
@@ -294,7 +321,7 @@
             <div class="col-md-2">
               <div class="col-md-4 text-right">
                 <img src="./images/Artboard 9 copy 4@72x.png" alt="Logo INEA Nayarit" class="img-fluid"
-                  style="max-width: 200px;">
+                  style="max-width: 200px;" hidden>
               </div>
             </div>
             <div class="col-md-4">
@@ -318,52 +345,44 @@
           </div>
 
         </div>
-        <div class="col-md-1">
+        <div class="col-md-2">
           <!-- carousel -->
         </div>
+
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/tu_pagina" target="_blank">
+            <img src="https://cdn.simpleicons.org/facebook/1877F2" width="40" alt="Facebook">
+          </a>
+          <a href="https://twitter.com/tu_cuenta" target="_blank">
+            <img src="https://cdn.simpleicons.org/x/000000" width="40" alt="Twitter">
+          </a>
+          <a href="https://www.instagram.com/tu_perfil" target="_blank">
+            <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40" alt="Instagram">
+          </a>
+        </div>
+
+        
+
+
+
+
         <!-- Carousel con imágenes pequeñas que actúan como enlaces -->
-        <div class="col-md-10">
-          <div id="linkCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner text-center">
-              <!-- Primer botón del carousel -->
-              <div class="carousel-item active">
-                <a href="https://www.google.com" target="_blank">
-                  <img src="https://via.placeholder.com/80" alt="Google">
-                </a>
-              </div>
-
-              <!-- Segundo botón del carousel -->
-              <div class="carousel-item">
-                <a href="https://www.facebook.com" target="_blank">
-                  <img src="https://via.placeholder.com/80" alt="Facebook">
-                </a>
-              </div>
-
-              <!-- Tercer botón del carousel -->
-              <div class="carousel-item">
-                <a href="https://www.twitter.com" target="_blank">
-                  <img src="https://via.placeholder.com/80" alt="Twitter">
-                </a>
-              </div>
-
-              <!-- Cuarto botón del carousel -->
-              <div class="carousel-item">
-                <a href="https://www.instagram.com" target="_blank">
-                  <img src="https://via.placeholder.com/80" alt="Instagram">
-                </a>
-              </div>
+        <div class="col-md-8">
+          <section id="redes-sociales">
+            <h3>Síguenos en nuestras redes</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/NayaritINEA" target="_blank">
+                <img src="https://cdn.simpleicons.org/facebook/1877F2" width="40" alt="Facebook">
+              </a>
+              <a href="#" target="_blank">
+                <img src="https://cdn.simpleicons.org/x/000000" width="40" alt="Twitter">
+              </a>
+              <a href="#" target="_blank">
+                <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40" alt="Instagram">
+              </a>             
             </div>
-
-            <!-- Controles del carousel -->
-            <a class="carousel-control-prev" href="#linkCarousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#linkCarousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Siguiente</span>
-            </a>
-          </div>
+          </section>
         </div>
         <div class="col-md-1">
           <!-- carousel -->
@@ -389,7 +408,7 @@
 
         <div class="modal-body">
           <div class="jumbotron text-center">
-            <img id="modalImage" src="./images/BannerWEB1.jpg" alt="Imagen del Carrusel" class="img-fluid"
+            <img id="modalImage" src="./images/banners/BannerWEB.jpg" alt="Imagen del Carrusel" class="img-fluid"
               style="max-width: 100%; height: auto;">
           </div>
 
@@ -437,6 +456,15 @@
                 <td><strong>Resultados Etapa IV</strong></td>
                 <td>
                   <a href="https://inea.nayarit.gob.mx/Convocatoria2025/Formato_EtapaIV.pdf" target="_blank">
+                    <i class="fas fa-search"></i> Consultar
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Etapa IV PVS de Continuidad</strong></td>
+                <td>
+                  <a href="https://inea.nayarit.gob.mx/Convocatoria2025/Formato%20EtapaIV%20PVS%20de%20Continuidad.pdf"
+                    target="_blank">
                     <i class="fas fa-search"></i> Consultar
                   </a>
                 </td>
