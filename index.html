@@ -186,8 +186,12 @@
                   <li><a href="https://www.plataformadetransparencia.org.mx/Inicio">Plataforma de Transparencia
                     </a></li>
                     
-                        <li><a href="https://inea.nayarit.gob.mx/#Convocatoria2024">Convocatoria 2024</a></li>
-                        <li><a href="https://inea.nayarit.gob.mx/#Convocatoria2025">Convocatoria 2025</a></li>
+                    <li>
+                      <a href="#" data-toggle="modal" data-target="#imageModal2024">Convocatoria 2024</a>
+                    </li>
+                    <li>
+                      <a href="#" data-toggle="modal" data-target="#imageModal">Convocatoria 2025</a>
+                    </li>
                         
                       
                 </ul>
@@ -605,6 +609,13 @@
       }
 
       $('#imageModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // El botón que abrió el modal
+        var imgSrc = button.data('img-src'); // Obtiene la fuente de la imagen
+        var modal = $(this);
+        modal.find('.modal-body img').attr('src', imgSrc); // Actualiza la imagen en el modal
+      });
+
+      $('#imageModal2024').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget); // El botón que abrió el modal
         var imgSrc = button.data('img-src'); // Obtiene la fuente de la imagen
         var modal = $(this);
