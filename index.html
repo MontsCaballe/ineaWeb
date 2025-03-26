@@ -187,6 +187,15 @@
                     </a></li>
                 </ul>
               </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-expanded="false">Convocatorias <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://inea.nayarit.gob.mx/#Convocatoria2024">Convocatoria 2024</a></li>
+                  <li><a href="https://inea.nayarit.gob.mx/#Convocatoria2025">Convocatoria 2025</a></li>
+                  
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -477,6 +486,98 @@
     </div>
   </div>
 
+  <div class="modal fade" id="imageModal2024" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <!-- Jumbotron para la imagen -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h5 class="modal-title" id="imageModalLabel">Convocatoria 2024</h5>
+      </div>
+
+      <div class="modal-body">
+        <div class="jumbotron text-center">
+          <img id="modalImage" src="./images/banners/ResultadosConvocatoria2024.jpg" alt="Imagen del Carrusel" class="img-fluid"
+            style="max-width: 100%; height: auto;">
+        </div>
+
+        <!-- Tabla de Documento y Enlace -->
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td><strong>Bases Convocatoria 2024</strong></td>
+              <td><a href="https://inea.nayarit.gob.mx/Convocatoria2024/18.Conv_NAY2024%202.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar</a></td>
+            </tr>
+            <tr>
+              <td><strong>Convocatoria 2024</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/18.Conv_NAY2024%20VF%201.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Resultados Etapa I y II</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapa%20IyII%20OK.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Resultados Etapa II</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapaII%20OK.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            
+            <tr>
+              <td><strong>Resultados Etapa III</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapa%20III%20OK.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Resultados Etapa III Final</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapaIII%20OK%20VFv.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Resultados Etapa IV</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapa%20IV%20OK.pdf" target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Etapa V Inicio de Actividades</strong></td>
+              <td>
+                <a href="https://inea.nayarit.gob.mx/Convocatoria2024/NayaritEtapaV%20OK%20VF.pdf"
+                  target="_blank">
+                  <i class="fas fa-search"></i> Consultar
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -500,6 +601,10 @@
 
       if (window.location.hash === "#Convocatoria2025") {
         $('#imageModal').modal('show');
+      }
+
+      if (window.location.hash === "#Convocatoria2024") {
+        $('#imageModal2024').modal('show');
       }
 
       $('#imageModal').on('show.bs.modal', function (event) {
