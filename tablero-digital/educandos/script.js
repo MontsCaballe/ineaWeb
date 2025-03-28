@@ -32,7 +32,7 @@ $gmx(document).ready(function () {
   $("#searchInput").on("keyup", function () {
     let value = $(this).val().toLowerCase();
     let filteredData = allData.filter((item) =>
-      item.cDesMunicipio.toLowerCase().includes(value)
+      item.Localidad.toLowerCase().includes(value)
     );
     renderTable(filteredData, 1, rowsPerPage);
     setupPagination(filteredData);
@@ -104,18 +104,18 @@ function applyFiltersP() {
 }
 
 function applyFilters() {
-  let searchValue = $("#searchInput").val().toLowerCase();
+  // let searchValue = $("#searchInput").val().toLowerCase();
   let startDate = $("#startDate").val();
   let endDate = $("#endDate").val();
 
   let filteredData = allData.filter((item) => {
-    let matchesSearch = item.cDesMunicipio.toLowerCase().includes(searchValue);
+    // let matchesSearch = item.localidad.toLowerCase().includes(searchValue);
     let matchesDate = true;
     if (startDate && endDate) {
       matchesDate =
-        item.fecha_registro >= startDate && item.fecha_registro <= endDate;
+        item.fec_registro >= startDate && item.fec_registro <= endDate;
     }
-    return matchesSearch && matchesDate;
+    return  matchesDate;
   });
 
   renderTable(filteredData, 1, rowsPerPage);
