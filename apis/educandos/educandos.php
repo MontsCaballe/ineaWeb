@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require 'db_connection.php';
     $input = json_decode(file_get_contents("php://input"), true);
-    
+
     $email = $input['email'];
     $password = $input['password'];
 
@@ -32,15 +32,48 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-// get_figuras.php - Obtener datos de figuras
+// get_educandos.php - Obtener datos de figuras
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     require 'db_connection.php';
 
-    $stmt = $pdo->prepare("SELECT `iCveIE`, `cDesIE`, `iCveCZ`, `cDesCZ`, `iCveMR`, `cDesMRegion`, `iCveUO`, `cDesUO`, `iCveCE`, `fRegistroCE`, `iCveSituacionCE`, `cDesSituacionCE`, `iNumEduCE`, `idFigOp`, `cRFC`, `cCURP`, `cPaterno`, `cMaterno`, `cNombre`, `fRegistro`, `iCveSubProyecto`, `cIdenSubPro`, `iCveDepend`, `cIdenDepen`, `iCveVincula`, `cDesVincula`, `iCveSituacion`, `cDesSituacion`, `fSituacion`, `iCveMotivoSit`, `cDesMSituacion`, `iCveRolFO`, `cDesRolFO`, `fRol`, `iCveAntEscolares`, `cDesAntEscolares`, `iTipoVial`, `cDesVialidad`, `cDomicilio`, `cNumExt`, `iTipoAseHum`, `cDesAsentamiento`, `cColonia`, `iCodPostal`, `cEMail`, `cTelefono`, `iCveMunicipio`, `cDesMunicipio`, `iCveLocalidad`, `cDesLocalidad`, `cSexo`, `fActualizaVista`, `fNacimiento`, `iNumHijos` FROM `figurasALFANAY`");
+    $stmt = $pdo->prepare("SELECT 
+  Id,
+  Clave_Estado,
+  Estado,
+  Clave_Municipio,
+  Municipio,
+  Nombre,
+  Apellido_Paterno,
+  Apellido_Materno,
+  FechaNac,
+  Sexo,
+  Clave_Nivel,
+  Nivel,
+  eMail,
+  Calle,
+  Numero,
+  Colonia,
+  Localidad,
+  Telefono,
+  ClaveEntidadNacimiento,
+  EntidadNacimiento,
+  ClaveNacionalidad,
+  Nacionalidad,
+  CodigoPostal,
+  ClaveEstadoCivil,
+  EstadoCivil,
+  ClaveOcupacion,
+  Ocupacion,
+  ClaveAntecedentesEscolares,
+  AntecedentesEscolares,
+  NumHijos,
+  fec_registro,
+  fechaActualizacionReporte,
+  EstudiaINEA
+FROM EducandosRegistro_NAY");
     $stmt->execute();
-    $figuras = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $educandos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    echo json_encode($figuras);
+    echo json_encode($educandos);
     exit;
 }
-?>
