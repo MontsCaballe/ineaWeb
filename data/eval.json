@@ -55,6 +55,14 @@
       "trimestre": "Primer Trimestre",
       "numero": "07",
       "ruta": "https://inea.nayarit.gob.mx/transpa/2024/eval.1tri/Anexos B, D y F.pdf"
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Anexos C E y G",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/Planeacion/2025.1tri/Anexo%20C,%20E%20y%20G.pdf"
     }
   ]
 }
