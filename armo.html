@@ -134,6 +134,8 @@
           <div class="row" style="float: left; font-size:xx-large;">
             <div class="list-group">
               <button type="button" class="list-group-item list-group-item-action"
+                onclick="javascript:prende('sevac2025');">SEVAC 2025</button>
+              <button type="button" class="list-group-item list-group-item-action"
                 onclick="javascript:prende('sevac2024');">SEVAC 2024</button>
               <button type="button" class="list-group-item list-group-item-action"
                 onclick="javascript:prende('sevac2023');">SEVAC 2023</button>
@@ -149,6 +151,42 @@
           </div>
         </div>
         <div class="col-md-9 col-lg-9">
+          <!-- sevac 2025 -->
+          <div class="row" id="sevac2025" style="display: none;">
+            <div class="col-md-12 col-lg-12">
+              <div class="row">
+                <div class="col-md-3 col-lg-3 py-1">
+                  <img src="./images/sevac/2024.png" alt="" data-toggle="modal" data-target="#exampleModalLong1tri2025"
+                    width="200px" height="200px">
+                  <p class="lead">
+                    Primer Trimestre
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 py-1">
+                  <img src="./images/sevac/2024.png" alt="" data-toggle="modal" data-target="#exampleModalLong2tri2025"
+                    width="200px" height="200px">
+                  <p class="lead">
+                    Segundo Trimestre
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 py-1">
+                  <img src="./images/sevac/2024.png" alt="" data-toggle="modal" data-target="#exampleModalLong3tri2025"
+                    width="200px" height="200px">
+                  <p class="lead">
+                    Tercer Trimestre
+                  </p>
+                </div>
+                <div class="col-md-3 col-lg-3 py-1">
+                  <img src="./images/sevac/2024.png" alt="" data-toggle="modal" data-target="#exampleModalLong4tri2025"
+                    width="200px" height="200px">
+                  <p class="lead">
+                    Cuarto Trimestre
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- sevac 2025 -->
           <!-- sevac 2024 -->
           <div class="row" id="sevac2024" style="display: none;">
             <div class="col-md-12 col-lg-12">
@@ -386,6 +424,10 @@
       url: 'data/sevac.json',
       dataType: 'json',
       success: function (data) {
+        var tabla20254 = "";
+        var tabla20253 = "";
+        var tabla20252 = "";
+        var tabla20251 = "";
         var tabla20244 = "";
         var tabla20243 = "";
         var tabla20242 = "";
@@ -419,6 +461,19 @@
             var no = val2["numero"];
             var convenio = val2["nombre"];
             var tipo = val2["tipo"];
+
+            if (anio == "2025.1") {
+              tabla20251 += '<tr><th scope="row">' + no + '</th><td>' + convenio + '</td><td><a href="' + ruta + '"><img src="./images/f5.png" alt="flag"></a></td></tr>';
+            }
+            if (anio == "2025.2") {
+              tabla20252 += '<tr><th scope="row">' + no + '</th><td>' + convenio + '</td><td><a href="' + ruta + '"><img src="./images/f5.png" alt="flag"></a></td></tr>';
+            }
+            if (anio == "2025.3") {
+              tabla20253 += '<tr><th scope="row">' + no + '</th><td>' + convenio + '</td><td><a href="' + ruta + '"><img src="./images/f5.png" alt="flag"></a></td></tr>';
+            }
+            if (anio == "2025.4") {
+              tabla20254 += '<tr><th scope="row">' + no + '</th><td>' + convenio + '</td><td><a href="' + ruta + '"><img src="./images/f5.png" alt="flag"></a></td></tr>';
+            }
 
             if (anio == "2024.1") {
               tabla20241 += '<tr><th scope="row">' + no + '</th><td>' + convenio + '</td><td><a href="' + ruta + '"><img src="./images/f5.png" alt="flag"></a></td></tr>';
@@ -492,6 +547,10 @@
           });
         });
 
+        $("#cuerpoTabla20251").append(tabla20251);
+        $("#cuerpoTabla20252").append(tabla20252);
+        $("#cuerpoTabla20253").append(tabla20253);
+        $("#cuerpoTabla20254").append(tabla20254);
         $("#cuerpoTabla20241").append(tabla20241);
         $("#cuerpoTabla20242").append(tabla20242);
         $("#cuerpoTabla20243").append(tabla20243);
@@ -527,6 +586,7 @@
     document.getElementById(elemento).style.display = "block";
   }
   function oculta() {
+    document.getElementById('sevac2025').style.display = "none";
     document.getElementById('sevac2024').style.display = "none";
     document.getElementById('sevac2023').style.display = "none";
     document.getElementById('sevac2023').style.display = "none";
@@ -537,6 +597,145 @@
 
   }
 </script>
+
+<!-- sevac 2025 -->
+<div class="modal fade" id="exampleModalLong1tri2025" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">SEVAC 2025 | Primer Trimestre</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="container"> -->
+          <!-- tabla -->
+          <table class="table" id="1tri2025t">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Anexo</th>
+                <th scope="col">Descarga</th>
+              </tr>
+            </thead>
+            <tbody id="cuerpoTabla20251">
+
+            </tbody>
+          </table>
+          <!-- tabla -->
+        <!-- </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalLong2tri2025" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">SEVAC 2025 | Segundo Trimestre</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="container"> -->
+          <!-- tabla -->
+          <table class="table" id="2tri2025t">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Anexo</th>
+                <th scope="col">Descarga</th>
+              </tr>
+            </thead>
+            <tbody id="cuerpoTabla20252">
+
+            </tbody>
+          </table>
+          <!-- tabla -->
+        <!-- </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalLong3tri2025" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">SEVAC 2025 | Tercer Trimestre</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="container"> -->
+          <!-- tabla -->
+          <table class="table" id="3tri2025t">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Anexo</th>
+                <th scope="col">Descarga</th>
+              </tr>
+            </thead>
+            <tbody id="cuerpoTabla20253">
+
+            </tbody>
+          </table>
+          <!-- tabla -->
+        <!-- </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalLong4tri2025" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">SEVAC 2025 | Cuarrto Trimestre</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- <div class="container"> -->
+          <!-- tabla -->
+          <table class="table" id="4tri2025t">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Anexo</th>
+                <th scope="col">Descarga</th>
+              </tr>
+            </thead>
+            <tbody id="cuerpoTabla20254">
+
+            </tbody>
+          </table>
+          <!-- tabla -->
+        <!-- </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- sevac 2025 -->
 
 <!-- sevac 2024 -->
 <div class="modal fade" id="exampleModalLong1tri2024" tabindex="-1" role="dialog"
