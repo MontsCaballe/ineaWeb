@@ -1,5 +1,123 @@
 {
-  "sevac": [
+  "sevac": [   
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "01. Estado de Actividades",
+      "trimestre": "Primer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/01.EstadoActividades.pdf"
+    }, {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "02. Estado de Situación Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/02.EstadoSituacionFinanciera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "03. Estado de Variación en la Hacienda Pública",
+      "trimestre": "Primer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/03.Estado%20de%20Variaci%c3%b3n%20en%20la%20Hacienda%20P%c3%bablica.pdf"
+    },{
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "04. Estado de Cambios en la Situación Financiera",
+      "trimestre": "Primer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/04.Estado%20de%20Cambios%20en%20la%20Situaci%c3%b3n%20Financiera.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "05. Estado de Flujos de Efectivo",
+      "trimestre": "Primer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/05.Estado%20de%20Flujos%20de%20Efectivo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "06. Informe sobre Pasivos Contingentes",
+      "trimestre": "Primer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/06..%20Informe%20sobre%20Pasivos%20Contingentes.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "08. Estado Analítico del Activo",
+      "trimestre": "Primer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/08.%20Estado%20Anal%c3%adtico%20del%20Activo.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "09. Estado Analítico de la Deuda y Otros Pasivos",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/09..%20Estado%20Anal%c3%adtico%20de%20la%20Deuda%20y%20Otros%20Pasivos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "10. Estado Analítico de Ingresos",
+      "trimestre": "Primer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/10.%20Estado%20Anal%c3%adtico%20de%20Ingresos.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "11. EAPE Clasificación Administrativa",
+      "trimestre": "Primer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/11..%20EAPE%20Clasificaci%c3%b3n%20Administrativa.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "12. EAPE Clasificación Económica",
+      "trimestre": "Primer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/12.%20EAPE%20Clasificaci%c3%b3n%20Econ%c3%b3mica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "13. EAPE Clasificación por objeto del gasto",
+      "trimestre": "Primer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/13.%20EAPE%20Clasificaci%c3%b3n%20por%20objeto%20del%20gasto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "14. EAPE Clasificación Funcional",
+      "trimestre": "Primer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/14.%20EAPE%20Clasificaci%c3%b3n%20Funcional.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "15. Endeudamiento Neto",
+      "trimestre": "Primer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/15.%20Endeudamiento%20Neto.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "16. Intereses de la Deuda",
+      "trimestre": "Primer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/16.%20Intereses%20de%20la%20Deuda.pdf"
+    },
     {
       "tipo": "Anexo",
       "anio": "2024.4",
