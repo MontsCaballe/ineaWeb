@@ -49,6 +49,14 @@
     {
       "tipo": "Anexo",
       "anio": "2025.1",
+      "nombre": "07. Notas Financieras",
+      "trimestre": "Primer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/07.%20Notas%20Financieras%201er%20Trim%20SEVAC.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
       "nombre": "08. Estado Analítico del Activo",
       "trimestre": "Primer Trimestre",
       "numero": "08",
@@ -121,9 +129,17 @@
     {
       "tipo": "Anexo",
       "anio": "2025.1",
-      "nombre": "MIR - INEA",
+      "nombre": "17. Gasto por Categoria Programática",
       "trimestre": "Primer Trimestre",
       "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/#:~:text=17.%20Gasto%20por%20Categoria%20Program%C3%A1tica.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "MIR - INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/MIR%20-%20INEA%20(Primer%20trimestre)%202025.pdf"
     },
     {
@@ -131,7 +147,7 @@
       "anio": "2025.1",
       "nombre": "D.1.11 Apoyos y subsidios",
       "trimestre": "Primer Trimestre",
-      "numero": "18",
+      "numero": "19",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/D.1.11%20Apoyos%20y%20subsidios.pdf"
     },
     {
@@ -139,7 +155,7 @@
       "anio": "2025.1",
       "nombre": "Avance por programa educativo",
       "trimestre": "Primer Trimestre",
-      "numero": "19",
+      "numero": "20",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/Avance%20por%20programa%20educativo%20(Primer%20Trimestre)%202025.pdf"
     },
     {
