@@ -120,6 +120,30 @@
     },
     {
       "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "MIR - INEA",
+      "trimestre": "Primer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/MIR%20-%20INEA%20(Primer%20trimestre)%202025.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "D.1.11 Apoyos y subsidios",
+      "trimestre": "Primer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/D.1.11%20Apoyos%20y%20subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.1",
+      "nombre": "Avance por programa educativo",
+      "trimestre": "Primer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/1tri.2025/Avance%20por%20programa%20educativo%20(Primer%20Trimestre)%202025.pdf"
+    },
+    {
+      "tipo": "Anexo",
       "anio": "2024.4",
       "nombre": "Avance por Programa Educativo",
       "trimestre": "Cuarto Trimestre",
