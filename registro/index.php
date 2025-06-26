@@ -210,6 +210,7 @@ if ($conn->connect_error) {
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="transparencia.html">Portal de Transparencia</a></li>
                   <li><a href="armo.html">SEVAC</a></li>
+                  <li><a href="conac.html">CONAC</a></li>
                   <li><a href="evaluacion.html">Evaluación</a></li>
 
                   <!-- <li class="divider"></li>
