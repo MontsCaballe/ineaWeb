@@ -3,18 +3,18 @@
     {
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "01.EstadoSituacionFinanciera",
+      "nombre": "01.EstadoActividades",
       "trimestre": "Segundo Trimestre",
       "numero": "01",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/01.EstadoSituacionFinanciera_jun25.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/01.EstadoActividades_jun25.pdf"
     },
 	{
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "02.EstadoActividades",
+      "nombre": "02.EstadoSituacionFinanciera",
       "trimestre": "Segundo Trimestre",
       "numero": "02",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/02.EstadoActividades_jun25.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/02.EstadoSituacionFinanciera_jun25.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -22,7 +22,7 @@
       "nombre": "03.Estado de Variacion en la Hacienda Publica",
       "trimestre": "Segundo Trimestre",
       "numero": "03",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/03.Estado%20de%20Variacion%20en%20la%20Hacienda%20Publica.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/03.Estado de Variacion en la Hacienda Publica.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -30,7 +30,7 @@
       "nombre": "04.Estado de Cambios en la Situacion Financiera",
       "trimestre": "Segundo Trimestre",
       "numero": "04",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/04.Estado%20de%20Cambios%20en%20la%20Situacion%20Financiera.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/04.Estado de Cambios en la Situacion Financiera.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -38,15 +38,15 @@
       "nombre": "05.Estado de Flujos de Efectivo",
       "trimestre": "Segundo Trimestre",
       "numero": "05",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/05.Estado%20de%20Flujos%20de%20Efectivo.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/05.Estado de Flujos de Efectivo.pdf"
     },
 	{
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "06.Estado Analitico del Activo",
+      "nombre": "06.Informe sobre Pasivos Contingentes",
       "trimestre": "Segundo Trimestre",
       "numero": "06",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/06.Estado%20Analitico%20del%20Activo.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/06.Informe sobre Pasivos Contingentes.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -54,23 +54,23 @@
       "nombre": "07.Estado Analitico de la Deuda y Otros Pasivos",
       "trimestre": "Segundo Trimestre",
       "numero": "07",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/07.Estado%20Analitico%20de%20la%20Deuda%20y%20Otros%20Pasivos.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/07.Estado%20Analitico%20de%20la%20Deuda%20y%20Otros%20Pasivos.pdf"
     },
 	{
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "08.Informe sobre Pasivos Contingentes",
+      "nombre": "08.Estado Analitico del Activo",
       "trimestre": "Segundo Trimestre",
       "numero": "08",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/08.Informe%20sobre%20Pasivos%20Contingentes.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/08.Estado Analitico del Activo.pdf"
     },
 	{
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "09.Notas a Informes de Gestion Financiera",
+      "nombre": "09.Estado Analitico de la Deuda y Otros Pasivos",
       "trimestre": "Segundo Trimestre",
       "numero": "09",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/09.Notas%20a%20Informes%20de%20Gestion%20Financiera_jun25.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/09.Estado Analitico de la Deuda y Otros Pasivos.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -78,7 +78,7 @@
       "nombre": "10. Estado Analitico de Ingresos",
       "trimestre": "Segundo Trimestre",
       "numero": "10",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/10.%20Estado%20Analitico%20de%20Ingresos.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/10. Estado Analitico de Ingresos.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -86,7 +86,7 @@
       "nombre": "11. EAEPE Clasificacion por objeto del gasto",
       "trimestre": "Segundo Trimestre",
       "numero": "11",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/11.%20EAEPE%20Clasificacion%20por%20objeto%20del%20gasto.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/11. EAEPE Clasificacion por objeto del gasto.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -94,7 +94,7 @@
       "nombre": "12. EAEPE Clasificacion Economica",
       "trimestre": "Segundo Trimestre",
       "numero": "12",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/12.%20EAEPE%20Clasificacion%20Economica.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/12. EAEPE Clasificacion Economica.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -102,7 +102,7 @@
       "nombre": "13. EAPE Clasificacion Administrativa",
       "trimestre": "Segundo Trimestre",
       "numero": "13",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/13.%20EAPE%20Clasificacion%20Administrativa.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/13. EAPE Clasificacion Administrativa.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -110,7 +110,7 @@
       "nombre": "14. EAPE Clasificacion Funcional",
       "trimestre": "Segundo Trimestre",
       "numero": "14",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/14.%20EAPE%20Clasificacion%20Funcional.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/14. EAPE Clasificacion Funcional.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -118,7 +118,7 @@
       "nombre": "15. Endeudamiento Neto",
       "trimestre": "Segundo Trimestre",
       "numero": "15",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/15.%20Endeudamiento%20Neto.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/15. Endeudamiento Neto.pdf"
     },
 	{
       "tipo": "Anexo",
@@ -126,81 +126,16 @@
       "nombre": "16. Intereses de la Deuda",
       "trimestre": "Segundo Trimestre",
       "numero": "16",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/16.%20Intereses%20de%20la%20Deuda.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/16. Intereses de la Deuda"
     },
 	{
       "tipo": "Anexo",
       "anio": "2025.2",
-      "nombre": "17. Indicadores de Postura Fiscal",
+      "nombre": "17. Gasto por Categoria Programatica",
       "trimestre": "Segundo Trimestre",
       "numero": "17",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/17.%20Indicadores%20de%20Postura%20Fiscal.pdf"
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/17. Gasto por Categoria Programatica.pdf"
     },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "18. Flujo de Fondos",
-      "trimestre": "Segundo Trimestre",
-      "numero": "18",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/18.%20Flujo%20de%20Fondos.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "19. Gasto por Categoria Programatica",
-      "trimestre": "Segundo Trimestre",
-      "numero": "19",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/19.%20Gasto%20por%20Categoria%20Programatica.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "IX_Lineamientos para gastos de viaje_INEA",
-      "trimestre": "Segundo Trimestre",
-      "numero": "20",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/IX_Lineamientos%20para%20gastos%20de%20viaje_INEA.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "XXI_a Presupuesto Autorizado 2025 R33 y R11 Convenios",
-      "trimestre": "Segundo Trimestre",
-      "numero": "21",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/XXI_a%20Presupuesto%20Autorizado%202025%20R33%20y%20R11%20Convenios.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "XXI_a Presupuesto Autorizado 2025 SUBSIDIO ESTATAL",
-      "trimestre": "Segundo Trimestre",
-      "numero": "22",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/XXI_a%20Presupuesto%20Autorizado%202025%20SUBSIDIO%20ESTATAL.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "XXI_b EAEPE Clasificacion por objeto del gasto",
-      "trimestre": "Segundo Trimestre",
-      "numero": "23",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/XXI_b%20EAEPE%20Clasificacion%20por%20objeto%20del%20gasto.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "XXI_c Cuenta Publica Consolidada 2024",
-      "trimestre": "Segundo Trimestre",
-      "numero": "24",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/XXI_c%20Cuenta%20Publica%20Consolidada%202024.pdf"
-    },
-	{
-      "tipo": "Anexo",
-      "anio": "2025.2",
-      "nombre": "XXII_a Informe Analitico de Obligaciones Dif de Financ",
-      "trimestre": "Segundo Trimestre",
-      "numero": "25",
-      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosFinancieros/2025.2tri/XXII_a%20Informe%20Analitico%20de%20Obligaciones%20Dif%20de%20Financ_Jun2025.pdf"
-    },
-
 	
 	{
       "tipo": "Anexo",
