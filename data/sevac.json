@@ -136,6 +136,30 @@
       "numero": "17",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/17. Gasto por Categoria Programatica.pdf"
     },
+	{
+      "tipo": "Anexo",
+      "anio": "2025.2",
+      "nombre": "Avance por programa educativo (Segundo trimestre) 2025",
+      "trimestre": "Segundo Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/Avance por programa educativo (Segundo trimestre) 2025.pdf"
+    },
+	{
+      "tipo": "Anexo",
+      "anio": "2025.2",
+      "nombre": "D.1.11. Apoyos y subsidios",
+      "trimestre": "Segundo Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/D.1.11. Apoyos y subsidios.pdf"
+    },
+	{
+      "tipo": "Anexo",
+      "anio": "2025.2",
+      "nombre": "MIR - INEA (Segundo trimestre) 2025",
+      "trimestre": "Segundo Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/MIR - INEA (Segundo trimestre) 2025.pdf"
+    },
 	
 	{
       "tipo": "Anexo",
