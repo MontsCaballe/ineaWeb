@@ -160,6 +160,14 @@
       "numero": "20",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/2tri.2025/MIR - INEA (Segundo trimestre) 2025.pdf"
     },
+	{
+      "tipo": "Anexo",
+      "anio": "2025.2",
+      "nombre": "INVENTARIO ESTATAL",
+      "trimestre": "Segundo Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/RecursosMateriales/2025.2tri/INVENTARIO ESTATAL.pdf"
+    },
 	
 	{
       "tipo": "Anexo",
