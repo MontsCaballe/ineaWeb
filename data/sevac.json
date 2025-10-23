@@ -2,6 +2,30 @@
   "sevac": [   
     {
       "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "01.MIR - INEA (Tercer Trimestre) 2025",
+      "trimestre": "Tercer Trimestre",
+      "numero": "01",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/MIR - INEA (Tercer Trimestre) 2025.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "02.Avance por programa educativo (Tercer trimestre) 2025",
+      "trimestre": "Tercer Trimestre",
+      "numero": "02",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/Avance por programa educativo (Tercer trimestre) 2025.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "03.D.1.11 Apoyos y Subsidios",
+      "trimestre": "Tercer Trimestre",
+      "numero": "03",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/D.1.11 Apoyos y Subsidios.pdf"
+    },
+    {
+      "tipo": "Anexo",
       "anio": "2025.2",
       "nombre": "01.EstadoActividades",
       "trimestre": "Segundo Trimestre",
