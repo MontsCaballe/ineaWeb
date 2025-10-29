@@ -26,6 +26,150 @@
     },
     {
       "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "01.EstadoSituacionFinanciera_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "04",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/01.EstadoSituacionFinanciera_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "02 EstadoActividades_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "05",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/02 EstadoActividades_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "03. Estado de Variacion en la Hacienda Publicas_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "06",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/03. Estado de Variacion en la Hacienda Publicas_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "04. Estado de Cambios en la Situacion Financiera_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "07",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/04. Estado de Cambios en la Situacion Financiera_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "05.Estado de Flujos de Efectivo_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "08",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/05.Estado de Flujos de Efectivo_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "06. Estado Analitico del Activo_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/06. Estado Analitico del Activo_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "07. Notas Financieras 3er T_SEVAC",
+      "trimestre": "Tercer Trimestre",
+      "numero": "10",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/07. Notas Financieras 3er T_SEVAC.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "08. Estado Analitico de la Deuda y Otros Pasivos_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "11",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/08. Estado Analitico de la Deuda y Otros Pasivos_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "09. Informe sobre Pasivos Contingentes_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "12",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/09. Informe sobre Pasivos Contingentes_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "10. Estado Analitico de Ingresos_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "13",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/10. Estado Analitico de Ingresos_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "11. EAEPE Clasificacion por objeto del gasto_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "14",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/11. EAEPE Clasificacion por objeto del gasto_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "12. EAPE Clasificacion Economica_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "15",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/12. EAPE Clasificacion Economica_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "13. EAPE Clasificacion Administrativa_Sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "16",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/13. EAPE Clasificacion Administrativa_Sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "14. EAPE Clasificacion Funcional_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "17",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/14. EAPE Clasificacion Funcional_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "15. Endeudamiento Neto_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "18",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/15. Endeudamiento Neto_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "16. Intereses de la Deuda_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "19",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/16. Intereses de la Deuda_sep25.pdf"
+    },
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "19. Gasto por Categoria Programatica_sep25",
+      "trimestre": "Tercer Trimestre",
+      "numero": "20",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/19. Gasto por Categoria Programatica_sep25.pdf"
+    },	
+    {
+      "tipo": "Anexo",
+      "anio": "2025.3",
+      "nombre": "Manual de Contabilidad Gubernamental.pdf",
+      "trimestre": "Tercer Trimestre",
+      "numero": "21",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/SEVAC/3tri.2025/Manual de Contabilidad Gubernamental.pdf"
+    },
+    {
+      "tipo": "Anexo",
       "anio": "2025.2",
       "nombre": "01.EstadoActividades",
       "trimestre": "Segundo Trimestre",
