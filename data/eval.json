@@ -63,6 +63,14 @@
       "trimestre": "Primer Trimestre",
       "numero": "08",
       "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/Planeacion/2025.1tri/Anexo%20C,%20E%20y%20G.pdf"
-    }
+    },
+    {
+      "tipo": "Indicador",
+      "anio": "2023",
+      "nombre": "Anexo C.pdf",
+      "trimestre": "Primer Trimestre",
+      "numero": "09",
+      "ruta": "https://inea.nayarit.gob.mx/informacionITAI/2025/Planeacion/2025.1tri/Anexo C.pdf"
+    }	
   ]
 }
